@@ -36,11 +36,13 @@ Nothing below is rounded up. Each line carries what it actually is.
 | Claim | Status | Where to check it |
 |---|---|---|
 | Four distinct Mozaik agents, real local inference, no hosted model API | **PROVEN** | `runs/demo/trace.jsonl`, `evidence/runtime-assets.json` (`hosted_inference_calls: 0`) |
-| Two inference slots processing simultaneously — genuine concurrency | **PROVEN** | 807 of 2018 slot samples, 40.0 % of observed compute, 98.4 s across 2 windows — `evidence/concurrency-demo-qwen3-4b.json` |
+| Two inference slots processing simultaneously — genuine concurrency | **PROVEN** | 5009 of 7933 slot samples in the independently verified block: 63.1 % of observed compute, 614.5 s across 4 windows — `evidence/concurrency-block1-verified.json` |
+| Client-side-only and same-agent false concurrency are both rejected | **PROVEN** | `client_only_false_concurrency_rejected` and `same_agent_false_concurrency_rejected` are both `true` in the block verdict |
 | The served model is the pinned one, not a substitute | **PROVEN** | `server.model_identity` event compares expected against observed GGUF before any case runs |
 | Fabricated or misattributed citations are rejected | **PROVEN** | 28/28 adversarial tests via `npm test`; see `test/evidence.test.mjs` |
 | Missing-evidence cases are refused, not answered | **PROVEN** | `runs/demo` case `DEMO_NEG` gives `ABSTAIN / NO_RESEARCH_EVIDENCE` |
-| Solo / serial / parallel comparison at equal resource ceilings | **SEE `runs/benchmark-v2/`** | verdict in `runs/benchmark-v2/independent-verification.json`; complete only at 12/12 blocks and 72/72 case-arms |
+| Solo / serial / parallel comparison at equal resource ceilings | **IN PROGRESS — 1 of 12 blocks verified `PASS`** | per-block verdicts under `runs/benchmark-v2/`; the comparison is complete only at 12/12 blocks and 72/72 case-arms |
+| Some abstentions are deadline timeouts, not evidence-based refusals | **PROVEN, and counted separately** | 3 of 6 cases in the verified block ended on the clock — `evidence/04-honest-outcomes.png` |
 | Parallel execution produces *better* matches than a single agent | **NOT CLAIMED** | no organizer answer key exists — see "What is not claimed" |
 | Proposals are useful in the real world | **NOT CLAIMED** | they are labelled proposals; data access, consent, budget and IP remain for the partners to agree |
 
@@ -122,21 +124,36 @@ readings of both slots idle before each call and at every arm boundary, so an ar
 to be sequential cannot quietly overlap. A client abort while the server is still busy cannot
 start a new solo call.
 
-Measured on the final model (`runs/demo`, Qwen3-4B-Q4_K_M):
+Measured on the final model, Qwen3-4B-Q4_K_M. The left column is the independently
+verified comparison block; the right column is the end-to-end demo run.
 
-| Measure | Value | Numerator / denominator | Source |
-|---|---|---|---|
-| Slot samples taken | 2018 | — | `server.slots` events |
-| Samples with 2 slots processing | 807 | 807 / 2018 | same |
-| Share of observed compute in real concurrency | 40.0 % | 807 / 2018 | same |
-| Overlap windows | 2 | — | contiguous runs of 2 busy slots |
-| Time in real concurrency | 98.4 s | of 246.5 s observed | sample timestamps |
-| Maximum simultaneous slots | 2 | server capacity is 2 | `--parallel 2` |
+| Measure | Verified block (`runs/benchmark-v2/block-1/parallel`) | Demo (`runs/demo`) |
+|---|---|---|
+| Slot samples taken | 7933 | 2018 |
+| Samples with 2 slots processing | 5009 | 807 |
+| Share of observed compute in real concurrency | **63.1 %** (5009 / 7933) | 40.0 % (807 / 2018) |
+| Overlap windows | 4 | 2 |
+| Time in real concurrency | 614.5 s of 974.5 s observed | 98.4 s of 246.5 s observed |
+| Maximum simultaneous slots | 2 (server capacity) | 2 (server capacity) |
 
-![Measured inference concurrency](evidence/concurrency-demo-qwen3-4b.svg)
+![Measured inference concurrency](evidence/concurrency-block1-verified.svg)
 
 Every mark in that figure is drawn from the trace. There is no decorative element and no
-interpolated value.
+interpolated value. Regenerate either column with
+`python3 scripts/concurrency_figure.py <run dir> <output prefix>`.
+
+### Abstentions are of two different kinds
+
+In the verified block, 2 of 6 cases were accepted, 1 was refused on the evidence
+("uncertain link" between the company's problem and the candidate's work), and **3 ran out
+of time**. A per-call deadline under a ceiling of four model calls on four CPU threads is
+not generous, and a case that ends on the clock has said nothing about its sources.
+
+These are never added together in this repository. The distinction also turns out to be
+where the architectures differ: with an equal time budget, the interesting question is not
+only who answers better, but **how many cases an arm can finish at all**. That is measured,
+not asserted — see the per-block receipts for wall time, model calls, tokens and CPU ticks
+per arm.
 
 ---
 

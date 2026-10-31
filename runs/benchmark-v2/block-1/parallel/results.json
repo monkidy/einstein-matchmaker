@@ -1,0 +1,617 @@
+[
+  {
+    "caseId": "N01",
+    "challengeId": "C088-CH2",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "Uncertain link between citric acid pre-treatment and gel layer formation in dairy wastewater. No direct evidence supports this method for reducing fouling.",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C088-CH2",
+      "companyId": "C088",
+      "companyName": "ReVita Water",
+      "researcherId": "R0269",
+      "researcherName": "Ivona Bogdanović",
+      "claims": [
+        {
+          "sourceId": "C088-CH2",
+          "subjectId": "C088",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "Membranes in dairy plants foul quickly and need cleaning every week.",
+          "recordSha256": "962fc29472dec68488fe77975f059945bb3ecec48d93f11d755701174be0bbc3",
+          "file": "data/companies.json",
+          "locator": "/companies/87/challenges/1",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C088-CH2",
+          "subjectId": "C088",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "At two dairy plants we service — one near Temerin, one outside Bečej — our MBR membranes are fouling much faster than the design assumptions. We scheduled cleaning cycles every two weeks, but in practice the operators are forced to do a full CIP clean every five to seven days because transmembrane pressure spikes. A full CIP uses roughly 200 litres of citric acid and caustic solution per unit and takes the system offline for four to six hours. That adds up to significant chemical cost and lost treatment capacity over a year. We have tried adjusting aeration intensity and sludge retention time, but the fouling rate has not changed much. Dairy wastewater has high fats, proteins, and sugars, and we think the combination is forming a gel layer the biology is not breaking down fast enough. We do not have the tools or know-how to characterise the foulant properly. Our service records go back three years and show a clear seasonal pattern — fouling is worst in summer, which might point to temperature effects on the biology or on the fat chemistry. A good outcome would be a reliable explanation of what is causing the fouling and a practical change — to pre-treatment, aeration, or membrane material — that pushes cleaning intervals back to at least twelve days.",
+          "recordSha256": "962fc29472dec68488fe77975f059945bb3ecec48d93f11d755701174be0bbc3",
+          "file": "data/companies.json",
+          "locator": "/companies/87/challenges/1",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C088",
+          "subjectId": "C088",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Environmental engineering",
+          "recordSha256": "e406df68cc464c4ee95333e8d7faaaf638e8e4a93f4d7fe55ee4e984a6ef1626",
+          "file": "data/companies.json",
+          "locator": "/companies/87",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0269",
+          "subjectId": "R0269",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Chemical Engineering; Membrane Science and Technology; Bioprocess Engineering; Food and Dairy Processing Technology",
+          "recordSha256": "60178cb6b504fffbabd9832962c3472244e8af0aaf709657b386c8ff9f9fa262",
+          "file": "data/researchers.json",
+          "locator": "/researchers/268",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-03388",
+          "subjectId": "R0269",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Quantifying the contribution of protein–calcium complexes to irreversible membrane fouling in casein whey ultrafiltration",
+          "recordSha256": "0cf41d043e501ba225d9082ed1b7e2026e232abfadbe9badf6afd6cc799b0418",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3388,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3388"
+        },
+        {
+          "sourceId": "SYN-PUB-03388",
+          "subjectId": "R0269",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "The role of calcium–protein interactions in irreversible fouling was investigated during ultrafiltration of model casein whey streams at calcium concentrations of 0, 1, 2, and 4 mM (as CaCl₂) at pH 6.2 and 7.0 using 10 kDa polyethersulphone membranes. Complexation of calcium with β-casein fragments and soluble caseins was monitored by inductively coupled plasma optical emission spectrometry (ICP-OES) of permeate fractions. Irreversible fouling resistance increased linearly with calcium concentration at pH 6.2, reaching 5.9 × 10¹² m⁻¹ at 4 mM Ca²⁺, versus a near-independent response at pH 7.0 (2.1–2.6 × 10¹² m⁻¹). A 0.2% citric acid pre-rinse prior to NaOH CIP improved irreversible resistance removal by 34% under high-calcium conditions. ICP-OES profiling of the cleaned membrane surface confirmed calcium persistence after alkaline-only cleaning. The findings support inclusion of an acidic chelating rinse step in CIP protocols for casein whey processing lines.",
+          "recordSha256": "0cf41d043e501ba225d9082ed1b7e2026e232abfadbe9badf6afd6cc799b0418",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3388,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3388"
+        },
+        {
+          "sourceId": "SYN-PUB-03378",
+          "subjectId": "R0269",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Comparison of sodium hydroxide and alkaline hypochlorite cleaning protocols for ultrafiltration membranes fouled with dairy process streams",
+          "recordSha256": "7996f7ddbbc7fec2c6f499edaff97ff5531a28d16a651e5093668292822b74d8",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3378,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3378"
+        },
+        {
+          "sourceId": "SYN-PUB-03378",
+          "subjectId": "R0269",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Three laboratory-scale cleaning protocols were evaluated for polyethersulphone and ceramic ultrafiltration membranes fouled with skim milk and cottage cheese whey streams. Protocol A used 0.5% NaOH at 50 °C for 30 min; Protocol B used 200 ppm NaOCl followed by 0.5% NaOH at 40 °C; Protocol C used 0.3% NaOH with 0.1% sodium dodecyl sulphate at 45 °C. Hydraulic cleaning efficiency was assessed by pure water flux recovery (PWFR) and irreversible fouling resistance. Protocol B achieved the highest PWFR of 97.4% for polyethersulphone membranes but reduced membrane lifetime by approximately 18% after 30 cleaning cycles, as indicated by contact angle measurements and SEM analysis. Protocol C preserved membrane integrity better and achieved PWFR of 93.1%. Ceramic membranes showed consistently higher PWFR across all protocols (>98%). The results inform CIP cycle design for dairy ultrafiltration plant operations.",
+          "recordSha256": "7996f7ddbbc7fec2c6f499edaff97ff5531a28d16a651e5093668292822b74d8",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3378,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3378"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Does pre-treatment with citric acid reduce gel layer formation in dairy wastewater?",
+        "experiment": "Apply citric acid pre-treatment to a 10L sample of dairy wastewater and measure fouling rate",
+        "metric": "Transmembrane pressure spike frequency",
+        "successCriterion": "Proposed gate: measure Transmembrane pressure spike frequency on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": false,
+        "reason": "Uncertain link between citric acid pre-treatment and gel layer formation in dairy wastewater. No direct evidence supports this method for reducing fouling."
+      }
+    },
+    "shortlist": [
+      "R0269",
+      "R0745",
+      "R0654"
+    ],
+    "selection": {
+      "researcherId": "R0269",
+      "reason": "R0269's work on protein-calcium complexes and cleaning protocols directly addresses the fouling issue in dairy wastewater with a focus on industrial relevance."
+    },
+    "industryReview": "The challenge presents a specific technical problem with a testable unknown — the cause of membrane fouling in dairy wastewater — and there is potential for applied research to develop a solution. The company has limited in-house research能力",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"membranes\" OR \"dairy\" OR \"plants\" OR \"foul\" OR \"quickly\" OR \"cleaning\" OR \"every\" OR \"week\" OR \"service\" OR \"near\" OR \"temerin\" OR \"outside\" OR \"becej\" OR \"mbr\" OR \"fouling\" OR \"faster\" OR \"design\" OR \"assumptions\" OR \"scheduled\" OR \"cycles\" OR \"weeks\" OR \"practice\" OR \"operators\" OR \"forced\" OR \"full\" OR \"cip\" OR \"clean\" OR \"five\" OR \"seven\" OR \"days\" OR \"because\" OR \"transmembrane\" OR \"pressure\" OR \"spikes\" OR \"uses\" OR \"roughly\" OR \"litres\" OR \"citric\" OR \"acid\" OR \"caustic\" OR \"solution\" OR \"unit\" OR \"takes\" OR \"offline\" OR \"four\" OR \"water\" OR \"treatment\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 209544,
+      "modelCalls": 4,
+      "inputTokens": 4165,
+      "outputTokens": 244
+    }
+  },
+  {
+    "caseId": "N02",
+    "challengeId": "C102-CH3",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C102-CH3",
+      "companyId": "C102",
+      "companyName": "Pulmoteh d.o.o.",
+      "researcherId": "R0763",
+      "researcherName": "Lazar Marković",
+      "claims": [
+        {
+          "sourceId": "C102-CH3",
+          "subjectId": "C102",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We assemble 200 to 300 units per month on a mixed-model line with three operators, but scheduling which variant to build on which shift is done on paper and we routinely end up with stockouts on one SKU and overstock on another, tying up roughly €40,000 in unnecessary inventory.",
+          "recordSha256": "42a54205b3b33d14d17d51bb6bee5030047b6868276f023c56a6a99173c88784",
+          "file": "data/companies.json",
+          "locator": "/companies/101/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C102-CH3",
+          "subjectId": "C102",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "We build four variants of the SP-400 — differing in connectivity options and mouthpiece configurations — and two variants of the SP-200, for a total of six SKUs on one mixed-model assembly line with three operators working two shifts. Production volumes run between 200 and 300 units a month depending on orders. Scheduling which variant to build on which shift is currently managed by our production coordinator, Bojana Marić, using a printed weekly plan and a whiteboard. The problem is that demand for each variant is not uniform and not easy to predict more than two weeks out, and our current approach does not account for component lead times or shared subassembly constraints well enough. In practice, we end up short on one or two SKUs almost every month while accumulating buffer stock on others. Our finance team estimates the excess inventory tied up by this imbalance averages around €40,000 at any given time. We track orders and shipments in an older version of a Serbian ERP system, MikroERP, which exports to Excel. We have 30 months of order history by SKU. We are not looking for a large enterprise software replacement; we want a scheduling or planning tool or method that our coordinator can run each week without specialised training, ideally integrated with or at least feeding from our existing Excel exports. A reasonable budget for this is €8,000 to €12,000, and we would want something usable within six months.",
+          "recordSha256": "42a54205b3b33d14d17d51bb6bee5030047b6868276f023c56a6a99173c88784",
+          "file": "data/companies.json",
+          "locator": "/companies/101/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C102",
+          "subjectId": "C102",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Medtech and digital health",
+          "recordSha256": "8d8afa3e6bd926e957d6827a306076853da0744bfdc3f67e209a5536c3f9f4e9",
+          "file": "data/companies.json",
+          "locator": "/companies/101",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0763",
+          "subjectId": "R0763",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Industrial and Production Engineering; Manufacturing Systems Engineering; Operations Research and Simulation; Digital Manufacturing",
+          "recordSha256": "08458e34458498c8dc20cc700a041d4ea3ca5803916970404392039104acacd1",
+          "file": "data/researchers.json",
+          "locator": "/researchers/762",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-08390",
+          "subjectId": "R0763",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Simulation-based capacity assessment for a mixed-model assembly line in a small-series automotive supplier",
+          "recordSha256": "3fed0b2662a5dba09c370260476bbc4791922e9e43ca166735051d732c2355e4",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8390,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8390"
+        },
+        {
+          "sourceId": "SYN-PUB-08390",
+          "subjectId": "R0763",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This paper presents a discrete-event simulation study of a mixed-model assembly line producing five vehicle body variants at a tier-two automotive supplier in Vojvodina. A Plant Simulation model was built from time-study data collected over six weeks, comprising 1 240 observed task times across 18 workstations and three operator skill categories. The model was validated against three months of production logs, achieving a throughput deviation of less than 2.1% for all product variants. Scenario analysis covering four capacity expansion alternatives—including workstation splitting, buffer insertion, and cross-training policies—showed that targeted cross-training at two identified bottleneck stations yielded a 14.3% increase in daily output without capital investment. The paper also discusses the sensitivity of throughput to task-time variability modelled through empirically fitted lognormal distributions, and identifies conditions under which a simple deterministic model underestimates true cycle time by up to 8.7%.",
+          "recordSha256": "3fed0b2662a5dba09c370260476bbc4791922e9e43ca166735051d732c2355e4",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8390,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8390"
+        },
+        {
+          "sourceId": "SYN-PUB-08392",
+          "subjectId": "R0763",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Modelling operator flexibility in mixed-model assembly using combined DES and multi-skill workforce assignment",
+          "recordSha256": "71133da6fc90d83aed708568531034bed64305c6ebe791db03a17b11d0871480",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8392,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8392"
+        },
+        {
+          "sourceId": "SYN-PUB-08392",
+          "subjectId": "R0763",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Workforce flexibility is a primary lever in low-volume, high-variety assembly but is rarely integrated into discrete-event simulation models in a tractable way. This paper describes a modelling approach in which operator skill profiles—defined as three-level competency ratings across 24 task types—are encoded directly in a Plant Simulation model and linked to a rule-based assignment heuristic updated at every takt boundary. The approach was applied to a 16-station electronic control unit assembly line where 11 operators cover 32 tasks. Three staffing scenarios were simulated over a horizon of 240 shifts. Results showed that a skill-matrix reshaping requiring training of four additional task competencies reduced average station idle time by 19% and reduced peak work-in-process by 23%. The paper further discusses how training cost can be incorporated as a constraint and presents a Pareto frontier of throughput versus training investment.",
+          "recordSha256": "71133da6fc90d83aed708568531034bed64305c6ebe791db03a17b11d0871480",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8392,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8392"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can a simulation model optimize scheduling to reduce inventory imbalance and forecast lead times?",
+        "experiment": "Run a discrete-event simulation using historical order data and component lead times to generate a weekly production schedule",
+        "metric": "Inventory imbalance cost reduction percentage",
+        "successCriterion": "Proposed gate: measure Inventory imbalance cost reduction percentage on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Simulation models can optimize scheduling and account for lead times, aligning with the company's need for improved inventory management."
+      }
+    },
+    "shortlist": [
+      "R0918",
+      "R0763",
+      "R0684"
+    ],
+    "selection": {
+      "researcherId": "R0763",
+      "reason": "Marković's work on simulation and scheduling aligns with the need for a tool that integrates production data and handles sequence-dependent inventory costs."
+    },
+    "industryReview": "The company faces a specific technical problem with inventory management on a mixed-model assembly line, where current manual scheduling leads to stockouts and overstocking. There is a clear testable unknown in how to optimize scheduling to",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"assemble\" OR \"units\" OR \"month\" OR \"mixed\" OR \"line\" OR \"three\" OR \"operators\" OR \"scheduling\" OR \"variant\" OR \"build\" OR \"shift\" OR \"done\" OR \"paper\" OR \"routinely\" OR \"end\" OR \"stockouts\" OR \"sku\" OR \"overstock\" OR \"another\" OR \"tying\" OR \"roughly\" OR \"unnecessary\" OR \"inventory\" OR \"four\" OR \"variants\" OR \"differing\" OR \"connectivity\" OR \"options\" OR \"mouthpiece\" OR \"configurations\" OR \"total\" OR \"six\" OR \"skus\" OR \"assembly\" OR \"shifts\" OR \"production\" OR \"volumes\" OR \"run\" OR \"depending\" OR \"orders\" OR \"managed\" OR \"coordinator\" OR \"bojana\" OR \"maric\" OR \"printed\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 205062,
+      "modelCalls": 4,
+      "inputTokens": 4169,
+      "outputTokens": 232
+    }
+  },
+  {
+    "caseId": "N03",
+    "challengeId": "C058-CH3",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:The operation was aborted due to timeout",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 120177,
+      "modelCalls": 2,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  {
+    "caseId": "N04",
+    "challengeId": "C119-CH1",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C119-CH1",
+      "companyId": "C119",
+      "companyName": "Vizura Studio d.o.o.",
+      "researcherId": "R0626",
+      "researcherName": "Ildikó Papp",
+      "claims": [
+        {
+          "sourceId": "C119-CH1",
+          "subjectId": "C119",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We produce roughly 600 packaging variants a year and our senior designer spends two days per project manually fitting artwork into structural dielines; we need a way to automate or semi-automate that layout step so turnaround drops from five days to two.",
+          "recordSha256": "e828e69479e24325cd874295a1a1ee2bd0376dc9075b210e0129762c22dbc9e3",
+          "file": "data/companies.json",
+          "locator": "/companies/118/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C119-CH1",
+          "subjectId": "C119",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "We produce around 600 packaging variants every year, and the bottleneck is always the same step: taking finished artwork and fitting it into the structural dieline for that specific SKU. Our senior designer Jovana Petrović does almost all of this manually in Illustrator and Esko ArtPro. On a straightforward rectangular box it takes half a day. On a shaped carton or a multi-panel sleeve it can take two full days. That means our average packaging turnaround is five days from approved artwork to print-ready file. Clients, especially the larger retail ones, are now expecting three days or less. We have looked at scripting some of the repetitive placement steps inside Illustrator, and Dragan built a few basic actions, but the dielines vary too much in anchor points and bleed zones for a simple macro to handle reliably. We have also looked at one commercial plug-in but it assumed flat rectangular formats only. What we want is something that can read a dieline structure, identify the printable panels, and place and scale artwork into those panels with minimal manual correction, ideally reducing Jovana's involvement to a review step rather than a build step. Our constraint is that the solution has to produce files that our existing offset and digital print vendors can accept without extra conversion work.",
+          "recordSha256": "e828e69479e24325cd874295a1a1ee2bd0376dc9075b210e0129762c22dbc9e3",
+          "file": "data/companies.json",
+          "locator": "/companies/118/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C119",
+          "subjectId": "C119",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Marketing tech, media and creative studios",
+          "recordSha256": "7e0eba6f4864d1be80680abaaff98128acb521c9bc04a68cb5acdfb631529131",
+          "file": "data/companies.json",
+          "locator": "/companies/118",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0626",
+          "subjectId": "R0626",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Graphic Engineering and Reproduction Technology; Computational Geometry and Layout Automation; Digital Color Science; Packaging Design and Engineering",
+          "recordSha256": "8cb1e696114a6dfc114b32a5a95f761b4a6622c3fdda45255543968b82953488",
+          "file": "data/researchers.json",
+          "locator": "/researchers/625",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PRJ-0519",
+          "subjectId": "R0626",
+          "kind": "project",
+          "field": "title",
+          "quote": "Rule-Driven Parametric Artwork-to-Structure Registration for Sustainable Folding-Carton Production",
+          "recordSha256": "f87e1613bfeffbd30685361a059146ab49eca85a8caf8334018018c26ca7260a",
+          "file": "data/projects.json",
+          "locator": "/projects/518",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/projects.json"
+        },
+        {
+          "sourceId": "SYN-PRJ-0519",
+          "subjectId": "R0626",
+          "kind": "project",
+          "field": "summary",
+          "quote": "PACKRULE addressed the gap between structural dieline design and graphic artwork placement in folding-carton production, where manual registration adjustments account for a disproportionate share of make-ready time and material waste. The project built a rule engine that reads a structural dieline in CFF2 format, extracts registered feature positions (score lines, cut edges, window apertures), and automatically constrains artwork element positions in a linked PDF document. Registration correction rules were derived from a database of 1,800 production runs covering four board grades and three printing processes. The project produced a validated software prototype, three journal papers, and two master's theses. One regional packaging converter participated as an industry observer and provided production data under a non-disclosure agreement.",
+          "recordSha256": "f87e1613bfeffbd30685361a059146ab49eca85a8caf8334018018c26ca7260a",
+          "file": "data/projects.json",
+          "locator": "/projects/518",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/projects.json"
+        },
+        {
+          "sourceId": "SYN-PUB-07157",
+          "subjectId": "R0626",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Machine learning classification of prepress preflight errors from PDF structural features",
+          "recordSha256": "13bfdef7a462568e6b69d07ab45366fd47dbaf3c08f5c7f570159730e2095806",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7157,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7157"
+        },
+        {
+          "sourceId": "SYN-PUB-07157",
+          "subjectId": "R0626",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Preflight error classification in prepress workflows typically relies on hard-coded rule sets that require expert maintenance as standards evolve. This paper investigates whether machine learning classifiers trained on features extracted from the PDF object tree can identify error categories without explicit rule authoring. A dataset of 3,847 packaging artwork PDFs, each manually annotated with up to five error categories, was assembled from three prepress bureaus. Forty-one structural and colorimetric features were extracted per file. Random forest, gradient boosting, and a small fully connected neural network were evaluated using stratified 5-fold cross-validation. Gradient boosting achieved the highest macro F1 score of 0.83 across 11 error categories. Performance was lowest for the 'insufficient bleed' category (F1 = 0.61) due to ambiguity in page-box definitions. Feature importance analysis confirmed that colorspace object count and overprint flag frequency were the most discriminative features.",
+          "recordSha256": "13bfdef7a462568e6b69d07ab45366fd47dbaf3c08f5c7f570159730e2095806",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7157,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7157"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can a machine learning model classify prepress errors in packaging artwork PDFs to improve dieline registration accuracy?",
+        "experiment": "Train a model on 3,847 packaging artwork PDFs with error annotations to predict dieline registration issues",
+        "metric": "Error detection accuracy in identifying registration issues during dieline structure analysis",
+        "successCriterion": "Proposed gate: measure Error detection accuracy in identifying registration issues during dieline structure analysis on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Research addresses dieline registration and error classification, aligning with company's need for automated layout adjustment."
+      }
+    },
+    "shortlist": [
+      "R0626",
+      "R0976",
+      "R0233"
+    ],
+    "selection": {
+      "researcherId": "R0626",
+      "reason": "R0626's work on rule-driven parametric registration aligns directly with the need to automate dieline-to-artwork placement in packaging."
+    },
+    "industryReview": "The problem involves a specific technical challenge in automating the layout step for packaging variants, which requires a solution that can integrate with existing tools and workflows. The constraint on resource commitment allows for a pil",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"produce\" OR \"roughly\" OR \"packaging\" OR \"variants\" OR \"year\" OR \"senior\" OR \"designer\" OR \"spends\" OR \"days\" OR \"manually\" OR \"fitting\" OR \"artwork\" OR \"structural\" OR \"dielines\" OR \"way\" OR \"automate\" OR \"semi\" OR \"layout\" OR \"step\" OR \"turnaround\" OR \"drops\" OR \"five\" OR \"around\" OR \"every\" OR \"bottleneck\" OR \"always\" OR \"same\" OR \"taking\" OR \"finished\" OR \"dieline\" OR \"specific\" OR \"sku\" OR \"jovana\" OR \"petrovic\" OR \"almost\" OR \"illustrator\" OR \"esko\" OR \"artpro\" OR \"straightforward\" OR \"rectangular\" OR \"box\" OR \"takes\" OR \"half\" OR \"day\" OR \"shaped\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 199524,
+      "modelCalls": 4,
+      "inputTokens": 3831,
+      "outputTokens": 244
+    }
+  },
+  {
+    "caseId": "N05",
+    "challengeId": "C054-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:The operation was aborted due to timeout",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 120095,
+      "modelCalls": 2,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  {
+    "caseId": "N06",
+    "challengeId": "C108-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:The operation was aborted due to timeout",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 120351,
+      "modelCalls": 2,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  }
+]
