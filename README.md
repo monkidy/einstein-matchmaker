@@ -10,6 +10,12 @@ when it cannot.
 All people, companies and publications in the dataset are fictional: it is the organizer's
 official track corpus.
 
+**[Watch the 1:33 demo](https://monkidy.github.io/einstein-matchmaker/)** &middot;
+[the video file](film/einstein_matchmaker_demo.mp4) &middot;
+[independent verdict, PASS on 72/72](runs/benchmark-v2/independent-verification.json) &middot;
+[the nine accepted proposals](#the-nine-accepted-proposals) &middot;
+[what is not claimed](#what-is-not-claimed)
+
 ---
 
 ## The one idea behind this
@@ -252,6 +258,34 @@ which would no longer be an equal-budget comparison.
 So the honest one-line summary of this experiment is not "four agents are better". It is:
 **on a CPU-bound budget, running the agents concurrently buys throughput and pays for it in
 completed cases.**
+
+### The nine accepted proposals
+
+Every proposal the concurrent arm accepted across the whole comparison. Nine distinct
+companies, nine distinct researchers: no name is proposed twice, which is what a system
+with a favourite would do. Each one carries eight claims, every claim a quotation of a
+source field with its record hash and an immutable URL, and each passed an independent
+critic and then the raw-file verifier.
+
+| Case | Challenge | Company | Researcher | Claims | Evidence |
+|---|---|---|---|---:|---|
+| N02 | C102-CH3 | Pulmoteh d.o.o. (C102) | Lazar Marković (R0763) | 8 | [block-1](runs/benchmark-v2/block-1/parallel/) |
+| N04 | C119-CH1 | Vizura Studio d.o.o. (C119) | Ildikó Papp (R0626) | 8 | [block-1](runs/benchmark-v2/block-1/parallel/) |
+| N10 | C021-CH3 | FinPuls Tehnologije d.o.o. (C021) | Gordana Đurić (R0547) | 8 | [block-2](runs/benchmark-v2/block-2/parallel/) |
+| N11 | C093-CH3 | EkoTok Solutions d.o.o. (C093) | Stefan Ivanović (R0684) | 8 | [block-2](runs/benchmark-v2/block-2/parallel/) |
+| N12 | C059-CH2 | Dunav Kargo a.d. (C059) | Péter Fehér (R0803) | 8 | [block-2](runs/benchmark-v2/block-2/parallel/) |
+| N13 | C115-CH3 | VoxelRealm a.d. (C115) | Lazar Nedić (R0538) | 8 | [block-3](runs/benchmark-v2/block-3/parallel/) |
+| N14 | C085-CH1 | Labos Dijagnostika a.d. (C085) | Zuzana Kmeťová (R0595) | 8 | [block-3](runs/benchmark-v2/block-3/parallel/) |
+| N15 | C092-CH3 | AxleWave Systems d.o.o. (C092) | Željko Mamužić (R0271) | 8 | [block-3](runs/benchmark-v2/block-3/parallel/) |
+| N16 | C140-CH1 | Paladin Osiguranje Tehnologije d.o.o. (C140) | Žarko Pejić (R0364) | 8 | [block-3](runs/benchmark-v2/block-3/parallel/) |
+
+Each block directory holds `proposals.md` with the full text and quotations,
+`results.json` with the structured record, `trace.jsonl` with every Mozaik event and the
+critic's decisions, and `independent-verification.json` with the verdict for that block.
+
+To be exact about what this is: a proposal accepted here passed **this system's evidence
+gates and its own critic**. It is not a partnership, not an expert endorsement, and not a
+statement that the pairing would work in practice. The people and companies are fictional.
 
 ---
 
