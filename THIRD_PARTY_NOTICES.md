@@ -6,7 +6,7 @@ content hash before use. Nothing here asserts a redistribution licence over any 
 
 ## Agent runtime
 
-**Mozaik** (`@mozaik-ai/core`) — MIT licence. Installed from the public npm registry and
+**Mozaik** (`@mozaik-ai/core`), MIT licence. Installed from the public npm registry and
 pinned by `package-lock.json`. Required by the event: this entry runs on Mozaik and uses
 its loop, shared state and peer bus.
 
@@ -15,7 +15,7 @@ that telemetry is disabled; that is the intended state for this entry.
 
 ## Inference engine
 
-**llama.cpp**, release `b11756` — MIT licence (ggml-org/llama.cpp).
+**llama.cpp**, release `b11756`, MIT licence (ggml-org/llama.cpp).
 
 - Archive: `llama-b11756-bin-ubuntu-x64.tar.gz`
 - Archive SHA-256: `9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551`
@@ -26,7 +26,7 @@ Fetched by `scripts/fetch_runtime.py`, which refuses a hash mismatch.
 
 ## Language model
 
-**Qwen3-4B**, GGUF quantization `Q4_K_M` — Apache-2.0 licence (Qwen team, Alibaba Cloud).
+**Qwen3-4B**, GGUF quantization `Q4_K_M`, Apache-2.0 licence (Qwen team, Alibaba Cloud).
 
 - File: `Qwen3-4B-Q4_K_M.gguf`, 2497280256 bytes
 - SHA-256: `7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5`

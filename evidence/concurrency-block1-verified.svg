@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Measured inference concurrency">
 <style>text{font:13px ui-sans-serif,system-ui,sans-serif;fill:#1f2328}.s{font-size:11px;fill:#59636e}.k{font-weight:600}</style>
 <rect width="900" height="260" fill="#ffffff"/>
-<text x="48" y="26" class="k">Measured inference concurrency — run parallel</text>
+<text x="48" y="26" class="k">Measured inference concurrency, run parallel</text>
 <text x="48" y="44" class="s">7933 samples of llama.cpp server slots; 5009 show two slots PROCESSING at the same instant (63.1%); 4 overlap window(s) totalling 614.5 s over 974.5 s observed</text>
 <line x1="48" y1="110" x2="852" y2="110" stroke="#d1d9e0"/>
 <text x="8" y="114" class="s">1 slot</text>

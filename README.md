@@ -1,6 +1,6 @@
 # EINSTEIN Matchmaker
 
-**Track:** EINSTEIN Matchmaker · **Event:** NTP Novi Sad Hackathon (3alet), 30–31 October 2026 · **Entry:** solo
+**Track:** EINSTEIN Matchmaker · **Event:** NTP Novi Sad Hackathon (3alet), 30 to 31 October 2026 · **Entry:** solo
 
 An evidence-constrained matcher between a company's technical challenge and a researcher who
 can actually address it. Four Mozaik agents run concurrently on one local Qwen3-4B model. The
@@ -15,15 +15,15 @@ official track corpus.
 ## The one idea behind this
 
 A match and a coincidence look identical from the outside. Two documents sharing the word
-"anomaly" is not a link between a researcher and a factory floor — and two HTTP requests in
+"anomaly" is not a link between a researcher and a factory floor, and two HTTP requests in
 flight is not two agents thinking at the same time.
 
 So the same discipline is applied twice, at two different levels:
 
 | Level | The easy illusion | What this system requires instead |
 |---|---|---|
-| **What it says about the world** | lexical overlap looks like expertise | two independently linked research documents, quoted field by field, with record hash, file, JSON pointer and immutable source URL — otherwise it refuses |
-| **What it says about itself** | two requests in flight look like concurrency | two *distinct* llama.cpp inference slots observed in `PROCESSING` state at the same instant, inside overlapping Mozaik task intervals, from two distinct producer IDs — otherwise the run is rejected |
+| **What it says about the world** | lexical overlap looks like expertise | two independently linked research documents, quoted field by field, with record hash, file, JSON pointer and immutable source URL, otherwise it refuses |
+| **What it says about itself** | two requests in flight look like concurrency | two *distinct* llama.cpp inference slots observed in `PROCESSING` state at the same instant, inside overlapping Mozaik task intervals, from two distinct producer IDs, otherwise the run is rejected |
 
 A system that cannot refuse cannot be trusted when it accepts. That is the whole design.
 
@@ -36,14 +36,14 @@ Nothing below is rounded up. Each line carries what it actually is.
 | Claim | Status | Where to check it |
 |---|---|---|
 | Four distinct Mozaik agents, real local inference, no hosted model API | **PROVEN** | `runs/demo/trace.jsonl`, `evidence/runtime-assets.json` (`hosted_inference_calls: 0`) |
-| Two inference slots processing simultaneously — genuine concurrency | **PROVEN** | 5009 of 7933 slot samples in the independently verified block: 63.1 % of observed compute, 614.5 s across 4 windows — `evidence/concurrency-block1-verified.json` |
+| Two inference slots processing simultaneously, genuine concurrency | **PROVEN** | 5009 of 7933 slot samples in the independently verified block: 63.1 % of observed compute, 614.5 s across 4 windows, `evidence/concurrency-block1-verified.json` |
 | Client-side-only and same-agent false concurrency are both rejected | **PROVEN** | `client_only_false_concurrency_rejected` and `same_agent_false_concurrency_rejected` are both `true` in the block verdict |
 | The served model is the pinned one, not a substitute | **PROVEN** | `server.model_identity` event compares expected against observed GGUF before any case runs |
 | Fabricated or misattributed citations are rejected | **PROVEN** | 28/28 adversarial tests via `npm test`; see `test/evidence.test.mjs` |
 | Missing-evidence cases are refused, not answered | **PROVEN** | `runs/demo` case `DEMO_NEG` gives `ABSTAIN / NO_RESEARCH_EVIDENCE` |
-| Solo / serial / parallel comparison at equal resource ceilings | **IN PROGRESS — 1 of 12 blocks verified `PASS`** | per-block verdicts under `runs/benchmark-v2/`; the comparison is complete only at 12/12 blocks and 72/72 case-arms |
-| Some abstentions are deadline timeouts, not evidence-based refusals | **PROVEN, and counted separately** | 3 of 6 cases in the verified block ended on the clock — `evidence/04-honest-outcomes.png` |
-| Parallel execution produces *better* matches than a single agent | **NOT CLAIMED** | no organizer answer key exists — see "What is not claimed" |
+| Solo / serial / parallel comparison at equal resource ceilings | **IN PROGRESS, 1 of 12 blocks verified `PASS`** | per-block verdicts under `runs/benchmark-v2/`; the comparison is complete only at 12/12 blocks and 72/72 case-arms |
+| Some abstentions are deadline timeouts, not evidence-based refusals | **PROVEN, and counted separately** | 3 of 6 cases in the verified block ended on the clock, `evidence/04-honest-outcomes.png` |
+| Parallel execution produces *better* matches than a single agent | **NOT CLAIMED** | no organizer answer key exists, see "What is not claimed" |
 | Proposals are useful in the real world | **NOT CLAIMED** | they are labelled proposals; data access, consent, budget and IP remain for the partners to agree |
 
 ---
@@ -97,7 +97,7 @@ flowchart TD
 
 The research agent and the industry agent run independently through `runLoop` on the same
 Mozaik runtime. Retrieval runs on worker threads; both agents then perform real local model
-inference — that is the window in which two slots are genuinely busy. The writer consumes
+inference, that is the window in which two slots are genuinely busy. The writer consumes
 both results from shared state. The critic runs in a fresh agent and model context with a
 separate source-audit module: it receives the source evidence and the proposed experiment,
 but not the writer's hidden state or retrieval ranking. Peer deliveries are recorded on the
@@ -152,7 +152,7 @@ not generous, and a case that ends on the clock has said nothing about its sourc
 These are never added together in this repository. The distinction also turns out to be
 where the architectures differ: with an equal time budget, the interesting question is not
 only who answers better, but **how many cases an arm can finish at all**. That is measured,
-not asserted — see the per-block receipts for wall time, model calls, tokens and CPU ticks
+not asserted, see the per-block receipts for wall time, model calls, tokens and CPU ticks
 per arm.
 
 ---
@@ -162,7 +162,7 @@ per arm.
 - Official corpus revision `4fb99b3749adf0d10b5977089ff4c73f4f522240`. `corpus.lock.json`
   records LF-normalized file hashes, so a Windows checkout does not change dataset identity.
 - FTS5 retrieval searches profiles, publications, projects and patents, and resolves
-  authorship by stable ID — never by matching a name.
+  authorship by stable ID, never by matching a name.
 - A candidate needs two directly linked research documents and conservative technical-term
   overlap. Researchers marked as departed, or unavailable for projects, are excluded.
 - Every factual claim is a quotation of a source field carrying record hash, file, JSON
@@ -177,7 +177,7 @@ per arm.
 
 Known weaknesses, stated plainly: lexical retrieval can miss a semantic connection;
 multilingual normalization is limited; a small model's judgment can be weak; and a valid
-source ID does not prove business usefulness. Abstaining is often the right answer — and it
+source ID does not prove business usefulness. Abstaining is often the right answer, and it
 also reduces coverage.
 
 ---
@@ -206,13 +206,13 @@ engine:
 Identical ceilings per case: 4 model calls, 180 output tokens per call, 14000 prompt
 characters per call, 60 retrieved documents, a shortlist of 3, the same 4-thread / 2-slot
 server, seed 700, temperature 0. Actual tokens, CPU ticks and wall time are measured and
-reported — equal ceilings do not imply equal consumption. Six-case blocks counterbalance arm
+reported, equal ceilings do not imply equal consumption. Six-case blocks counterbalance arm
 order. Model loading sits outside arm time; retrieval and inference sit inside it.
 
 The run is resumable by design: each block is independently verified before it is accepted, a
 block interrupted without a receipt goes to **quarantine** rather than being silently
 deleted, and a resumed run must use the same frozen source digest. The final verifier refuses
-a partial directory — a deliberately incomplete tree returns `BENCHMARK_INCOMPLETE` and exit
+a partial directory, a deliberately incomplete tree returns `BENCHMARK_INCOMPLETE` and exit
 code 1. Read the verdict in `runs/benchmark-v2/independent-verification.json`; it is complete
 only at `result = PASS` with `case_arm_evaluations = 72`.
 
@@ -260,14 +260,14 @@ temperature 0, so structural and textual agreement are reported separately.
 `runs/`. In short: two earlier model candidates (Qwen3-0.6B, then Qwen2.5-1.5B-Instruct) were
 tried and rejected on semantic triage quality, and their negative results are kept rather
 than deleted. `runs/development-initial/` is a four-case development pass **on the rejected
-0.6B model, before prompt refinements** — it shows a real model and critic event path and
+0.6B model, before prompt refinements**, it shows a real model and critic event path and
 keeps adverse outcomes, but it does **not** certify the final version. Cases N01 to N06 were
 inspected during development and must be treated as development-exposed; N07 to N18 were not.
 Old experimental receipts are never attributed to the final model.
 
 Prior work and event window: the generic Mozaik SDK setup and the organizer dataset existed
-before the event. The source in this repository — index preparation, the agents, the
-comparison, the proposals — was authored after the official kickoff on 30 October 2026. See
+before the event. The source in this repository, index preparation, the agents, the
+comparison, the proposals, was authored after the official kickoff on 30 October 2026. See
 `BUILD_NOTES.md` and `evaluation/source-freeze.json`.
 
 ## Third-party rights

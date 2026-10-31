@@ -77,7 +77,7 @@ def svg(m, pts, spans, path):
         '.s{font-size:11px;fill:#59636e}.k{font-weight:600}'
         '</style>',
         '<rect width="%d" height="%d" fill="#ffffff"/>' % (W, H),
-        '<text x="%d" y="26" class="k">Measured inference concurrency — run %s</text>'
+        '<text x="%d" y="26" class="k">Measured inference concurrency, run %s</text>'
         % (PAD, m["run"]),
         '<text x="%d" y="44" class="s">%d samples of llama.cpp server slots; '
         '%d show two slots PROCESSING at the same instant (%.1f%%); '
