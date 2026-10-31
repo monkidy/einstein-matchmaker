@@ -36,7 +36,8 @@
   ],
   "publication": true,
   "publicationNote": "Public repository opened on 2026-10-31 with the author's explicit approval.",
-  "submission": false,
+  "submission": true,
+  "submissionNote": "Submitted to the organizers on 2026-10-31 as 'EINSTEIN Matchmaker: Proof or Abstain', EINSTEIN track, solo. Confirmed on the participant dashboard: in the public gallery. Resubmission is allowed until 20:00 CET and the latest entry is the one judged, so this repository may be updated again before the deadline.",
   "paidProviderCalls": 0,
   "hostedInferenceCalls": 0
 }
