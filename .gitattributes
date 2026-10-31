@@ -1,0 +1,11 @@
+# Keep LF everywhere, on every platform.
+# The SHA-256 digests in evaluation/source-freeze.json and corpus.lock.json are taken
+# over file bytes. Without this, a Windows checkout would rewrite line endings and the
+# frozen digests would no longer verify. Reproducibility depends on this file.
+* text=auto eol=lf
+
+*.gguf binary
+*.tar.gz binary
+*.sqlite binary
+*.svg text eol=lf
+*.jsonl text eol=lf
