@@ -1,0 +1,1540 @@
+{
+ "schema": "SYSTASYS_ASSO_NARRATION_EINSTEIN_V1",
+ "version": "narration_einstein_v1",
+ "date": "2026-10-31",
+ "motif": "Film de soumission EINSTEIN Matchmaker, hackathon 3alet CU-0070, 7 segments ; texte validé par Hichem le 31/10 avant tout calcul",
+ "recette": {
+  "modele": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+  "reference_sha256": "047aaa0546eece2109401775112bafdeb52fc9a0b254accf5c7829f60b093069",
+  "graine": 1234,
+  "graine_reprise": 1235,
+  "x_vector_only_mode": true,
+  "langue": "English",
+  "presence": "22/10",
+  "source": "fonctions de narration_anima_v1.py importées telles quelles",
+  "priorite": "nice 19, torch 2 fils, derriere la production"
+ },
+ "candidats": {
+  "S1": {
+   "texte": "A company has a problem. Somewhere among a thousand researchers, one person can solve it. Finding a name is easy. Being right is not.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "A company has a problem. Somewhere among a thousand researchers, one person can solve it. Finding a name is easy. Being right is not.",
+     "prefixe": "S1_g1234",
+     "generation_s": 100.3,
+     "voix": {
+      "vs_ref": 0.992,
+      "vs_D4": 0.994
+     },
+     "fichiers": {
+      "S1_g1234.opus.ogg": "9b2c5fd2335b746107fb6f6723ce3eccb4547889f83279d33c5051b6ea33828e",
+      "S1_g1234.m4a": "a4275d47b888119de81d67092fbadf87b002bbc82c527bf81bfeb5838905244e",
+      "S1_g1234_presence.wav": "368b9cdf4200bb3f30fa8bca4b29855f206239131623ddb76466f018db30f896",
+      "S1_g1234_brut.wav": "18cc664dc05daf047851efce62aab8fb8937979a5786a3575d560644c57da35f"
+     },
+     "transcription_en": "A company has a problem. Somewhere among a thousand researchers, one person can solve it. Finding a name is easy. Being right is not.",
+     "wer": 0.0,
+     "ecarts": {
+      "attendus_non_entendus": [],
+      "entendus_en_trop": []
+     },
+     "utmos22": 4.38,
+     "duree_s": 8.59,
+     "mots": [
+      {
+       "m": "A",
+       "d": 0.0,
+       "f": 0.54
+      },
+      {
+       "m": "company",
+       "d": 0.54,
+       "f": 0.8
+      },
+      {
+       "m": "has",
+       "d": 0.8,
+       "f": 1.02
+      },
+      {
+       "m": "a",
+       "d": 1.02,
+       "f": 1.28
+      },
+      {
+       "m": "problem.",
+       "d": 1.28,
+       "f": 1.6
+      },
+      {
+       "m": "Somewhere",
+       "d": 2.08,
+       "f": 2.3
+      },
+      {
+       "m": "among",
+       "d": 2.3,
+       "f": 2.62
+      },
+      {
+       "m": "a",
+       "d": 2.62,
+       "f": 2.76
+      },
+      {
+       "m": "thousand",
+       "d": 2.76,
+       "f": 3.06
+      },
+      {
+       "m": "researchers,",
+       "d": 3.06,
+       "f": 3.62
+      },
+      {
+       "m": "one",
+       "d": 3.78,
+       "f": 3.94
+      },
+      {
+       "m": "person",
+       "d": 3.94,
+       "f": 4.24
+      },
+      {
+       "m": "can",
+       "d": 4.24,
+       "f": 4.5
+      },
+      {
+       "m": "solve",
+       "d": 4.5,
+       "f": 4.7
+      },
+      {
+       "m": "it.",
+       "d": 4.7,
+       "f": 5.02
+      },
+      {
+       "m": "Finding",
+       "d": 5.2,
+       "f": 5.48
+      },
+      {
+       "m": "a",
+       "d": 5.48,
+       "f": 5.72
+      },
+      {
+       "m": "name",
+       "d": 5.72,
+       "f": 5.86
+      },
+      {
+       "m": "is",
+       "d": 5.86,
+       "f": 6.18
+      },
+      {
+       "m": "easy.",
+       "d": 6.18,
+       "f": 6.54
+      },
+      {
+       "m": "Being",
+       "d": 7.24,
+       "f": 7.52
+      },
+      {
+       "m": "right",
+       "d": 7.52,
+       "f": 7.78
+      },
+      {
+       "m": "is",
+       "d": 7.78,
+       "f": 8.02
+      },
+      {
+       "m": "not.",
+       "d": 8.02,
+       "f": 8.28
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  },
+  "S2": {
+   "texte": "I am Asso, from Sistah-ziss. This is EINSTEIN Matchmaker. Four agents read the same challenge at the same time, on one model running on our own machine. No hosted API. No key. Nothing is sent to anyone.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "I am Asso, from Sistah-ziss. This is EINSTEIN Matchmaker. Four agents read the same challenge at the same time, on one model running on our own machine. No hosted API. No key. Nothing is sent to anyone.",
+     "prefixe": "S2_g1234",
+     "generation_s": 142.2,
+     "voix": {
+      "vs_ref": 0.992,
+      "vs_D4": 0.996
+     },
+     "fichiers": {
+      "S2_g1234.opus.ogg": "faea73152bfe84c03bb65e18395939f905c57987d6952aedb672d67b76ecafd3",
+      "S2_g1234.m4a": "0e3cb9501908a0b057c1a7fdbfcf7a62cf150e1f11bfa8b92e396ab56736aaf3",
+      "S2_g1234_presence.wav": "d2ef2c8a1d96ab6c56237e7c665e7d2ea7c6cad7476c924b34ccab7984477a4f",
+      "S2_g1234_brut.wav": "fdd57c36fc4dda9fe18309001364c0ec533c74fb37fc217a1e842b19c23c85c5"
+     },
+     "transcription_en": "I am ASSO, from Sista Ziss, this is Einstein Matchmaker. Four agents read the same challenge at the same time, on one model running on our own machine. No hosted API, no key, nothing is sent to anyone.",
+     "wer": 0.026,
+     "ecarts": {
+      "attendus_non_entendus": [
+       "sistah"
+      ],
+      "entendus_en_trop": [
+       "sista"
+      ]
+     },
+     "utmos22": 4.41,
+     "duree_s": 13.63,
+     "mots": [
+      {
+       "m": "I",
+       "d": 0.0,
+       "f": 0.5
+      },
+      {
+       "m": "am",
+       "d": 0.5,
+       "f": 0.72
+      },
+      {
+       "m": "ASSO,",
+       "d": 0.72,
+       "f": 1.14
+      },
+      {
+       "m": "from",
+       "d": 1.44,
+       "f": 1.66
+      },
+      {
+       "m": "Sista",
+       "d": 1.66,
+       "f": 2.0
+      },
+      {
+       "m": "Ziss,",
+       "d": 2.0,
+       "f": 2.44
+      },
+      {
+       "m": "this",
+       "d": 2.74,
+       "f": 2.82
+      },
+      {
+       "m": "is",
+       "d": 2.82,
+       "f": 3.08
+      },
+      {
+       "m": "Einstein",
+       "d": 3.08,
+       "f": 3.5
+      },
+      {
+       "m": "Matchmaker.",
+       "d": 3.5,
+       "f": 4.2
+      },
+      {
+       "m": "Four",
+       "d": 5.22,
+       "f": 5.42
+      },
+      {
+       "m": "agents",
+       "d": 5.42,
+       "f": 5.76
+      },
+      {
+       "m": "read",
+       "d": 5.76,
+       "f": 5.98
+      },
+      {
+       "m": "the",
+       "d": 5.98,
+       "f": 6.22
+      },
+      {
+       "m": "same",
+       "d": 6.22,
+       "f": 6.42
+      },
+      {
+       "m": "challenge",
+       "d": 6.42,
+       "f": 6.74
+      },
+      {
+       "m": "at",
+       "d": 6.74,
+       "f": 6.94
+      },
+      {
+       "m": "the",
+       "d": 6.94,
+       "f": 7.08
+      },
+      {
+       "m": "same",
+       "d": 7.08,
+       "f": 7.3
+      },
+      {
+       "m": "time,",
+       "d": 7.3,
+       "f": 7.62
+      },
+      {
+       "m": "on",
+       "d": 7.94,
+       "f": 8.06
+      },
+      {
+       "m": "one",
+       "d": 8.06,
+       "f": 8.24
+      },
+      {
+       "m": "model",
+       "d": 8.24,
+       "f": 8.5
+      },
+      {
+       "m": "running",
+       "d": 8.5,
+       "f": 8.76
+      },
+      {
+       "m": "on",
+       "d": 8.76,
+       "f": 8.98
+      },
+      {
+       "m": "our",
+       "d": 8.98,
+       "f": 9.1
+      },
+      {
+       "m": "own",
+       "d": 9.1,
+       "f": 9.26
+      },
+      {
+       "m": "machine.",
+       "d": 9.26,
+       "f": 9.58
+      },
+      {
+       "m": "No",
+       "d": 10.1,
+       "f": 10.28
+      },
+      {
+       "m": "hosted",
+       "d": 10.28,
+       "f": 10.6
+      },
+      {
+       "m": "API,",
+       "d": 10.6,
+       "f": 11.08
+      },
+      {
+       "m": "no",
+       "d": 11.36,
+       "f": 11.52
+      },
+      {
+       "m": "key,",
+       "d": 11.52,
+       "f": 11.78
+      },
+      {
+       "m": "nothing",
+       "d": 12.38,
+       "f": 12.54
+      },
+      {
+       "m": "is",
+       "d": 12.54,
+       "f": 12.78
+      },
+      {
+       "m": "sent",
+       "d": 12.78,
+       "f": 12.86
+      },
+      {
+       "m": "to",
+       "d": 12.86,
+       "f": 13.12
+      },
+      {
+       "m": "anyone.",
+       "d": 13.12,
+       "f": 13.36
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  },
+  "S3": {
+   "texte": "Two of them think at the very same instant. You do not have to take my word for it. The inference server records which of its slots are busy, all the way through. Five thousand of the nearly eight thousand samples show two slots working at once. Sixty three percent of the compute.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "Two of them think at the very same instant. You do not have to take my word for it. The inference server records which of its slots are busy, all the way through. Five thousand of the nearly eight thousand samples show two slots working at once. Sixty three percent of the compute.",
+     "prefixe": "S3_g1234",
+     "generation_s": 160.0,
+     "voix": {
+      "vs_ref": 0.991,
+      "vs_D4": 0.995
+     },
+     "fichiers": {
+      "S3_g1234.opus.ogg": "dc54301c4763ec75866f27b1298d769f615eaa2195c5ccc625b6654b273142b1",
+      "S3_g1234.m4a": "ace9455f44bbaf704115f4378db7bb43f0937760c6e32883a0873504eb656e0e",
+      "S3_g1234_presence.wav": "3a8e5cb31dc0aaba715ed435215c7f32153704a45007b82df89f1f42cd562403",
+      "S3_g1234_brut.wav": "217142c178ebe2796ebb10edba3e48e2248f5962f05dcb881dffe4beb64ffca0"
+     },
+     "transcription_en": "Two of them think at the very same instant. You do not have to take my word for it. The inference server records which of its slots are busy. All the way through, five thousand of the nearly eight thousand samples show two slots working at once. Sixty-three percent of the compute.",
+     "wer": 0.0,
+     "ecarts": {
+      "attendus_non_entendus": [],
+      "entendus_en_trop": []
+     },
+     "utmos22": 4.42,
+     "duree_s": 15.63,
+     "mots": [
+      {
+       "m": "Two",
+       "d": 0.0,
+       "f": 0.7
+      },
+      {
+       "m": "of",
+       "d": 0.7,
+       "f": 0.92
+      },
+      {
+       "m": "them",
+       "d": 0.92,
+       "f": 1.08
+      },
+      {
+       "m": "think",
+       "d": 1.08,
+       "f": 1.34
+      },
+      {
+       "m": "at",
+       "d": 1.34,
+       "f": 1.52
+      },
+      {
+       "m": "the",
+       "d": 1.52,
+       "f": 1.62
+      },
+      {
+       "m": "very",
+       "d": 1.62,
+       "f": 1.9
+      },
+      {
+       "m": "same",
+       "d": 1.9,
+       "f": 2.12
+      },
+      {
+       "m": "instant.",
+       "d": 2.12,
+       "f": 2.54
+      },
+      {
+       "m": "You",
+       "d": 3.08,
+       "f": 3.26
+      },
+      {
+       "m": "do",
+       "d": 3.26,
+       "f": 3.46
+      },
+      {
+       "m": "not",
+       "d": 3.46,
+       "f": 3.62
+      },
+      {
+       "m": "have",
+       "d": 3.62,
+       "f": 3.78
+      },
+      {
+       "m": "to",
+       "d": 3.78,
+       "f": 3.96
+      },
+      {
+       "m": "take",
+       "d": 3.96,
+       "f": 4.04
+      },
+      {
+       "m": "my",
+       "d": 4.04,
+       "f": 4.3
+      },
+      {
+       "m": "word",
+       "d": 4.3,
+       "f": 4.44
+      },
+      {
+       "m": "for",
+       "d": 4.44,
+       "f": 4.66
+      },
+      {
+       "m": "it.",
+       "d": 4.66,
+       "f": 4.98
+      },
+      {
+       "m": "The",
+       "d": 5.48,
+       "f": 5.68
+      },
+      {
+       "m": "inference",
+       "d": 5.68,
+       "f": 5.92
+      },
+      {
+       "m": "server",
+       "d": 5.92,
+       "f": 6.3
+      },
+      {
+       "m": "records",
+       "d": 6.3,
+       "f": 6.64
+      },
+      {
+       "m": "which",
+       "d": 6.64,
+       "f": 6.88
+      },
+      {
+       "m": "of",
+       "d": 6.88,
+       "f": 7.0
+      },
+      {
+       "m": "its",
+       "d": 7.0,
+       "f": 7.18
+      },
+      {
+       "m": "slots",
+       "d": 7.18,
+       "f": 7.42
+      },
+      {
+       "m": "are",
+       "d": 7.42,
+       "f": 7.68
+      },
+      {
+       "m": "busy.",
+       "d": 7.68,
+       "f": 7.94
+      },
+      {
+       "m": "All",
+       "d": 8.28,
+       "f": 8.46
+      },
+      {
+       "m": "the",
+       "d": 8.46,
+       "f": 8.56
+      },
+      {
+       "m": "way",
+       "d": 8.56,
+       "f": 8.72
+      },
+      {
+       "m": "through,",
+       "d": 8.72,
+       "f": 9.1
+      },
+      {
+       "m": "five",
+       "d": 9.7,
+       "f": 9.78
+      },
+      {
+       "m": "thousand",
+       "d": 9.78,
+       "f": 10.1
+      },
+      {
+       "m": "of",
+       "d": 10.1,
+       "f": 10.24
+      },
+      {
+       "m": "the",
+       "d": 10.24,
+       "f": 10.42
+      },
+      {
+       "m": "nearly",
+       "d": 10.42,
+       "f": 10.74
+      },
+      {
+       "m": "eight",
+       "d": 10.74,
+       "f": 11.0
+      },
+      {
+       "m": "thousand",
+       "d": 11.0,
+       "f": 11.32
+      },
+      {
+       "m": "samples",
+       "d": 11.32,
+       "f": 11.74
+      },
+      {
+       "m": "show",
+       "d": 11.74,
+       "f": 12.02
+      },
+      {
+       "m": "two",
+       "d": 12.02,
+       "f": 12.28
+      },
+      {
+       "m": "slots",
+       "d": 12.28,
+       "f": 12.56
+      },
+      {
+       "m": "working",
+       "d": 12.56,
+       "f": 12.86
+      },
+      {
+       "m": "at",
+       "d": 12.86,
+       "f": 13.08
+      },
+      {
+       "m": "once.",
+       "d": 13.08,
+       "f": 13.38
+      },
+      {
+       "m": "Sixty",
+       "d": 14.1,
+       "f": 14.44
+      },
+      {
+       "m": "-three",
+       "d": 14.44,
+       "f": 14.54
+      },
+      {
+       "m": "percent",
+       "d": 14.54,
+       "f": 14.8
+      },
+      {
+       "m": "of",
+       "d": 14.8,
+       "f": 14.94
+      },
+      {
+       "m": "the",
+       "d": 14.94,
+       "f": 15.14
+      },
+      {
+       "m": "compute.",
+       "d": 15.14,
+       "f": 15.36
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  },
+  "S4": {
+   "texte": "Then an independent critic reads the proposal, and the sources under it. Every claim has to quote a field, with its record hash and a link into the organizer's own dataset. When the evidence is thin, the system says no. Out loud, with a reason.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "Then an independent critic reads the proposal, and the sources under it. Every claim has to quote a field, with its record hash and a link into the organizer's own dataset. When the evidence is thin, the system says no. Out loud, with a reason.",
+     "prefixe": "S4_g1234",
+     "generation_s": 157.1,
+     "voix": {
+      "vs_ref": 0.991,
+      "vs_D4": 0.995
+     },
+     "fichiers": {
+      "S4_g1234.opus.ogg": "63059eab49a5baa328dfaa7329162bb72e043e549f8f584c088530aa4b287530",
+      "S4_g1234.m4a": "b2a46c8e8fd84658b894cb563a4fbc301f4157c1b300b1e566c6c73b3f548f97",
+      "S4_g1234_presence.wav": "0af8bce519fe0a55e4f9db3e283f7c7cf93b99e583517da20a55503e032d3e7d",
+      "S4_g1234_brut.wav": "d7a84583968871f5db22a7f559a3ffe839707bfd84cceb690be0471b5cb9cfb0"
+     },
+     "transcription_en": "Then, an independent critic reads the proposal, and the source is under it. Every claim has to quote a field, with its record hash and a link into the organizer's own dataset. When the evidence is thin, the system says no, out loud, with a reason.",
+     "wer": 0.044,
+     "ecarts": {
+      "attendus_non_entendus": [
+       "sources"
+      ],
+      "entendus_en_trop": [
+       "source"
+      ]
+     },
+     "utmos22": 4.39,
+     "duree_s": 15.07,
+     "mots": [
+      {
+       "m": "Then,",
+       "d": 0.0,
+       "f": 0.76
+      },
+      {
+       "m": "an",
+       "d": 1.2,
+       "f": 1.38
+      },
+      {
+       "m": "independent",
+       "d": 1.38,
+       "f": 1.74
+      },
+      {
+       "m": "critic",
+       "d": 1.74,
+       "f": 2.04
+      },
+      {
+       "m": "reads",
+       "d": 2.04,
+       "f": 2.3
+      },
+      {
+       "m": "the",
+       "d": 2.3,
+       "f": 2.56
+      },
+      {
+       "m": "proposal,",
+       "d": 2.56,
+       "f": 2.9
+      },
+      {
+       "m": "and",
+       "d": 3.32,
+       "f": 3.4
+      },
+      {
+       "m": "the",
+       "d": 3.4,
+       "f": 3.58
+      },
+      {
+       "m": "source",
+       "d": 3.58,
+       "f": 3.74
+      },
+      {
+       "m": "is",
+       "d": 3.74,
+       "f": 3.94
+      },
+      {
+       "m": "under",
+       "d": 3.94,
+       "f": 4.12
+      },
+      {
+       "m": "it.",
+       "d": 4.12,
+       "f": 4.42
+      },
+      {
+       "m": "Every",
+       "d": 4.88,
+       "f": 5.12
+      },
+      {
+       "m": "claim",
+       "d": 5.12,
+       "f": 5.34
+      },
+      {
+       "m": "has",
+       "d": 5.34,
+       "f": 5.54
+      },
+      {
+       "m": "to",
+       "d": 5.54,
+       "f": 5.7
+      },
+      {
+       "m": "quote",
+       "d": 5.7,
+       "f": 5.82
+      },
+      {
+       "m": "a",
+       "d": 5.82,
+       "f": 6.04
+      },
+      {
+       "m": "field,",
+       "d": 6.04,
+       "f": 6.28
+      },
+      {
+       "m": "with",
+       "d": 6.6,
+       "f": 6.72
+      },
+      {
+       "m": "its",
+       "d": 6.72,
+       "f": 6.94
+      },
+      {
+       "m": "record",
+       "d": 6.94,
+       "f": 7.2
+      },
+      {
+       "m": "hash",
+       "d": 7.2,
+       "f": 7.5
+      },
+      {
+       "m": "and",
+       "d": 7.5,
+       "f": 7.78
+      },
+      {
+       "m": "a",
+       "d": 7.78,
+       "f": 7.94
+      },
+      {
+       "m": "link",
+       "d": 7.94,
+       "f": 8.08
+      },
+      {
+       "m": "into",
+       "d": 8.08,
+       "f": 8.38
+      },
+      {
+       "m": "the",
+       "d": 8.38,
+       "f": 8.66
+      },
+      {
+       "m": "organizer's",
+       "d": 8.66,
+       "f": 9.2
+      },
+      {
+       "m": "own",
+       "d": 9.2,
+       "f": 9.4
+      },
+      {
+       "m": "dataset.",
+       "d": 9.4,
+       "f": 9.7
+      },
+      {
+       "m": "When",
+       "d": 10.84,
+       "f": 11.0
+      },
+      {
+       "m": "the",
+       "d": 11.0,
+       "f": 11.22
+      },
+      {
+       "m": "evidence",
+       "d": 11.22,
+       "f": 11.44
+      },
+      {
+       "m": "is",
+       "d": 11.44,
+       "f": 11.72
+      },
+      {
+       "m": "thin,",
+       "d": 11.72,
+       "f": 11.86
+      },
+      {
+       "m": "the",
+       "d": 12.02,
+       "f": 12.14
+      },
+      {
+       "m": "system",
+       "d": 12.14,
+       "f": 12.4
+      },
+      {
+       "m": "says",
+       "d": 12.4,
+       "f": 12.64
+      },
+      {
+       "m": "no,",
+       "d": 12.64,
+       "f": 13.02
+      },
+      {
+       "m": "out",
+       "d": 13.46,
+       "f": 13.62
+      },
+      {
+       "m": "loud,",
+       "d": 13.62,
+       "f": 13.86
+      },
+      {
+       "m": "with",
+       "d": 13.96,
+       "f": 14.14
+      },
+      {
+       "m": "a",
+       "d": 14.14,
+       "f": 14.32
+      },
+      {
+       "m": "reason.",
+       "d": 14.32,
+       "f": 14.5
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  },
+  "S5": {
+   "texte": "In the verified block, two proposals were accepted. One was refused on the evidence. Three ran out of time. We count those three apart, because a case that ends on the clock has said nothing about its sources.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "In the verified block, two proposals were accepted. One was refused on the evidence. Three ran out of time. We count those three apart, because a case that ends on the clock has said nothing about its sources.",
+     "prefixe": "S5_g1234",
+     "generation_s": 137.2,
+     "voix": {
+      "vs_ref": 0.992,
+      "vs_D4": 0.995
+     },
+     "fichiers": {
+      "S5_g1234.opus.ogg": "5ec6d57d5ddc1cefd70a5e1f8cea78eea8a1f431dc814516a7c61f7966bd6fa2",
+      "S5_g1234.m4a": "60b67fca263f2622f649434649971529cf08259cf54adbff426e6817e29ebc06",
+      "S5_g1234_presence.wav": "ed99b10124a4824ed4629247885184593f22e11fb610c9512a8ba1b0e8d86baa",
+      "S5_g1234_brut.wav": "657774c4e4702dd9ead12573dac141b0558afebf8d20a5e6deb676d2fd4d364e"
+     },
+     "transcription_en": "In the verified block, two proposals were accepted, one was refused on the evidence, three ran out of time. We count those three apart, because a case that ends on the clock has said nothing about its sources.",
+     "wer": 0.0,
+     "ecarts": {
+      "attendus_non_entendus": [],
+      "entendus_en_trop": []
+     },
+     "utmos22": 4.42,
+     "duree_s": 12.99,
+     "mots": [
+      {
+       "m": "In",
+       "d": 0.0,
+       "f": 0.5
+      },
+      {
+       "m": "the",
+       "d": 0.5,
+       "f": 0.72
+      },
+      {
+       "m": "verified",
+       "d": 0.72,
+       "f": 1.12
+      },
+      {
+       "m": "block,",
+       "d": 1.12,
+       "f": 1.5
+      },
+      {
+       "m": "two",
+       "d": 1.84,
+       "f": 2.02
+      },
+      {
+       "m": "proposals",
+       "d": 2.02,
+       "f": 2.54
+      },
+      {
+       "m": "were",
+       "d": 2.54,
+       "f": 2.88
+      },
+      {
+       "m": "accepted,",
+       "d": 2.88,
+       "f": 3.32
+      },
+      {
+       "m": "one",
+       "d": 3.88,
+       "f": 4.04
+      },
+      {
+       "m": "was",
+       "d": 4.04,
+       "f": 4.34
+      },
+      {
+       "m": "refused",
+       "d": 4.34,
+       "f": 4.76
+      },
+      {
+       "m": "on",
+       "d": 4.76,
+       "f": 4.98
+      },
+      {
+       "m": "the",
+       "d": 4.98,
+       "f": 5.16
+      },
+      {
+       "m": "evidence,",
+       "d": 5.16,
+       "f": 5.46
+      },
+      {
+       "m": "three",
+       "d": 5.98,
+       "f": 6.3
+      },
+      {
+       "m": "ran",
+       "d": 6.3,
+       "f": 6.5
+      },
+      {
+       "m": "out",
+       "d": 6.5,
+       "f": 6.7
+      },
+      {
+       "m": "of",
+       "d": 6.7,
+       "f": 6.92
+      },
+      {
+       "m": "time.",
+       "d": 6.92,
+       "f": 7.14
+      },
+      {
+       "m": "We",
+       "d": 7.72,
+       "f": 7.9
+      },
+      {
+       "m": "count",
+       "d": 7.9,
+       "f": 8.14
+      },
+      {
+       "m": "those",
+       "d": 8.14,
+       "f": 8.42
+      },
+      {
+       "m": "three",
+       "d": 8.42,
+       "f": 8.62
+      },
+      {
+       "m": "apart,",
+       "d": 8.62,
+       "f": 9.0
+      },
+      {
+       "m": "because",
+       "d": 9.42,
+       "f": 9.54
+      },
+      {
+       "m": "a",
+       "d": 9.54,
+       "f": 9.76
+      },
+      {
+       "m": "case",
+       "d": 9.76,
+       "f": 9.92
+      },
+      {
+       "m": "that",
+       "d": 9.92,
+       "f": 10.2
+      },
+      {
+       "m": "ends",
+       "d": 10.2,
+       "f": 10.4
+      },
+      {
+       "m": "on",
+       "d": 10.4,
+       "f": 10.58
+      },
+      {
+       "m": "the",
+       "d": 10.58,
+       "f": 10.78
+      },
+      {
+       "m": "clock",
+       "d": 10.78,
+       "f": 10.94
+      },
+      {
+       "m": "has",
+       "d": 10.94,
+       "f": 11.22
+      },
+      {
+       "m": "said",
+       "d": 11.22,
+       "f": 11.36
+      },
+      {
+       "m": "nothing",
+       "d": 11.36,
+       "f": 11.66
+      },
+      {
+       "m": "about",
+       "d": 11.66,
+       "f": 11.94
+      },
+      {
+       "m": "its",
+       "d": 11.94,
+       "f": 12.12
+      },
+      {
+       "m": "sources.",
+       "d": 12.12,
+       "f": 12.42
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  },
+  "S6": {
+   "texte": "We do not claim that four agents answer better than one. There is no answer key for these challenges, so that question stays open, and the repository says so in its first table.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "We do not claim that four agents answer better than one. There is no answer key for these challenges, so that question stays open, and the repository says so in its first table.",
+     "prefixe": "S6_g1234",
+     "generation_s": 116.8,
+     "voix": {
+      "vs_ref": 0.992,
+      "vs_D4": 0.994
+     },
+     "fichiers": {
+      "S6_g1234.opus.ogg": "ee4d45c000192c4e476550a84c16d86e26901d981a13ffcf807485f6539aecae",
+      "S6_g1234.m4a": "ff6f5c88f8f86fddbd9253a21f4aa27fcd9af2b9bd18813c366f89479ac20d32",
+      "S6_g1234_presence.wav": "b0ea9952eec6bfe6dbf4cb8eaa6ce9d8405bd3206da1563768cb18e1d4b596ed",
+      "S6_g1234_brut.wav": "12f169787114fc41c785ee1b87b516c8ce408582c7077663e54a1cf8e259d0f4"
+     },
+     "transcription_en": "We do not claim that four agents answer better than one. There is no answer key for these challenges so that question stays open and the repository says so in its first table.",
+     "wer": 0.0,
+     "ecarts": {
+      "attendus_non_entendus": [],
+      "entendus_en_trop": []
+     },
+     "utmos22": 4.4,
+     "duree_s": 11.07,
+     "mots": [
+      {
+       "m": "We",
+       "d": 0.0,
+       "f": 0.74
+      },
+      {
+       "m": "do",
+       "d": 0.74,
+       "f": 0.98
+      },
+      {
+       "m": "not",
+       "d": 0.98,
+       "f": 1.22
+      },
+      {
+       "m": "claim",
+       "d": 1.22,
+       "f": 1.46
+      },
+      {
+       "m": "that",
+       "d": 1.46,
+       "f": 1.74
+      },
+      {
+       "m": "four",
+       "d": 1.74,
+       "f": 2.02
+      },
+      {
+       "m": "agents",
+       "d": 2.02,
+       "f": 2.36
+      },
+      {
+       "m": "answer",
+       "d": 2.36,
+       "f": 2.76
+      },
+      {
+       "m": "better",
+       "d": 2.76,
+       "f": 3.04
+      },
+      {
+       "m": "than",
+       "d": 3.04,
+       "f": 3.3
+      },
+      {
+       "m": "one.",
+       "d": 3.3,
+       "f": 3.58
+      },
+      {
+       "m": "There",
+       "d": 4.26,
+       "f": 4.42
+      },
+      {
+       "m": "is",
+       "d": 4.42,
+       "f": 4.6
+      },
+      {
+       "m": "no",
+       "d": 4.6,
+       "f": 4.84
+      },
+      {
+       "m": "answer",
+       "d": 4.84,
+       "f": 5.1
+      },
+      {
+       "m": "key",
+       "d": 5.1,
+       "f": 5.3
+      },
+      {
+       "m": "for",
+       "d": 5.3,
+       "f": 5.54
+      },
+      {
+       "m": "these",
+       "d": 5.54,
+       "f": 5.72
+      },
+      {
+       "m": "challenges",
+       "d": 5.72,
+       "f": 6.22
+      },
+      {
+       "m": "so",
+       "d": 6.22,
+       "f": 6.74
+      },
+      {
+       "m": "that",
+       "d": 6.74,
+       "f": 6.96
+      },
+      {
+       "m": "question",
+       "d": 6.96,
+       "f": 7.3
+      },
+      {
+       "m": "stays",
+       "d": 7.3,
+       "f": 7.62
+      },
+      {
+       "m": "open",
+       "d": 7.62,
+       "f": 8.06
+      },
+      {
+       "m": "and",
+       "d": 8.06,
+       "f": 8.48
+      },
+      {
+       "m": "the",
+       "d": 8.48,
+       "f": 8.66
+      },
+      {
+       "m": "repository",
+       "d": 8.66,
+       "f": 9.1
+      },
+      {
+       "m": "says",
+       "d": 9.1,
+       "f": 9.38
+      },
+      {
+       "m": "so",
+       "d": 9.38,
+       "f": 9.74
+      },
+      {
+       "m": "in",
+       "d": 9.74,
+       "f": 9.94
+      },
+      {
+       "m": "its",
+       "d": 9.94,
+       "f": 10.16
+      },
+      {
+       "m": "first",
+       "d": 10.16,
+       "f": 10.42
+      },
+      {
+       "m": "table.",
+       "d": 10.42,
+       "f": 10.7
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  },
+  "S7": {
+   "texte": "A system that cannot refuse cannot be trusted when it accepts. EINSTEIN Matchmaker. The code, the traces and the verdicts are all in the repository.",
+   "essais": [
+    {
+     "graine": 1234,
+     "texte": "A system that cannot refuse cannot be trusted when it accepts. EINSTEIN Matchmaker. The code, the traces and the verdicts are all in the repository.",
+     "prefixe": "S7_g1234",
+     "generation_s": 107.4,
+     "voix": {
+      "vs_ref": 0.991,
+      "vs_D4": 0.993
+     },
+     "fichiers": {
+      "S7_g1234.opus.ogg": "1c3d97fa7a4c90c485b99797d9f2ec3a803bd4e53af309c6371b6e9fcdb60a92",
+      "S7_g1234.m4a": "ec363a79c0ecf5b61a7d24f62f5c44b6932e6b569286eb304441a511affb38e4",
+      "S7_g1234_presence.wav": "a9578724a3815d6f0e643744317fac057c373c6b4b66adbe5ea2914085ac801f",
+      "S7_g1234_brut.wav": "594d9f6e5b18d404184121fa3cd6d00b99647575ed8a5e66fe816887a64a8e76"
+     },
+     "transcription_en": "A system that cannot refuse cannot be trusted when it accepts Einstein Matchmaker. The code, the traces and the verdicts are all in the repository.",
+     "wer": 0.0,
+     "ecarts": {
+      "attendus_non_entendus": [],
+      "entendus_en_trop": []
+     },
+     "utmos22": 4.4,
+     "duree_s": 10.19,
+     "mots": [
+      {
+       "m": "A",
+       "d": 0.0,
+       "f": 0.56
+      },
+      {
+       "m": "system",
+       "d": 0.56,
+       "f": 0.82
+      },
+      {
+       "m": "that",
+       "d": 0.82,
+       "f": 1.14
+      },
+      {
+       "m": "cannot",
+       "d": 1.14,
+       "f": 1.36
+      },
+      {
+       "m": "refuse",
+       "d": 1.36,
+       "f": 1.88
+      },
+      {
+       "m": "cannot",
+       "d": 1.88,
+       "f": 2.22
+      },
+      {
+       "m": "be",
+       "d": 2.22,
+       "f": 2.52
+      },
+      {
+       "m": "trusted",
+       "d": 2.52,
+       "f": 2.8
+      },
+      {
+       "m": "when",
+       "d": 2.8,
+       "f": 3.0
+      },
+      {
+       "m": "it",
+       "d": 3.0,
+       "f": 3.22
+      },
+      {
+       "m": "accepts",
+       "d": 3.22,
+       "f": 3.56
+      },
+      {
+       "m": "Einstein",
+       "d": 3.56,
+       "f": 4.44
+      },
+      {
+       "m": "Matchmaker.",
+       "d": 4.44,
+       "f": 5.06
+      },
+      {
+       "m": "The",
+       "d": 6.14,
+       "f": 6.32
+      },
+      {
+       "m": "code,",
+       "d": 6.32,
+       "f": 6.68
+      },
+      {
+       "m": "the",
+       "d": 7.1,
+       "f": 7.3
+      },
+      {
+       "m": "traces",
+       "d": 7.3,
+       "f": 7.54
+      },
+      {
+       "m": "and",
+       "d": 7.54,
+       "f": 7.88
+      },
+      {
+       "m": "the",
+       "d": 7.88,
+       "f": 8.04
+      },
+      {
+       "m": "verdicts",
+       "d": 8.04,
+       "f": 8.44
+      },
+      {
+       "m": "are",
+       "d": 8.44,
+       "f": 8.6
+      },
+      {
+       "m": "all",
+       "d": 8.6,
+       "f": 8.8
+      },
+      {
+       "m": "in",
+       "d": 8.8,
+       "f": 8.94
+      },
+      {
+       "m": "the",
+       "d": 8.94,
+       "f": 9.14
+      },
+      {
+       "m": "repository.",
+       "d": 9.14,
+       "f": 9.62
+      }
+     ],
+     "a_refaire": false
+    }
+   ]
+  }
+ },
+ "calcul_s": 1193.7,
+ "reprises": [],
+ "duree_totale_s": 87.17
+}

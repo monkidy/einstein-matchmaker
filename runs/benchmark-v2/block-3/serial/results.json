@@ -1,0 +1,915 @@
+[
+  {
+    "caseId": "N13",
+    "challengeId": "C115-CH3",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C115-CH3",
+      "companyId": "C115",
+      "companyName": "VoxelRealm a.d.",
+      "researcherId": "R0538",
+      "researcherName": "Lazar Nedić",
+      "claims": [
+        {
+          "sourceId": "C115-CH3",
+          "subjectId": "C115",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We want realistic crowd audio in our stadium-themed game modes — right now we loop the same 12-second clip and players in focus groups rate the atmosphere as 'fake' within minutes of playing.",
+          "recordSha256": "1a17a5d1a228382d8e9d8779780924fa2125f2e30b20bcd33dd59171b9a93961",
+          "file": "data/companies.json",
+          "locator": "/companies/114/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C115-CH3",
+          "subjectId": "C115",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "ArenaForge ima stadionske modove u kojima se utakmice igraju pred virtuelnom publikom od desetina hiljada gledalaca. Zvučni dizajner Milena Draganović snimila je kvalitetnu biblioteku od 47 audio klipova reakcija publike, ali ih trenutno kombinujemo u petlji od 12 sekundi zbog ograničenja u zvučnom sistemu igre. Igrači u focus group sesijama koje smo organizovali u februaru i aprilu 2024. — ukupno 34 učesnika — naveli su 'lažan' ili 'dosadan' zvuk publike kao treću po redu smetnju u iskustvu igranja. Pokušali smo ručno da variramo redosled klipova po šablonu, ali mozak igrača veoma brzo prepoznaje obrasce. Ono što nam treba je sistem koji generiše ili kombinuje zvuk publike u realnom vremenu na osnovu onoga što se događa u igri — golovi, bliske situacije, greške — a da pri tom ne zahteva previše procesorske snage na klijentskom računaru. Imamo svu audio građu i podatke o igračkim događajima. Budžet za ovaj segment je manji nego za ostale, ali je važan za kvalitet atmosfere u igri.",
+          "recordSha256": "1a17a5d1a228382d8e9d8779780924fa2125f2e30b20bcd33dd59171b9a93961",
+          "file": "data/companies.json",
+          "locator": "/companies/114/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C115",
+          "subjectId": "C115",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Game development",
+          "recordSha256": "62d977c47adfa0c96e3ddd0ee00d083141869a7633d2eb42d6886608536dd65f",
+          "file": "data/companies.json",
+          "locator": "/companies/114",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0538",
+          "subjectId": "R0538",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Sound design and music technology; Interactive and game audio; Digital signal processing; Human-computer interaction",
+          "recordSha256": "f96d8ab47e20129d67db92ea4b37fab19cfe086196d31787142096fb9e6156d0",
+          "file": "data/researchers.json",
+          "locator": "/researchers/537",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-01348",
+          "subjectId": "R0538",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Procedural audio for museum visitor flow simulation: integrating occupancy sensing with generative soundscape synthesis",
+          "recordSha256": "0c7fea116cd834864b2cf648fecff6227667e0ca2dd91e1a8f1c34ed7917725d",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 1348,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L1348"
+        },
+        {
+          "sourceId": "SYN-PUB-01348",
+          "subjectId": "R0538",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This paper reports a deployment study in which a procedural audio system was integrated with a real-time visitor occupancy sensing installation in a temporary exhibition at the Museum of Contemporary Art Vojvodina, Novi Sad. Passive infrared sensors in five zones fed occupancy counts at 2-second intervals to a granular synthesis engine generating spatialised ambient sound on a 16-channel ring array. The system ran continuously for 19 days. Occupancy counts correlated positively with synthesised grain density (r = 0.81, p < 0.001 across 4,560 2-second intervals). Visitor exit surveys (n = 211) asked about perceived atmosphere; 68% indicated the sound environment felt appropriate to the space and visitor activity. Staff interviews noted that the system occasionally produced artefacts during rapid transitions caused by school group arrivals, interpreted as a boundary condition for the density model. Failure modes and recommended parameter bounds are documented.",
+          "recordSha256": "0c7fea116cd834864b2cf648fecff6227667e0ca2dd91e1a8f1c34ed7917725d",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 1348,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L1348"
+        },
+        {
+          "sourceId": "SYN-PUB-01347",
+          "subjectId": "R0538",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Adaptive music and sound layering in a browser-based puzzle game: a design study",
+          "recordSha256": "fb37a0a6038ae25ac66ada8b04565e5d00aafff35f73eff6d937c11a41e9ed02",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 1347,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L1347"
+        },
+        {
+          "sourceId": "SYN-PUB-01347",
+          "subjectId": "R0538",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This paper reports the design, implementation, and informal evaluation of a fully procedural audio system for a browser-based puzzle game developed as a teaching project at the Academy of Arts, University of Novi Sad. The system uses a state machine with seven game states (idle, exploration, puzzle active, near-solution, solved, failed, transition) to drive both musical layer selection and ambient sound density. Musical material was pre-composed in 4-bar loops at three energy levels; granular synthesis supplied background environmental textures. A group of 22 student players completed a structured play session followed by a semi-structured interview. Analysis of interviews identified that players noticed music-state mismatches more readily than ambience mismatches, and that abrupt transitions caused higher reported distraction than crossfades of 1.5 seconds or longer. The findings are discussed in terms of design guidelines for small-team game audio production.",
+          "recordSha256": "fb37a0a6038ae25ac66ada8b04565e5d00aafff35f73eff6d937c11a41e9ed02",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 1347,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L1347"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can procedural audio generate realistic crowd sounds in game modes based on in-game events?",
+        "experiment": "Deploy procedural audio system using game events to generate crowd sounds in stadium modes",
+        "metric": "Player satisfaction with crowd audio in post-play surveys",
+        "successCriterion": "Proposed gate: measure Player satisfaction with crowd audio in post-play surveys on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Procedural audio methods align with company's need for real-time crowd sound generation based on game events."
+      }
+    },
+    "shortlist": [
+      "R0538",
+      "R0355",
+      "R0448"
+    ],
+    "selection": {
+      "researcherId": "R0538",
+      "reason": "Procedural audio generation with real-time data integration aligns with the need for dynamic, context-aware sound design in game modes."
+    },
+    "industryReview": "The challenge involves a technical problem with a testable unknown—developing a real-time system to generate or combine crowd audio based on in-game events. The company has the necessary resources (audio library, data on player actions) and",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"realistic\" OR \"crowd\" OR \"audio\" OR \"stadium\" OR \"themed\" OR \"game\" OR \"modes\" OR \"right\" OR \"now\" OR \"loop\" OR \"same\" OR \"second\" OR \"clip\" OR \"players\" OR \"focus\" OR \"groups\" OR \"rate\" OR \"atmosphere\" OR \"fake\" OR \"within\" OR \"minutes\" OR \"playing\" OR \"arenaforge\" OR \"ima\" OR \"stadionske\" OR \"modove\" OR \"kojima\" OR \"utakmice\" OR \"igraju\" OR \"pred\" OR \"virtuelnom\" OR \"publikom\" OR \"desetina\" OR \"hiljada\" OR \"gledalaca\" OR \"zvucni\" OR \"dizajner\" OR \"milena\" OR \"draganovic\" OR \"snimila\" OR \"kvalitetnu\" OR \"biblioteku\" OR \"klipova\" OR \"reakcija\" OR \"publike\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 219091,
+      "modelCalls": 4,
+      "inputTokens": 4491,
+      "outputTokens": 227
+    }
+  },
+  {
+    "caseId": "N14",
+    "challengeId": "C085-CH1",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C085-CH1",
+      "companyId": "C085",
+      "companyName": "Labos Dijagnostika a.d.",
+      "researcherId": "R0595",
+      "researcherName": "Zuzana Kmeťová",
+      "claims": [
+        {
+          "sourceId": "C085-CH1",
+          "subjectId": "C085",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We run 1,400 blood samples a day across three analysers and our middleware flags about 60 samples daily for manual technician review, but we estimate at least half of those reflex reviews are unnecessary — that alone costs us 2.5 extra technician-hours every shift.",
+          "recordSha256": "e89d65e7d4ef90cd520a3542d1dba37ae56d440a6781a1f933ed6f3432e0f42a",
+          "file": "data/companies.json",
+          "locator": "/companies/84/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C085-CH1",
+          "subjectId": "C085",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "We run roughly 1,400 blood samples through our three analysers every working day. Our middleware is set up with a rule set that flags results outside certain delta-check and absolute-value thresholds, and on a typical day about 60 samples come back requiring a technician to physically look at the slide or re-run the sample. From our own internal tracking over the last six months, we can see that around 30 of those 60 flags each day end up confirming the original result — the review changes nothing. That adds up to about 2.5 technician-hours per shift that are spent on reviews that do not improve the result. We have tried tightening and loosening individual threshold values manually, but without a structured way to evaluate the combinations, we have not made meaningful progress. We have a full year of flag-and-outcome data in our LIMS export that we have never fully analysed. A good outcome for us would be a revised rule set, or a lightweight decision-support layer, that brings unnecessary reflex reviews down by at least 40% without increasing the rate of missed abnormal results.",
+          "recordSha256": "e89d65e7d4ef90cd520a3542d1dba37ae56d440a6781a1f933ed6f3432e0f42a",
+          "file": "data/companies.json",
+          "locator": "/companies/84/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C085",
+          "subjectId": "C085",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Biotech, diagnostics and lab services",
+          "recordSha256": "568482ff81bad75a1e817216aa28da5cf5a9c8cddace610b4d00c81cf0807e24",
+          "file": "data/companies.json",
+          "locator": "/companies/84",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0595",
+          "subjectId": "R0595",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Machine Learning and Data Mining; Biomedical Informatics; Applied Statistics; Decision Support Systems",
+          "recordSha256": "14af32808e022b7220cadde4aa7cd9efbd6835825fd8772687d1f68ee252efd1",
+          "file": "data/researchers.json",
+          "locator": "/researchers/594",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-06861",
+          "subjectId": "R0595",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Decision tree ensembles for automated urine sediment classification in high-throughput workflows",
+          "recordSha256": "268514b58b79a045b006cd69ee31f379af1bcb160dc9981a0c5cc9928482e22e",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6861,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6861"
+        },
+        {
+          "sourceId": "SYN-PUB-06861",
+          "subjectId": "R0595",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Automated urine sediment analysers generate per-patient feature vectors of 18 morphological counts and fluorescence intensity values. Manual review remains necessary for ambiguous samples, but the criteria for flagging samples for review vary between laboratories. This study trained gradient-boosted decision trees on 9,240 labelled samples from two laboratories operating the same analyser model to learn a consistent flagging rule. The primary objective was to minimise unnecessary manual reviews while maintaining sensitivity above 0.95 for clinically significant findings including casts, dysmorphic erythrocytes, and bacteria above threshold. Bayesian hyperparameter search identified tree depth 5, learning rate 0.05, and 400 estimators as the best configuration. On a prospective validation set of 1,102 samples collected over three months, the model reduced manual review volume by 31% compared with the manufacturer default threshold, while achieving sensitivity of 0.96. Calibration was assessed with reliability diagrams; the ensemble required isotonic regression post-hoc calibration to bring expected calibration error below 0.04.",
+          "recordSha256": "268514b58b79a045b006cd69ee31f379af1bcb160dc9981a0c5cc9928482e22e",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6861,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6861"
+        },
+        {
+          "sourceId": "SYN-PUB-06862",
+          "subjectId": "R0595",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Threshold optimisation under asymmetric misclassification costs: a review and empirical comparison on clinical tabular datasets",
+          "recordSha256": "cfa674862410a06ba5addeb94c09155a875ed4be0f6ab571a8ccdb613b487e8c",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6862,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6862"
+        },
+        {
+          "sourceId": "SYN-PUB-06862",
+          "subjectId": "R0595",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Classification thresholds are routinely left at the default 0.5 in many applied clinical studies despite well-established evidence that asymmetric misclassification costs make this choice suboptimal. This paper reviews threshold selection methods including cost-minimisation, F-beta maximisation, utility-maximisation, and the Youden index, and provides an empirical comparison across twelve publicly deposited and in-house clinical tabular datasets ranging from 500 to 28,000 samples. Datasets cover six disease areas including cardiovascular risk, diabetes complications, and haematological malignancy. The comparison uses nested cross-validation to avoid threshold selection bias. Results show that cost-minimisation and F-beta methods are broadly equivalent when cost ratios are specified accurately, but that the Youden index consistently underperforms in high-imbalance settings with imbalance ratios above 1:15. The paper also provides guidance on eliciting cost ratios from clinical stakeholders and documents a structured interview protocol used with six clinicians at a teaching hospital in Novi Sad.",
+          "recordSha256": "cfa674862410a06ba5addeb94c09155a875ed4be0f6ab571a8ccdb613b487e8c",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6862,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6862"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can decision trees reduce unnecessary reflex reviews by 40% while maintaining >0.95 sensitivity for abnormal results?",
+        "experiment": "Train decision trees on 12 months of flag-and-outcome data to create a consistent flagging rule",
+        "metric": "Percentage of flagged samples that result in no manual review",
+        "successCriterion": "Proposed gate: measure Percentage of flagged samples that result in no manual review on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Researcher evidence shows decision trees can reduce manual reviews by 31% while maintaining high sensitivity, aligning with company's 40% goal."
+      }
+    },
+    "shortlist": [
+      "R0867",
+      "R0595",
+      "R0695"
+    ],
+    "selection": {
+      "researcherId": "R0595",
+      "reason": "Decision tree ensembles for automated urine sediment classification and threshold optimisation align with reducing unnecessary reflex reviews through data-driven rule sets."
+    },
+    "industryReview": "The company has a specific technical problem related to reducing unnecessary manual reviews of blood samples, with available data and a need for a structured approach to evaluate potential solutions. While they do not have a dedicated R&D团队",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"run\" OR \"blood\" OR \"samples\" OR \"day\" OR \"three\" OR \"analysers\" OR \"middleware\" OR \"flags\" OR \"daily\" OR \"manual\" OR \"technician\" OR \"review\" OR \"estimate\" OR \"least\" OR \"half\" OR \"those\" OR \"reflex\" OR \"reviews\" OR \"unnecessary\" OR \"alone\" OR \"costs\" OR \"extra\" OR \"hours\" OR \"every\" OR \"shift\" OR \"roughly\" OR \"set\" OR \"rule\" OR \"results\" OR \"outside\" OR \"certain\" OR \"delta\" OR \"check\" OR \"absolute\" OR \"value\" OR \"thresholds\" OR \"typical\" OR \"come\" OR \"back\" OR \"requiring\" OR \"physically\" OR \"look\" OR \"slide\" OR \"sample\" OR \"own\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 195204,
+      "modelCalls": 4,
+      "inputTokens": 3943,
+      "outputTokens": 234
+    }
+  },
+  {
+    "caseId": "N15",
+    "challengeId": "C092-CH3",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C092-CH3",
+      "companyId": "C092",
+      "companyName": "AxleWave Systems d.o.o.",
+      "researcherId": "R0271",
+      "researcherName": "Željko Mamužić",
+      "claims": [
+        {
+          "sourceId": "C092-CH3",
+          "subjectId": "C092",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We collect location and driving-behaviour data continuously from trucks; two German fleet operators have told us that before they sign, they need a data processing agreement that satisfies their works council and the German Betriebsrat co-determination rules around employee monitoring, which our Serbian lawyers have never dealt with before.",
+          "recordSha256": "d44672512f5d48bb25dc8c1bb1a4cd4e14936bafe8370f47cc79bf2e4a80f184",
+          "file": "data/companies.json",
+          "locator": "/companies/91/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C092-CH3",
+          "subjectId": "C092",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "We collect GPS position, speed, acceleration and braking events at one-second intervals from every truck in a customer's fleet. For our Polish and Austrian customers this has not been a problem. But two German prospects — both mid-sized logistics operators — have said that their works council will not permit deployment unless we can show them a data processing agreement and an operational protocol that explicitly covers the rights of employed drivers under German co-determination law, specifically the rules their Betriebsrat can invoke around electronic monitoring of individual workers. Our Serbian legal team is experienced with GDPR in general but has never negotiated with a German Betriebsrat or drafted the kind of annex to a works agreement that these customers need. We had one conversation with a German law firm in Frankfurt but their quote for the full engagement was €25,000, which we found high for what we hope is a reusable template. What we actually need is a reusable data processing framework and a standard addendum that we can adapt for each German customer, so we are not starting from zero every time. Getting this right would unlock at least two signed contracts worth a combined annual recurring revenue of around €180,000.",
+          "recordSha256": "d44672512f5d48bb25dc8c1bb1a4cd4e14936bafe8370f47cc79bf2e4a80f184",
+          "file": "data/companies.json",
+          "locator": "/companies/91/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C092",
+          "subjectId": "C092",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Automotive and mobility software",
+          "recordSha256": "4ff5e7ac4ef569584b916caae79ab00cf6e888191dbe234d680dc433ae232bbc",
+          "file": "data/companies.json",
+          "locator": "/companies/91",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0271",
+          "subjectId": "R0271",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Intelligent Transport Systems; Traffic Engineering; Data Engineering and Interoperability; Geospatial Computing",
+          "recordSha256": "9f1f988d65792bc0dc517bfc117b21286b4e8ab073c859e579d450fcc4932f3a",
+          "file": "data/researchers.json",
+          "locator": "/researchers/270",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-03403",
+          "subjectId": "R0271",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Benchmarking Trajectory Segmentation Methods for Detecting Stop Events in Fleet GPS Data",
+          "recordSha256": "67f0bb86f575a25dcc785d2ffd297e9dbb23464835641ae36d333370b127e249",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3403,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3403"
+        },
+        {
+          "sourceId": "SYN-PUB-03403",
+          "subjectId": "R0271",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Accurate automated detection of stop events—periods when a vehicle is stationary at a customer location, depot, or traffic signal—is a prerequisite for reliable trip chaining and dwell-time modelling in logistics applications. This paper benchmarks six segmentation methods against a manually labelled reference dataset of 1,180 trips from a regional courier operator, covering approximately 28,000 km of driving over four weeks. Methods include speed threshold, speed-and-duration threshold, density-based spatial clustering, change-point detection, and two hybrid variants. Evaluation metrics are precision, recall, and mean positional error of stop onset and offset times. The density-based method achieves the best F1 score of 0.91 but requires careful bandwidth selection; the speed-and-duration threshold method reaches F1 = 0.87 with no hyperparameter tuning and is recommended as a baseline. The paper characterises failure cases associated with urban congestion, which degrades all methods by up to 9 percentage points in F1.",
+          "recordSha256": "67f0bb86f575a25dcc785d2ffd297e9dbb23464835641ae36d333370b127e249",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3403,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3403"
+        },
+        {
+          "sourceId": "SYN-PUB-03404",
+          "subjectId": "R0271",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Federated Data Exchange for Regional Freight Telematics: A Pilot Between Serbian and Romanian Operators",
+          "recordSha256": "37391f1866df846131ce42303965b2a16032a6db80d02407d4edaeed1dfea4d1",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3404,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3404"
+        },
+        {
+          "sourceId": "SYN-PUB-03404",
+          "subjectId": "R0271",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Cross-border freight operations in Southeast Europe involve multiple national telematics platforms that do not share a common interface standard, forcing operators to manage parallel systems and creating gaps in journey visibility at border crossings. This paper reports on a pilot federated exchange architecture developed under a bilateral research agreement, connecting telematics back-ends of two Serbian and two Romanian freight operators without requiring centralised data storage. The architecture uses a REST-based gateway with OAuth 2.0 authentication and a shared positional event schema negotiated among the four operators. During a three-month pilot covering 214 cross-border journeys, end-to-end position update latency across the federation averaged 1.4 seconds, and schema compliance reached 98.3 % of transmitted messages. Governance challenges—particularly around liability for data quality and divergent national regulations on driver data—are documented as lessons learned for future regional deployments.",
+          "recordSha256": "37391f1866df846131ce42303965b2a16032a6db80d02407d4edaeed1dfea4d1",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3404,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3404"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can a standardized data processing agreement and operational protocol be developed to comply with German Betriebsrat co-determination rules for driver monitoring?",
+        "experiment": "Draft a reusable data processing framework and standard addendum adaptable for German customers, using existing GDPR compliance structures and the federated exchange architecture from SYN-PUB-03404.",
+        "metric": "Number of German customers who accept the framework as compliant with Betriebsrat rules within 30 days.",
+        "successCriterion": "Proposed gate: measure Number of German customers who accept the framework as compliant with Betriebsrat rules within 30 days. on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Research methods align with data processing needs and federated exchange architecture supports reusable framework."
+      }
+    },
+    "shortlist": [
+      "R0272",
+      "R0271",
+      "R0968"
+    ],
+    "selection": {
+      "researcherId": "R0271",
+      "reason": "R0271's work with GPS and telematics data aligns with the need for a data processing framework and standard addendum for German customers."
+    },
+    "industryReview": "The company has a data science team and allocates 20% of engineering time to applied research, indicating a capacity to conduct pilot research. The challenge involves a specific legal and regulatory issue (German co-determination law) that亟",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"collect\" OR \"location\" OR \"driving\" OR \"behaviour\" OR \"continuously\" OR \"trucks\" OR \"german\" OR \"fleet\" OR \"operators\" OR \"told\" OR \"before\" OR \"sign\" OR \"processing\" OR \"agreement\" OR \"satisfies\" OR \"council\" OR \"betriebsrat\" OR \"determination\" OR \"rules\" OR \"around\" OR \"employee\" OR \"monitoring\" OR \"serbian\" OR \"lawyers\" OR \"never\" OR \"dealt\" OR \"gps\" OR \"position\" OR \"speed\" OR \"acceleration\" OR \"braking\" OR \"events\" OR \"second\" OR \"intervals\" OR \"every\" OR \"truck\" OR \"customer\" OR \"polish\" OR \"austrian\" OR \"customers\" OR \"problem\" OR \"prospects\" OR \"both\" OR \"mid\" OR \"sized\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 203388,
+      "modelCalls": 4,
+      "inputTokens": 3994,
+      "outputTokens": 287
+    }
+  },
+  {
+    "caseId": "N16",
+    "challengeId": "C140-CH1",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C140-CH1",
+      "companyId": "C140",
+      "companyName": "Paladin Osiguranje Tehnologije d.o.o.",
+      "researcherId": "R0364",
+      "researcherName": "Žarko Pejić",
+      "claims": [
+        {
+          "sourceId": "C140-CH1",
+          "subjectId": "C140",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "Our parametric crop insurance pays out when rainfall drops below a threshold, but we have had three disputes this year where our weather-station reading differed from what the farmer experienced on the ground; we need a more spatially accurate precipitation estimate at field level rather than relying on a single station 15 km away.",
+          "recordSha256": "12c4772d126701197aee579ce5f322ffa87629cb470646d38cba561dd6264e68",
+          "file": "data/companies.json",
+          "locator": "/companies/139/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C140-CH1",
+          "subjectId": "C140",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "Our crop insurance pays out automatically when cumulative rainfall over a defined window drops below a contracted threshold. The data source is the Serbian Hydrometeorological Service station network, and in Vojvodina some stations are up to 15 or 20 km from the insured field. This year we had three formal disputes where farmers showed us their own rain-gauge records that were meaningfully different from what the nearest station recorded. In two cases we paid out anyway to preserve the relationship, but that is not a sustainable approach. We have tried blending ERA5 reanalysis data with station readings but the spatial resolution is still not fine enough for individual parcels. We have access to the cadastral parcel boundaries for all insured fields, historical station data going back 30 years, and a small set of on-farm sensors we placed with pilot customers last season. We do not have the internal expertise to build a proper spatial interpolation or downscaling model. We need something that can produce a defensible, auditable precipitation estimate at the field-parcel level for any day in our policy period. A good outcome is a method we can integrate into our existing trigger calculation engine before the 2025 spring planting season.",
+          "recordSha256": "12c4772d126701197aee579ce5f322ffa87629cb470646d38cba561dd6264e68",
+          "file": "data/companies.json",
+          "locator": "/companies/139/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C140",
+          "subjectId": "C140",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Insurtech",
+          "recordSha256": "e30b0bca73b3f711b30257922a8e0dfe92b30fcb9fa304973a0dfed2baa0bbc4",
+          "file": "data/companies.json",
+          "locator": "/companies/139",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0364",
+          "subjectId": "R0364",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Remote Sensing and Earth Observation; Hydrometeorology and Climatology; Agricultural Risk and Insurance; Spatial Statistics and GIS",
+          "recordSha256": "0c63934de7b397ef0a593090b2ece6b6ad5cb31fc3b7d9eeac69fbeeb4952047",
+          "file": "data/researchers.json",
+          "locator": "/researchers/363",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-04014",
+          "subjectId": "R0364",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Constructing a 25-Year Field-Scale Rainfall Archive for Vojvodina and Its Application to Historical Burn Analysis of Parametric Crop Insurance",
+          "recordSha256": "1cc232be419a87bac4fb74cbeaa24208b478cd712c1c1438e2006f8432e3e390",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4014,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4014"
+        },
+        {
+          "sourceId": "SYN-PUB-04014",
+          "subjectId": "R0364",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Actuarially sound index insurance products require long historical records at the spatial resolution at which policies will be written. This paper describes the construction of a daily, 1 km resolution rainfall archive for Vojvodina spanning 1999–2023, produced by applying the KED downscaling framework to a blended ERA5–IMERG covariate and using all available station records (29–48 stations per year depending on network completeness). Archive consistency across the pre-IMERG era was maintained by substituting TMPA 3B42 for years before 2014 after demonstrating statistically equivalent covariate performance. A burn analysis was performed for three parametric products—sowing-period deficit, flowering-period excess, and grain-filling deficit—for maize and sunflower across 1,214 cadastral municipalities. Mean annual payout frequencies under tested trigger calibrations ranged from 14% to 27% depending on product and crop. The archive and analysis scripts are made publicly available. These outputs are intended to support insurers and reinsurers operating in the Pannonian agricultural zone in setting actuarially fair premiums.",
+          "recordSha256": "1cc232be419a87bac4fb74cbeaa24208b478cd712c1c1438e2006f8432e3e390",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4014,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4014"
+        },
+        {
+          "sourceId": "SYN-PUB-04461",
+          "subjectId": "R0364",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Kriging with External Drift Using IMERG Precipitation as a Covariate for Sub-Monthly Rainfall Mapping at 1 km Resolution in Northern Serbia",
+          "recordSha256": "975964fddb19db61bc1c2d950cf006d60dd70c6829af6202e133fb80a492b0fd",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4461,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4461"
+        },
+        {
+          "sourceId": "SYN-PUB-04461",
+          "subjectId": "R0364",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This study applied kriging with external drift (KED) to downscale 10-day accumulated rainfall to a 1 km grid over northern Serbia, using GPM IMERG Late Run estimates as the external drift variable and data from 31 ground stations as primary observations. The analysis covered the 2014–2018 growing seasons (April–September). IMERG values were resampled from their native 0.1° resolution to 1 km using bilinear interpolation before entering the KED framework. Leave-one-out cross-validation showed that KED reduced RMSE by 21% relative to ordinary kriging and by 34% relative to IDW, averaged across the study period. Performance gains were most pronounced during spatially heterogeneous convective periods in June and July. The resulting 1 km grids captured within-field rainfall gradients of up to 15 mm per 10-day period across large agricultural parcels, which ordinary kriging had smoothed over. Maps produced in this study were subsequently used as candidate index layers for parametric crop insurance pilot design.",
+          "recordSha256": "975964fddb19db61bc1c2d950cf006d60dd70c6829af6202e133fb80a492b0fd",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4461,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4461"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can KED downscaling with IMERG improve spatial accuracy of precipitation at 1 km resolution for Vojvodina field-parcels?",
+        "experiment": "Apply KED with IMERG as external drift to interpolate precipitation across 1 km grid using 31 stations and cadastral boundaries",
+        "metric": "RMSE between interpolated and station records for 2023",
+        "successCriterion": "Proposed gate: measure RMSE between interpolated and station records for 2023 on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "KED with IMERG aligns with the need for 1 km resolution and spatial accuracy in Vojvodina, matching the company's field-level precipitation requirement."
+      }
+    },
+    "shortlist": [
+      "R0364",
+      "R0727",
+      "R0700"
+    ],
+    "selection": {
+      "researcherId": "R0364",
+      "reason": "R0364's work on downscaling and spatial interpolation aligns directly with the need for field-level precipitation estimates, as evidenced by their 1 km resolution archive and KED method."
+    },
+    "industryReview": "The company has a clear technical problem - producing accurate precipitation estimates at the field level - and a testable unknown - how to improve spatial accuracy without existing in-house expertise. They have access to relevant data anda",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"parametric\" OR \"crop\" OR \"insurance\" OR \"pays\" OR \"out\" OR \"rainfall\" OR \"drops\" OR \"below\" OR \"threshold\" OR \"three\" OR \"disputes\" OR \"year\" OR \"weather\" OR \"station\" OR \"reading\" OR \"differed\" OR \"farmer\" OR \"experienced\" OR \"ground\" OR \"spatially\" OR \"accurate\" OR \"precipitation\" OR \"estimate\" OR \"field\" OR \"level\" OR \"rather\" OR \"relying\" OR \"single\" OR \"away\" OR \"automatically\" OR \"cumulative\" OR \"defined\" OR \"window\" OR \"contracted\" OR \"source\" OR \"serbian\" OR \"hydrometeorological\" OR \"service\" OR \"network\" OR \"vojvodina\" OR \"stations\" OR \"insured\" OR \"formal\" OR \"farmers\" OR \"showed\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 224596,
+      "modelCalls": 4,
+      "inputTokens": 4459,
+      "outputTokens": 283
+    }
+  },
+  {
+    "caseId": "N17",
+    "challengeId": "C147-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "Komplicirano pitanje o detekciji mastitisa pre simptoma zahtijeva napredniji model koji uzima u obzir kombinaciju parametara tokom vremena, a dostupni podaci su nebalansirani i nedovoljno kvalitetni. Ograničen kapacitet unutrašnjeg tima i o",
+    "industryClassification": "RESEARCH",
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 167301,
+      "modelCalls": 2,
+      "inputTokens": 667,
+      "outputTokens": 149
+    }
+  },
+  {
+    "caseId": "N18",
+    "challengeId": "C038-CH1",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C038-CH1",
+      "companyId": "C038",
+      "companyName": "TalentMost d.o.o.",
+      "researcherId": "R0707",
+      "researcherName": "Dragana Radović",
+      "claims": [
+        {
+          "sourceId": "C038-CH1",
+          "subjectId": "C038",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "Our matching algorithm ranks candidates well for software roles but performs poorly for skilled-trades positions like CNC operators or maintenance electricians; hiring managers in manufacturing say the top-10 lists are 'basically random' and we're losing three accounts a month over it.",
+          "recordSha256": "2484a8ebfc979aa856433a8d26cc3d096cbc05dbc57ca1976312f4fcb96b9ddf",
+          "file": "data/companies.json",
+          "locator": "/companies/37/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C038-CH1",
+          "subjectId": "C038",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "The matching engine was trained mostly on IT and office job data because that is what our early customers gave us. When manufacturers started using the platform for roles like CNC machine operators, press-brake setters, or maintenance electricians, the competency ontology we built did not have the right nodes. Skills like 'reads technical drawings' or 'operates Fanuc controller' just get lumped into a generic 'technical skill' bucket and the scoring collapses. We ran an internal audit last autumn and found that for software developer vacancies our top-10 hit rate against hiring-manager selection is around 71 percent; for skilled-trades roles it drops to 28 percent. We've tried manually adding trade-specific tags for a few clients, but it doesn't scale. We have annotated data from roughly 340 completed manufacturing hires we could use for retraining if someone helped us structure it properly. We need a better ontology for industrial trades and ideally a way to learn from the structured interview outcomes so the rankings improve over time. Losing three accounts a month means this needs a working prototype inside six months.",
+          "recordSha256": "2484a8ebfc979aa856433a8d26cc3d096cbc05dbc57ca1976312f4fcb96b9ddf",
+          "file": "data/companies.json",
+          "locator": "/companies/37/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C038",
+          "subjectId": "C038",
+          "kind": "company",
+          "field": "sector",
+          "quote": "HR tech",
+          "recordSha256": "401260be12088a2e2265723c8102f044f804cf6c2fcb2a6bcdb660fcd573dd4c",
+          "file": "data/companies.json",
+          "locator": "/companies/37",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0707",
+          "subjectId": "R0707",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Human Resource Management; Organisational Behaviour and Work Psychology; Industrial and Manufacturing Management; Vocational Education and Training Research",
+          "recordSha256": "fe1e78ed4d2ce850eb4dd7ef9694f628391cc4ca245392aa04fce0ae3e603fd0",
+          "file": "data/researchers.json",
+          "locator": "/researchers/706",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-07911",
+          "subjectId": "R0707",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Alignment Between Vocational Training Curricula and Employer Competency Expectations in Electrical Installation Trades",
+          "recordSha256": "a26c06c1397d029f49779e75a0a8ad8f5ee932676c9b2cd678139854865545f5",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7911,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7911"
+        },
+        {
+          "sourceId": "SYN-PUB-07911",
+          "subjectId": "R0707",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This study examines the degree of alignment between the competency content of secondary vocational school curricula for electrical installation and the competency expectations stated by employers hiring graduates into manufacturing maintenance roles. Curriculum content was coded from official syllabus documents across nine vocational schools in Vojvodina. Employer expectations were derived from structured interviews with 27 maintenance managers and from competency gap reports produced during the probationary periods of 84 recent hires. Alignment was assessed at the level of individual competency elements using a matching algorithm. Overall alignment was 61 percent, meaning that roughly one in three employer-required competency elements had no direct counterpart in the assessed curricula. Gaps were most pronounced in programmable logic controller troubleshooting, energy efficiency regulation, and documentation practices. The paper discusses possible curriculum revision mechanisms within the Serbian secondary vocational education framework and the role that employer associations could play in formal curriculum consultation processes.",
+          "recordSha256": "a26c06c1397d029f49779e75a0a8ad8f5ee932676c9b2cd678139854865545f5",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7911,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7911"
+        },
+        {
+          "sourceId": "SYN-PUB-07908",
+          "subjectId": "R0707",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Comparing National Qualification Frameworks for Metalworking Trades: Evidence from Serbia, Hungary and Romania",
+          "recordSha256": "1da240b6517ccd0cc27f810f9db742ded6348bea28f2d46e0241c4bae0ddb2b6",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7908,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7908"
+        },
+        {
+          "sourceId": "SYN-PUB-07908",
+          "subjectId": "R0707",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "National qualification frameworks (NQFs) in post-transition economies differ substantially in how they define and level metalworking occupations, creating barriers to cross-border labour mobility and corporate benchmarking. This paper presents a systematic comparative analysis of occupational descriptors for five metalworking trades—welder, CNC turner, toolmaker, sheet-metal worker, and quality control inspector—across Serbia, Hungary, and Romania. Qualification documents from each country's official NQF were coded using a common analytical scheme derived from the European Qualifications Framework referencing reports. Coding was performed by three independent raters; inter-rater agreement was satisfactory (Fleiss κ = 0.69). Results show that knowledge descriptors converge reasonably across countries, whereas skill and competency descriptors diverge markedly, particularly for autonomy and responsibility indicators. The analysis identifies 23 descriptor elements present in at least two frameworks but absent in the third. Practical implications are discussed for multinational manufacturers operating sites across the three countries.",
+          "recordSha256": "1da240b6517ccd0cc27f810f9db742ded6348bea28f2d46e0241c4bae0ddb2b6",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7908,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7908"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "How does retraining the competency ontology with manufacturing trade-specific skills improve matching accuracy for skilled-trades roles?",
+        "experiment": "Retrain the competency ontology using 340 annotated manufacturing hires, focusing on trade-specific skills like 'reads technical drawings' and 'operates Fanuc controller'.",
+        "metric": "Top-10 hit rate for skilled-trades roles",
+        "successCriterion": "Proposed gate: measure Top-10 hit rate for skilled-trades roles on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Researcher evidence aligns with company problem through competency ontology retraining and structured interview outcomes."
+      }
+    },
+    "shortlist": [
+      "R0308",
+      "R0707",
+      "R0819"
+    ],
+    "selection": {
+      "researcherId": "R0707",
+      "reason": "Researcher focuses on vocational education and competency alignment, directly relevant to improving skilled-trades ontology and structured interview outcomes."
+    },
+    "industryReview": "The company has a specific technical problem with their matching algorithm for skilled-trades roles, and they need a solution that can be developed within a six-month timeframe. They have access to annotated data and a dedicated team, which",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"matching\" OR \"algorithm\" OR \"ranks\" OR \"candidates\" OR \"software\" OR \"roles\" OR \"performs\" OR \"poorly\" OR \"skilled\" OR \"trades\" OR \"positions\" OR \"like\" OR \"cnc\" OR \"operators\" OR \"maintenance\" OR \"electricians\" OR \"hiring\" OR \"managers\" OR \"manufacturing\" OR \"say\" OR \"top\" OR \"lists\" OR \"basically\" OR \"random\" OR \"losing\" OR \"three\" OR \"accounts\" OR \"month\" OR \"engine\" OR \"was\" OR \"trained\" OR \"mostly\" OR \"office\" OR \"job\" OR \"because\" OR \"early\" OR \"customers\" OR \"gave\" OR \"manufacturers\" OR \"started\" OR \"platform\" OR \"machine\" OR \"press\" OR \"brake\" OR \"setters\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 191938,
+      "modelCalls": 4,
+      "inputTokens": 3879,
+      "outputTokens": 237
+    }
+  }
+]

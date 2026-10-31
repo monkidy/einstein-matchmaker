@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "verified_blocks": 12,
+  "total_blocks": 12,
+  "sourceFreezeSha256": "da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14",
+  "completed": [
+    {
+      "block": 1,
+      "mode": "parallel",
+      "caseIds": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06"
+      ],
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "block": 1,
+      "mode": "solo",
+      "caseIds": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06"
+      ],
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "block": 1,
+      "mode": "serial",
+      "caseIds": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06"
+      ],
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "block": 2,
+      "mode": "solo",
+      "caseIds": [
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12"
+      ],
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "block": 2,
+      "mode": "serial",
+      "caseIds": [
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 2,
+      "mode": "parallel",
+      "caseIds": [
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 3,
+      "mode": "serial",
+      "caseIds": [
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 3,
+      "mode": "parallel",
+      "caseIds": [
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 3,
+      "mode": "solo",
+      "caseIds": [
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 4,
+      "mode": "parallel",
+      "caseIds": [
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "X05",
+        "X06"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 4,
+      "mode": "solo",
+      "caseIds": [
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "X05",
+        "X06"
+      ],
+      "status": "NEW_VERIFIED"
+    },
+    {
+      "block": 4,
+      "mode": "serial",
+      "caseIds": [
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "X05",
+        "X06"
+      ],
+      "status": "NEW_VERIFIED"
+    }
+  ]
+}

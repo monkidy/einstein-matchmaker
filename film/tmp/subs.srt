@@ -1,0 +1,136 @@
+1
+00:00:00,600 --> 00:00:02,200
+A company has a problem.
+
+2
+00:00:02,680 --> 00:00:05,720
+Somewhere among a thousand researchers,
+one person can solve it.
+
+3
+00:00:05,800 --> 00:00:07,153
+Finding a name is easy.
+
+4
+00:00:07,840 --> 00:00:09,140
+Being right is not.
+
+5
+00:00:09,740 --> 00:00:11,660
+I am Asso, from SYSTASYS.
+
+6
+00:00:11,740 --> 00:00:13,160
+This is EINSTEIN Matchmaker.
+
+7
+00:00:13,240 --> 00:00:18,920
+Four agents read the same challenge at the
+same time, on one model running on our own
+
+8
+00:00:19,000 --> 00:00:19,760
+machine.
+
+9
+00:00:19,840 --> 00:00:21,020
+No hosted API.
+
+10
+00:00:21,100 --> 00:00:22,040
+No key.
+
+11
+00:00:22,120 --> 00:00:23,649
+Nothing is sent to anyone.
+
+12
+00:00:23,920 --> 00:00:26,460
+Two of them think at the very same
+instant.
+
+13
+00:00:27,000 --> 00:00:29,294
+You do not have to take my word for it.
+
+14
+00:00:29,400 --> 00:00:33,540
+The inference server records which of its
+slots are busy, all the way through.
+
+15
+00:00:33,620 --> 00:00:37,940
+Five thousand of the nearly eight thousand
+samples show two slots working at once.
+
+16
+00:00:38,020 --> 00:00:40,020
+Sixty three percent of the compute.
+
+17
+00:00:40,100 --> 00:00:44,140
+Then an independent critic reads the
+proposal, and the sources under it.
+
+18
+00:00:44,220 --> 00:00:49,220
+Every claim has to quote a field, with its
+record hash and a link into the
+organizer's
+
+19
+00:00:49,300 --> 00:00:53,480
+own dataset. When the evidence is thin,
+the system says no.
+
+20
+00:00:53,560 --> 00:00:54,972
+Out loud, with a reason.
+
+21
+00:00:55,720 --> 00:00:59,040
+In the verified block, two proposals were
+accepted.
+
+22
+00:00:59,600 --> 00:01:01,482
+One was refused on the evidence.
+
+23
+00:01:01,700 --> 00:01:03,000
+Three ran out of time.
+
+24
+00:01:03,440 --> 00:01:07,580
+We count those three apart, because a case
+that ends on the clock has said nothing
+about
+
+25
+00:01:07,660 --> 00:01:12,840
+its sources. We do not claim that four
+agents answer better than one.
+
+26
+00:01:13,520 --> 00:01:18,280
+There is no answer key for these
+challenges, so that question stays open,
+and the repository
+
+27
+00:01:18,360 --> 00:01:19,960
+says so in its first table.
+
+28
+00:01:20,880 --> 00:01:24,360
+A system that cannot refuse cannot be
+trusted when it accepts.
+
+29
+00:01:24,440 --> 00:01:25,940
+EINSTEIN Matchmaker.
+
+30
+00:01:27,020 --> 00:01:30,785
+The code, the traces and the verdicts are
+all in the repository.

@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "mode": "serial",
+  "cases": 6,
+  "accepted": 5,
+  "source_claims_independently_verified": 40,
+  "negative_controls": 0,
+  "negative_controls_abstained": 0,
+  "concurrency": {
+    "parallel_proven": false,
+    "case_ids": [],
+    "distinct_agents": 4,
+    "mozaik_answers": 24
+  },
+  "client_only_false_concurrency_rejected": true,
+  "same_agent_false_concurrency_rejected": true,
+  "verified_peer_events": 72,
+  "verified_actual_model_responses": 24,
+  "hidden_jury_gold_available": false,
+  "usefulness_uplift_proven": false,
+  "verifier": "raw-file Python implementation independent of Node app/SQLite scorer"
+}

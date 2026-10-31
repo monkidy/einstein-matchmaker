@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspaces/.cu0070-einstein-v3-20261030/einstein-proof/scripts/run_local.py", line 27, in <module>
+    else: raise RuntimeError('LOCAL_ENGINE_HEALTH_TIMEOUT')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: LOCAL_ENGINE_HEALTH_TIMEOUT

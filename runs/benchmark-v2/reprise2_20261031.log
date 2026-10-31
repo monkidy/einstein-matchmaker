@@ -1,0 +1,230 @@
+BLOCK_VERIFIED 1 parallel 1 /12
+BLOCK_VERIFIED 1 solo 2 /12
+BLOCK_VERIFIED 1 serial 3 /12
+BLOCK_VERIFIED 2 solo 4 /12
+QUARANTINED_PARTIAL /workspaces/.cu0070-einstein-v3-20261030/einstein-proof/runs/benchmark-v2/quarantine/block-2-serial-1793439281851
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N07","status":"ABSTAIN","pair":"C141/R0951","ms":301590,"modelCalls":4,"reason":"Uncertain link between technical documentation analysis and EU COSME grant criteria. No direct evidence supports how analyzing regulatory frameworks would reframe innovation for grant success."}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N08","status":"ACCEPTED","pair":"C076/R0870","ms":254271,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N09","status":"ACCEPTED","pair":"C077/R0615","ms":228414,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N10","status":"ACCEPTED","pair":"C021/R0547","ms":222729,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N11","status":"ACCEPTED","pair":"C093/R0684","ms":196883,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N12","status":"ACCEPTED","pair":"C059/R0803","ms":215493,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T09:34:42.453Z","finishedUtc":"2026-10-31T09:58:22.014Z","mode":"serial","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"72fe3117-8c10-49ba-9f44-5adc606659f4","name":"research","capabilities":["research"],"role":"agent"},{"id":"07e7ebd4-7919-4eea-8792-82febd1c6854","name":"industry","capabilities":["industry"],"role":"agent"},{"id":"9fe2149c-de46-44aa-aed8-b425de2b3e2f","name":"writer","capabilities":["writer"],"role":"agent"},{"id":"83dd78f8-096e-47f0-a208-5e7a1ffdd0d3","name":"critic","capabilities":["critic"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["N07","N08","N09","N10","N11","N12"],"cases":6,"accepted":5,"abstained":1,"modelCalls":24,"inputTokens":27299,"outputTokens":1476,"wallMs":1419562,"engineCpuTicks":526872,"peakServerSlots":1,"sharedStateResults":24,"peerEvents":72,"resultsSha256":"054a271bcac565fcf230f646eb36742ab886d9c236cfe62d47b15bd56a73c664","traceSha256":"0fb0772cfc3db393023fb43077a17e8eec5a62fcf2fdc251cb3f233494843fa3","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 2 serial 5 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N07","status":"ABSTAIN","pair":null,"ms":120269,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N08","status":"ABSTAIN","pair":null,"ms":120347,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N09","status":"ABSTAIN","pair":null,"ms":120248,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N10","status":"ACCEPTED","pair":"C021/R0547","ms":236013,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N11","status":"ACCEPTED","pair":"C093/R0684","ms":194741,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N12","status":"ACCEPTED","pair":"C059/R0803","ms":212500,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T09:58:23.406Z","finishedUtc":"2026-10-31T10:15:07.588Z","mode":"parallel","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"7a42ab6e-0436-4d49-b264-53ceadc1222f","name":"research","capabilities":["research"],"role":"agent"},{"id":"8e8deae0-f72a-4424-a0d1-b107ebe48bc1","name":"industry","capabilities":["industry"],"role":"agent"},{"id":"7ff76e6b-9c76-46e3-a507-c0f8b4c32879","name":"writer","capabilities":["writer"],"role":"agent"},{"id":"6d35e59a-3ecb-40b5-a1be-115c9c3d541f","name":"critic","capabilities":["critic"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["N07","N08","N09","N10","N11","N12"],"cases":6,"accepted":3,"abstained":3,"modelCalls":18,"inputTokens":12780,"outputTokens":726,"wallMs":1004182,"engineCpuTicks":384774,"peakServerSlots":2,"sharedStateResults":18,"peerEvents":54,"resultsSha256":"6227588e554356177b8cfa9cb58773f702ae6bb69f271a8037fec0faff4a62cf","traceSha256":"e299ae59a0a930404d4cf116db0c4e69e8b4415ec8e41e9a7abd0409d746d514","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 2 parallel 6 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N13","status":"ACCEPTED","pair":"C115/R0538","ms":219091,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N14","status":"ACCEPTED","pair":"C085/R0595","ms":195204,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N15","status":"ACCEPTED","pair":"C092/R0271","ms":203388,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N16","status":"ACCEPTED","pair":"C140/R0364","ms":224596,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N17","status":"ABSTAIN","pair":null,"ms":167301,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"N18","status":"ACCEPTED","pair":"C038/R0707","ms":191938,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T10:15:08.706Z","finishedUtc":"2026-10-31T10:35:10.272Z","mode":"serial","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"b8e69c2f-50fb-49a8-a865-5da0ad12d174","name":"research","capabilities":["research"],"role":"agent"},{"id":"d89428a2-eeea-47a2-9c79-6cc3db9bec72","name":"industry","capabilities":["industry"],"role":"agent"},{"id":"50d28a43-05b2-41ea-9fb5-c3556dba2e18","name":"writer","capabilities":["writer"],"role":"agent"},{"id":"68b98634-9264-4eca-bde1-1244414d0d6e","name":"critic","capabilities":["critic"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["N13","N14","N15","N16","N17","N18"],"cases":6,"accepted":5,"abstained":1,"modelCalls":22,"inputTokens":21433,"outputTokens":1417,"wallMs":1201567,"engineCpuTicks":458641,"peakServerSlots":1,"sharedStateResults":22,"peerEvents":66,"resultsSha256":"6214a3f5caa53ada835b266d33286223c9674034e2a15a10f514d8dcfc0c1a8c","traceSha256":"532ac4bb0bd89e56564364da7d365dbad37e23116d6ba33814e15d8c72b2fe15","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 3 serial 7 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N13","status":"ACCEPTED","pair":"C115/R0538","ms":216519,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N14","status":"ACCEPTED","pair":"C085/R0595","ms":192845,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N15","status":"ACCEPTED","pair":"C092/R0271","ms":200396,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N16","status":"ACCEPTED","pair":"C140/R0364","ms":223707,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N17","status":"ABSTAIN","pair":null,"ms":120201,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"N18","status":"ABSTAIN","pair":null,"ms":120440,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T10:35:11.557Z","finishedUtc":"2026-10-31T10:53:05.795Z","mode":"parallel","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"c6908312-5554-4e94-afcd-f0da5e0c29a9","name":"research","capabilities":["research"],"role":"agent"},{"id":"ba8785b5-9940-4ece-a51a-0edd236ef2ae","name":"industry","capabilities":["industry"],"role":"agent"},{"id":"58c7617f-b1bf-43aa-86fd-87809a68f932","name":"writer","capabilities":["writer"],"role":"agent"},{"id":"c5153809-24ab-45a0-b48a-f3751870282c","name":"critic","capabilities":["critic"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["N13","N14","N15","N16","N17","N18"],"cases":6,"accepted":4,"abstained":2,"modelCalls":20,"inputTokens":17396,"outputTokens":1113,"wallMs":1074238,"engineCpuTicks":414056,"peakServerSlots":2,"sharedStateResults":20,"peerEvents":60,"resultsSha256":"4c8fab891b07db8edf848836a454d2ea7f54907dcd07c7aa2294870c6187c50a","traceSha256":"bc70c94c8905efef31ea4495518da0b604ea37cb9c8c9df8a1d112bc28585843","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 3 parallel 8 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"N13","status":"ACCEPTED","pair":"C115/R0538","ms":218432,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"N14","status":"ACCEPTED","pair":"C085/R0595","ms":194767,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"N15","status":"ACCEPTED","pair":"C092/R0271","ms":202971,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"N16","status":"ACCEPTED","pair":"C140/R0364","ms":224223,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"N17","status":"ABSTAIN","pair":null,"ms":166092,"modelCalls":2,"reason":"The operation was aborted due to timeout"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"N18","status":"ACCEPTED","pair":"C038/R0707","ms":192263,"modelCalls":4,"reason":"INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T10:53:19.393Z","finishedUtc":"2026-10-31T11:13:18.224Z","mode":"solo","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"56a0a16e-857d-4936-a62f-bb2868d65f24","name":"Single evidence agent","capabilities":["solo"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["N13","N14","N15","N16","N17","N18"],"cases":6,"accepted":5,"abstained":1,"modelCalls":22,"inputTokens":21433,"outputTokens":1417,"wallMs":1198831,"engineCpuTicks":457991,"peakServerSlots":1,"sharedStateResults":22,"peerEvents":0,"resultsSha256":"22bd08b7bbb27b655f69522540ef2619ad6597414302705ef01d0ec94f73f5e9","traceSha256":"0537c8fff57d59d7e6afbcb0b9ccc9cd2df7edcab8959440bf9ce90e3de2a4ff","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 3 solo 9 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"X01","status":"ABSTAIN","pair":null,"ms":29213,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"X02","status":"ABSTAIN","pair":null,"ms":67560,"modelCalls":1,"reason":"INDUSTRY_INSUFFICIENT"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"X03","status":"ABSTAIN","pair":null,"ms":53,"modelCalls":0,"reason":"CHALLENGE_NOT_FOUND"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"X04","status":"ABSTAIN","pair":null,"ms":30197,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"X05","status":"ABSTAIN","pair":null,"ms":65412,"modelCalls":1,"reason":"INDUSTRY_INSUFFICIENT"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"parallel","caseId":"X06","status":"ABSTAIN","pair":null,"ms":31681,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T11:13:19.274Z","finishedUtc":"2026-10-31T11:17:03.397Z","mode":"parallel","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"2b576234-4cb1-47d5-b930-fd594fd3c8e6","name":"research","capabilities":["research"],"role":"agent"},{"id":"c877ff2a-5954-4b4b-9d89-a1bb6e5e815a","name":"industry","capabilities":["industry"],"role":"agent"},{"id":"b52834f2-f63d-415f-8029-d00c77d28bfd","name":"writer","capabilities":["writer"],"role":"agent"},{"id":"55c8a54c-d4e6-4d5c-841a-7b9b0a905933","name":"critic","capabilities":["critic"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["X01","X02","X03","X04","X05","X06"],"cases":6,"accepted":0,"abstained":6,"modelCalls":5,"inputTokens":4408,"outputTokens":346,"wallMs":224123,"engineCpuTicks":86283,"peakServerSlots":1,"sharedStateResults":18,"peerEvents":54,"resultsSha256":"303a8e28377816444a8ce38c38a3e326d5e21f7227c074f867448d05a1111ea0","traceSha256":"4a8965f246ea235782a596bb1bf5cf64c300232103317e758416a44557eacd2d","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 4 parallel 10 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"X01","status":"ABSTAIN","pair":null,"ms":29739,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"X02","status":"ABSTAIN","pair":null,"ms":68193,"modelCalls":1,"reason":"INDUSTRY_INSUFFICIENT"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"X03","status":"ABSTAIN","pair":null,"ms":71,"modelCalls":0,"reason":"CHALLENGE_NOT_FOUND"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"X04","status":"ABSTAIN","pair":null,"ms":30551,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"X05","status":"ABSTAIN","pair":null,"ms":65924,"modelCalls":1,"reason":"INDUSTRY_INSUFFICIENT"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"solo","caseId":"X06","status":"ABSTAIN","pair":null,"ms":31743,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T11:17:04.396Z","finishedUtc":"2026-10-31T11:20:50.720Z","mode":"solo","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"d4de60a7-d6a3-4087-881b-f1ff0d5884dc","name":"Single evidence agent","capabilities":["solo"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["X01","X02","X03","X04","X05","X06"],"cases":6,"accepted":0,"abstained":6,"modelCalls":5,"inputTokens":4408,"outputTokens":346,"wallMs":226324,"engineCpuTicks":86123,"peakServerSlots":1,"sharedStateResults":18,"peerEvents":0,"resultsSha256":"9bc35f931f4c8ef2e75e7205bec3631e3284a5e2202662513591b5f16e47179b","traceSha256":"0b4296574d9352487a5c56d3fa34b831dd376359f3f31cea60b557b58e9f7af4","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 4 solo 11 /12
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"X01","status":"ABSTAIN","pair":null,"ms":29474,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"X02","status":"ABSTAIN","pair":null,"ms":68056,"modelCalls":1,"reason":"INDUSTRY_INSUFFICIENT"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"X03","status":"ABSTAIN","pair":null,"ms":70,"modelCalls":0,"reason":"CHALLENGE_NOT_FOUND"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"X04","status":"ABSTAIN","pair":null,"ms":30770,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"X05","status":"ABSTAIN","pair":null,"ms":67219,"modelCalls":1,"reason":"INDUSTRY_INSUFFICIENT"}
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+mozaik cloud: no API key — telemetry disabled. Set MOZAIK_API_KEY, or run `npx @mozaik-ai/cloud-sdk pair` to connect this machine.
+{"mode":"serial","caseId":"X06","status":"ABSTAIN","pair":null,"ms":31738,"modelCalls":1,"reason":"NO_RESEARCH_EVIDENCE"}
+RUN_RECEIPT {"schema":"EINSTEIN_PROOF_RUN_V1","startedUtc":"2026-10-31T11:20:51.720Z","finishedUtc":"2026-10-31T11:24:39.064Z","mode":"serial","runtime":"@mozaik-ai/core@4.2.0","agents":[{"id":"93763406-fc77-48bd-9dc3-dc1ce7389e86","name":"research","capabilities":["research"],"role":"agent"},{"id":"2e3947b4-f3cd-40ee-8fe7-10185f74c843","name":"industry","capabilities":["industry"],"role":"agent"},{"id":"e44b80bd-1ef5-4a18-b6dc-f5032072766f","name":"writer","capabilities":["writer"],"role":"agent"},{"id":"f4be589c-f54b-4b9a-9f71-fc35b65bbea1","name":"critic","capabilities":["critic"],"role":"agent"}],"corpusSha256":"bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224","protocolSha256":"fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33","sourceFreezeSha256":"da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14","assets":{"modelSha256":"7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5","engineSha256":"9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551","modelRevision":"bc640142c66e1fdd12af0bd68f40445458f3869b"},"caseIds":["X01","X02","X03","X04","X05","X06"],"cases":6,"accepted":0,"abstained":6,"modelCalls":5,"inputTokens":4408,"outputTokens":346,"wallMs":227344,"engineCpuTicks":86303,"peakServerSlots":1,"sharedStateResults":18,"peerEvents":54,"resultsSha256":"64da051dfc02c5407fc6b47f0f6edbe95a4612be9088d6ce5c13e1ff47128f62","traceSha256":"2e00733dc2e2f1f76f89e1680e44316c129925b4147524a8b1755b79235faf23","paidProviderCalls":0,"hostedInferenceCalls":0,"publication":false,"submission":false,"fictionalDataset":true,"resourceCeilings":{"callsPerCase":4,"outputTokensPerCall":180,"inputCharsPerCall":14000,"cpuThreads":4,"localServerSlots":2}}
+BLOCK_VERIFIED 4 serial 12 /12
+BENCHMARK_72_VERIFIED {"verified_blocks":12,"quality_uplift_proven":false}

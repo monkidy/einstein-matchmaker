@@ -1,5 +1,5 @@
 {
-  "checkpointUtc": "2026-10-31T07:40:00Z",
+  "checkpointUtc": "2026-10-31T11:50:00Z",
   "note": "Point-in-time state. The live verdict for the equal-resource comparison is runs/benchmark-v2/independent-verification.json, not this file. If the two disagree, the verification file wins.",
   "track": "EINSTEIN Matchmaker",
   "event": "NTP Novi Sad Hackathon (3alet), 30-31 October 2026",
@@ -22,22 +22,65 @@
   },
   "comparison": {
     "directory": "runs/benchmark-v2",
-    "blocksVerified": 1,
+    "blocksVerified": 12,
     "blocksTotal": 12,
     "caseArmsTotal": 72,
-    "completed": false,
-    "firstBlockWallSeconds": 974,
-    "arms": ["solo", "serial", "parallel"]
+    "completed": true,
+    "result": "PASS",
+    "arms": {
+      "solo": {
+        "agents": 1,
+        "accepted": 12,
+        "of": 24,
+        "negativeControlsRefused": 6,
+        "modelCalls": 73,
+        "wallMinutes": 67.0,
+        "peakSlots": 1
+      },
+      "serial": {
+        "agents": 4,
+        "accepted": 12,
+        "of": 24,
+        "negativeControlsRefused": 6,
+        "modelCalls": 71,
+        "wallMinutes": 67.1,
+        "peakSlots": 1
+      },
+      "parallel": {
+        "agents": 4,
+        "accepted": 9,
+        "of": 24,
+        "negativeControlsRefused": 6,
+        "modelCalls": 61,
+        "wallMinutes": 54.6,
+        "peakSlots": 2
+      }
+    },
+    "sourceClaimsIndependentlyVerified": 264,
+    "realModelResponses": 185,
+    "exactStatusAgreement": {
+      "soloVsSerial": "24/24",
+      "parallelVsSolo": "21/24",
+      "parallelVsSerial": "21/24"
+    },
+    "readsAs": "Concurrency bought 18.5 percent of wall time and cost 3 accepted cases out of 24. No quality uplift; a measured quality loss."
   },
   "honestCaveats": [
-    "Some abstentions are caused by the 120 s per-case deadline under a 4-call ceiling on 4 CPU threads, not by missing evidence. Timeout abstentions and evidence-based refusals must be reported separately.",
+    "Concurrency shows no quality advantage here. It shows a measured loss of 3 accepted cases out of 24, alongside an 18.5 percent gain in wall time.",
+    "The two sequential arms agree on all 24 cases, which is what makes the parallel gap attributable to concurrency rather than noise.",
+    "Some abstentions are caused by the per-call deadline rather than by missing evidence. Timeout abstentions and evidence-based refusals are reported separately.",
     "runs/development-initial used the rejected Qwen3-0.6B model and does not certify the final version. See evaluation/DEVELOPMENT_DISCLOSURE.md.",
-    "No organizer answer key exists for the natural cases, so no quality advantage is claimed."
+    "No organizer answer key exists for the natural cases, so no usefulness claim is made in either direction."
   ],
   "publication": true,
   "publicationNote": "Public repository opened on 2026-10-31 with the author's explicit approval.",
   "submission": true,
   "submissionNote": "Submitted to the organizers on 2026-10-31 as 'EINSTEIN Matchmaker: Proof or Abstain', EINSTEIN track, solo. Confirmed on the participant dashboard: in the public gallery. Resubmission is allowed until 20:00 CET and the latest entry is the one judged, so this repository may be updated again before the deadline.",
   "paidProviderCalls": 0,
-  "hostedInferenceCalls": 0
+  "hostedInferenceCalls": 0,
+  "video": {
+    "file": "film/einstein_matchmaker_demo.mp4",
+    "seconds": 92.88,
+    "narration": "synthetic voice (Asso, SYSTASYS), disclosed on the end card"
+  }
 }

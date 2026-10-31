@@ -1,0 +1,58 @@
+{
+  "schema": "EINSTEIN_PROOF_RUN_V1",
+  "startedUtc": "2026-10-31T07:35:24.014Z",
+  "finishedUtc": "2026-10-31T07:55:45.872Z",
+  "mode": "solo",
+  "runtime": "@mozaik-ai/core@4.2.0",
+  "agents": [
+    {
+      "id": "e0a9659b-5f8c-45e4-9a2f-aff92d2bcade",
+      "name": "Single evidence agent",
+      "capabilities": [
+        "solo"
+      ],
+      "role": "agent"
+    }
+  ],
+  "corpusSha256": "bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224",
+  "protocolSha256": "fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33",
+  "sourceFreezeSha256": "da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14",
+  "assets": {
+    "modelSha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+    "engineSha256": "9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551",
+    "modelRevision": "bc640142c66e1fdd12af0bd68f40445458f3869b"
+  },
+  "caseIds": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06"
+  ],
+  "cases": 6,
+  "accepted": 2,
+  "abstained": 4,
+  "modelCalls": 22,
+  "inputTokens": 21753,
+  "outputTokens": 1310,
+  "wallMs": 1221858,
+  "engineCpuTicks": 461280,
+  "peakServerSlots": 1,
+  "sharedStateResults": 22,
+  "peerEvents": 0,
+  "resultsSha256": "251b8026b03176f4d1fe4523dc58bd4d4ebf5f7083699964d8a19e43ce55ba62",
+  "traceSha256": "f55b46d282b65e703eafd4c318a42aa9afb4fc197493b0d57dd28f4f9d5d61dc",
+  "paidProviderCalls": 0,
+  "hostedInferenceCalls": 0,
+  "publication": false,
+  "submission": false,
+  "fictionalDataset": true,
+  "resourceCeilings": {
+    "callsPerCase": 4,
+    "outputTokensPerCall": 180,
+    "inputCharsPerCall": 14000,
+    "cpuThreads": 4,
+    "localServerSlots": 2
+  }
+}
