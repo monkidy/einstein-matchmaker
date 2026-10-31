@@ -1,0 +1,16 @@
+{
+  "name": "einstein-proof",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private hackathon build: concurrent evidence-constrained science-to-business proposals on Mozaik.",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "prepare:data": "python3 scripts/prepare_data.py",
+    "test": "node --test test/*.test.mjs",
+    "demo": "node src/cli.mjs demo",
+    "benchmark": "node scripts/benchmark.mjs",
+    "verify": "python3 scripts/independent_verify.py"
+  },
+  "dependencies": { "@mozaik-ai/core": "4.2.0" }
+}

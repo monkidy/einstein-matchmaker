@@ -1,0 +1,157 @@
+{
+  "protocol": "CU0070-EQUAL-RESOURCES-V1",
+  "seed": "CU0070-20261030-v1",
+  "corpus_sha256": "bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224",
+  "cases": [
+    {
+      "id": "N01",
+      "challenge_id": "C088-CH2",
+      "kind": "natural_unlabelled",
+      "sector": "Environmental engineering"
+    },
+    {
+      "id": "N02",
+      "challenge_id": "C102-CH3",
+      "kind": "natural_unlabelled",
+      "sector": "Medtech and digital health"
+    },
+    {
+      "id": "N03",
+      "challenge_id": "C058-CH3",
+      "kind": "natural_unlabelled",
+      "sector": "Manufacturing \u2013 flexible plastic packaging (multilayer films, pouches, thermoformed trays for food and non-food)"
+    },
+    {
+      "id": "N04",
+      "challenge_id": "C119-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "Marketing tech, media and creative studios"
+    },
+    {
+      "id": "N05",
+      "challenge_id": "C054-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "IoT hardware"
+    },
+    {
+      "id": "N06",
+      "challenge_id": "C108-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "Textiles"
+    },
+    {
+      "id": "N07",
+      "challenge_id": "C141-CH4",
+      "kind": "natural_unlabelled",
+      "sector": "Manufacturing \u2013 aluminium extrusion, cutting and surface finishing (anodising, powder coating)"
+    },
+    {
+      "id": "N08",
+      "challenge_id": "C076-CH2",
+      "kind": "natural_unlabelled",
+      "sector": "Proptech / urban planning software"
+    },
+    {
+      "id": "N09",
+      "challenge_id": "C077-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "Robotics and industrial automation"
+    },
+    {
+      "id": "N10",
+      "challenge_id": "C021-CH3",
+      "kind": "natural_unlabelled",
+      "sector": "Fintech \u2014 B2B payment infrastructure and reconciliation"
+    },
+    {
+      "id": "N11",
+      "challenge_id": "C093-CH3",
+      "kind": "natural_unlabelled",
+      "sector": "Cleantech \u2014 electric waste logistics and e-waste processing"
+    },
+    {
+      "id": "N12",
+      "challenge_id": "C059-CH2",
+      "kind": "natural_unlabelled",
+      "sector": "Logistics, transport and e-commerce"
+    },
+    {
+      "id": "N13",
+      "challenge_id": "C115-CH3",
+      "kind": "natural_unlabelled",
+      "sector": "Game development"
+    },
+    {
+      "id": "N14",
+      "challenge_id": "C085-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "Biotech, diagnostics and lab services"
+    },
+    {
+      "id": "N15",
+      "challenge_id": "C092-CH3",
+      "kind": "natural_unlabelled",
+      "sector": "Automotive and mobility software"
+    },
+    {
+      "id": "N16",
+      "challenge_id": "C140-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "Insurtech"
+    },
+    {
+      "id": "N17",
+      "challenge_id": "C147-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "Agri-tech"
+    },
+    {
+      "id": "N18",
+      "challenge_id": "C038-CH1",
+      "kind": "natural_unlabelled",
+      "sector": "HR tech"
+    },
+    {
+      "id": "X01",
+      "challenge_id": "C001-CH1",
+      "kind": "synthetic_negative",
+      "view": "no_research_sources",
+      "expected": "ABSTAIN"
+    },
+    {
+      "id": "X02",
+      "challenge_id": "C149-CH1",
+      "kind": "synthetic_negative",
+      "view": "no_company_sources",
+      "expected": "ABSTAIN"
+    },
+    {
+      "id": "X03",
+      "challenge_id": "C999-CH999",
+      "kind": "synthetic_negative",
+      "view": "missing_challenge",
+      "expected": "ABSTAIN"
+    },
+    {
+      "id": "X04",
+      "challenge_id": "C001-CH2",
+      "kind": "synthetic_negative",
+      "view": "no_research_sources",
+      "expected": "ABSTAIN"
+    },
+    {
+      "id": "X05",
+      "challenge_id": "C150-CH2",
+      "kind": "synthetic_negative",
+      "view": "no_company_sources",
+      "expected": "ABSTAIN"
+    },
+    {
+      "id": "X06",
+      "challenge_id": "C151-CH1",
+      "kind": "synthetic_negative",
+      "view": "no_research_sources",
+      "expected": "ABSTAIN"
+    }
+  ]
+}

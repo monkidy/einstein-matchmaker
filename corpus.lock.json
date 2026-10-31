@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/jigjoy-ai/einstein-matchmaker-data",
+  "revision": "4fb99b3749adf0d10b5977089ff4c73f4f522240",
+  "fictional": true,
+  "files": {
+    "data/researchers.json": {
+      "sha256_lf": "f0894a54adb054224b106e98376b67f34b301e96a6177a92d553389ec80db380",
+      "bytes_lf": 3256078
+    },
+    "data/companies.json": {
+      "sha256_lf": "d86dacced15cf3e48c267937fafe57c3270c182f88d78561e6bf0f47e23f36be",
+      "bytes_lf": 1210164
+    },
+    "data/projects.json": {
+      "sha256_lf": "62f952900699c81886fcbe57087905011aa20419b80e1d6c831e59ee3302a87e",
+      "bytes_lf": 2555742
+    },
+    "data/patents.json": {
+      "sha256_lf": "b1138c98e96b232d85f9752466237a5e3032082960514083853bb92d9d3ab51e",
+      "bytes_lf": 108527
+    },
+    "data/publications.jsonl": {
+      "sha256_lf": "a9f950cd6b7ff88c41091816a98dd60564ebaa499408061af27145013421bbe8",
+      "bytes_lf": 19590668
+    },
+    "data/company-pages.jsonl": {
+      "sha256_lf": "b914a08767aeaa5064ec37abd9cc4b6f453f0feedf53a24605d3c66268e51a23",
+      "bytes_lf": 1688965
+    },
+    "README.md": {
+      "sha256_lf": "201d31534101500af6c7fc6cea6db736ed29e7c527de8d4cb4ee8e42106782b5",
+      "bytes_lf": 3840
+    },
+    "docs/example-industrial-phd-topic.md": {
+      "sha256_lf": "7ad47417c463d6d576cf501cd384ba0759723adfb311c450f9aea4a4a1fad0c7",
+      "bytes_lf": 2597
+    }
+  }
+}

@@ -1,0 +1,179 @@
+[
+  {
+    "caseId": "DEMO1",
+    "challengeId": "C001-CH1",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C001-CH1",
+      "companyId": "C001",
+      "companyName": "ArmaturaSec d.o.o.",
+      "researcherId": "R1008",
+      "researcherName": "Krisztina Kiss",
+      "claims": [
+        {
+          "sourceId": "C001-CH1",
+          "subjectId": "C001",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We need to detect unusual behaviour on Modbus and BACnet networks without labelled attack data — our clients have never been breached (or don't know it), so we have zero examples of malicious traffic and supervised classifiers are useless to us.",
+          "recordSha256": "d4f06a5ff4f2e5b924523eee4a4770d5c563390088fdd8b96dfc36872dabb978",
+          "file": "data/companies.json",
+          "locator": "/companies/0/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C001-CH1",
+          "subjectId": "C001",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "Our ProtoSense module watches Modbus and BACnet traffic and is supposed to flag anything that looks wrong. The problem is that none of our clients has ever given us a packet capture that contains a confirmed attack. A few of them have been running their networks for twenty years with no security monitoring at all, so if they were compromised they would not know. We have plenty of normal traffic — we have collected several terabytes of captures from consenting clients over the past three years — but we have nothing labelled as malicious. We tried building a supervised classifier once, fed it data from public ICS datasets, and it flagged so many false positives in real deployments that clients started switching the alerts off. What we actually need is something that learns what normal looks like on a specific site and raises a flag when behaviour drifts from that baseline. We have the traffic archives, we have the hardware to run inference on-device, and we have one engineer who has been reading about anomaly detection for six months. We need a method that works with no attack examples and that we can explain to a plant manager in plain language.",
+          "recordSha256": "d4f06a5ff4f2e5b924523eee4a4770d5c563390088fdd8b96dfc36872dabb978",
+          "file": "data/companies.json",
+          "locator": "/companies/0/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C001",
+          "subjectId": "C001",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Cybersecurity",
+          "recordSha256": "d4f15953c5c1b3f9eb19323c7a56bbb28f80aa3431e23d182759de11b6c35c62",
+          "file": "data/companies.json",
+          "locator": "/companies/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R1008",
+          "subjectId": "R1008",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Industrial cybersecurity; Network traffic analysis; Machine learning and statistical modelling; Industrial control systems",
+          "recordSha256": "678666e23b6a3b1f2480202d58493eee9b728e6aa065534a906e698570e08977",
+          "file": "data/researchers.json",
+          "locator": "/researchers/1007",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-10477",
+          "subjectId": "R1008",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Anomaly Detection in Industrial Control Systems",
+          "recordSha256": "a15ba7bb6da9590b985bb72339541c5de1ea5a11823c6fbe97851ab919496dee",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10477,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10477"
+        },
+        {
+          "sourceId": "SYN-PUB-10477",
+          "subjectId": "R1008",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This book chapter surveys statistical and machine-learning approaches to anomaly detection in ICS environments, focusing on network-level traffic analysis rather than host-based or physical-process monitoring. The chapter covers the statistical properties of ICS traffic that distinguish it from enterprise IT traffic—determinism, periodicity, limited state space—and how these properties can be exploited by unsupervised methods. Covered algorithms include univariate control charts, multivariate Gaussian models, kernel density estimators, one-class SVMs, Isolation Forest, and autoencoders, with discussion of their assumptions, computational requirements, and suitability for embedded deployment. Protocol-specific considerations are provided for Modbus, DNP3, EtherNet/IP, and PROFINET. The chapter closes with a discussion of evaluation methodology challenges, including the scarcity of labelled datasets, the difficulty of representative attack injection, and the trade-off between false alarm rate and response latency. Representative results from the published literature are tabulated.",
+          "recordSha256": "a15ba7bb6da9590b985bb72339541c5de1ea5a11823c6fbe97851ab919496dee",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10477,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10477"
+        },
+        {
+          "sourceId": "SYN-PUB-10482",
+          "subjectId": "R1008",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Comparing Score Aggregation Strategies for Multi-Protocol ICS Anomaly Detection",
+          "recordSha256": "5b1d60e5601d36f4beee44446a25ac21c94f79c1fa42f08ea42998104dd0abb3",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10482,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10482"
+        },
+        {
+          "sourceId": "SYN-PUB-10482",
+          "subjectId": "R1008",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Industrial sites often run several ICS protocols concurrently; a single anomaly may manifest in traffic from multiple protocols or only one. This paper compares six score aggregation strategies—maximum, mean, product, Dempster-Shafer combination, learned linear combination, and a voting threshold rule—for combining per-protocol anomaly scores from Modbus, DNP3, and EtherNet/IP detectors deployed simultaneously on the same network segment. A testbed with all three protocol stacks was operated for 45 days, and 18 multi-protocol and single-protocol attack scenarios were injected over a 10-day evaluation period. The learned linear combination, trained on a 5-day clean holdout with synthetic contamination, achieved the highest balanced accuracy (0.91) but required labelled data for weight estimation. The Dempster-Shafer rule achieved 0.88 without labelled data. The maximum rule performed consistently below 0.80. Results provide concrete guidance for operators designing multi-sensor detection pipelines.",
+          "recordSha256": "5b1d60e5601d36f4beee44446a25ac21c94f79c1fa42f08ea42998104dd0abb3",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10482,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10482"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can unsupervised anomaly detection models distinguish Modbus/BACnet network behavior from normal traffic without labeled examples?",
+        "experiment": "Train a one-class SVM on 3 years of normal Modbus/BACnet traffic, then monitor new traffic for deviation from the baseline",
+        "metric": "Number of alerts flagged by the model that match known benign patterns in the traffic archives",
+        "successCriterion": "Proposed gate: measure Number of alerts flagged by the model that match known benign patterns in the traffic archives on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Researcher evidence includes unsupervised methods like one-class SVM and autoencoders suitable for ICS networks with no labeled data."
+      }
+    },
+    "shortlist": [
+      "R1008",
+      "R1015",
+      "R0856"
+    ],
+    "selection": {
+      "researcherId": "R1008",
+      "reason": "R1008's work on anomaly detection in ICS environments and testbed capacity align with the need for unsupervised methods on real infrastructure."
+    },
+    "industryReview": "The company has access to traffic archives and hardware but lacks labeled malicious data, requiring an unsupervised anomaly detection method that can be explained to non-technical stakeholders.",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"detect\" OR \"unusual\" OR \"behaviour\" OR \"modbus\" OR \"bacnet\" OR \"networks\" OR \"labelled\" OR \"attack\" OR \"clients\" OR \"never\" OR \"breached\" OR \"don\" OR \"know\" OR \"zero\" OR \"examples\" OR \"malicious\" OR \"traffic\" OR \"supervised\" OR \"classifiers\" OR \"useless\" OR \"protosense\" OR \"module\" OR \"watches\" OR \"supposed\" OR \"flag\" OR \"anything\" OR \"looks\" OR \"wrong\" OR \"problem\" OR \"none\" OR \"ever\" OR \"given\" OR \"packet\" OR \"capture\" OR \"contains\" OR \"confirmed\" OR \"few\" OR \"running\" OR \"twenty\" OR \"years\" OR \"security\" OR \"monitoring\" OR \"were\" OR \"compromised\" OR \"plenty\" OR \"anomaly\" OR \"detection\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 120604,
+      "modelCalls": 4,
+      "inputTokens": 3667,
+      "outputTokens": 239
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "caseId": "DEMO1",
+    "challengeId": "C001-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "LOCAL_OUTPUT_TOKEN_LIMIT",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:LOCAL_OUTPUT_TOKEN_LIMIT",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 32879,
+      "modelCalls": 2,
+      "inputTokens": 1711,
+      "outputTokens": 360
+    }
+  }
+]

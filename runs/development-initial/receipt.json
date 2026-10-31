@@ -1,0 +1,79 @@
+{
+  "schema": "EINSTEIN_PROOF_RUN_V1",
+  "startedUtc": "2026-10-30T11:31:30.243Z",
+  "finishedUtc": "2026-10-30T11:34:38.083Z",
+  "mode": "parallel",
+  "runtime": "@mozaik-ai/core@4.2.0",
+  "agents": [
+    {
+      "id": "4600d5f7-4c9d-4af7-a2aa-00827ff47c64",
+      "name": "research",
+      "capabilities": [
+        "research"
+      ],
+      "role": "agent"
+    },
+    {
+      "id": "76e3153d-0356-422e-aa96-08240071c46e",
+      "name": "industry",
+      "capabilities": [
+        "industry"
+      ],
+      "role": "agent"
+    },
+    {
+      "id": "b5a305d5-492a-49f4-b269-eb0aa4e5af65",
+      "name": "writer",
+      "capabilities": [
+        "writer"
+      ],
+      "role": "agent"
+    },
+    {
+      "id": "975d4b23-9840-4d3d-a1ee-6ef376700772",
+      "name": "critic",
+      "capabilities": [
+        "critic"
+      ],
+      "role": "agent"
+    }
+  ],
+  "corpusSha256": "bc3b57e31909eb667c0127b931c9b519ca7caffb6e4aedd33796645a55789224",
+  "protocolSha256": "fd7494bfe36337d954833117afb8726bc59cdc745f4bbf949fb596a345f16f33",
+  "assets": {
+    "modelSha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+    "engineSha256": "9def57d9e9b0149979a9ceba40896a4e2bf88c94734069a5567d2f487ceab551",
+    "modelRevision": "23749fefcc72300e3a2ad315e1317431b06b590a"
+  },
+  "caseIds": [
+    "DEMO1",
+    "DEMO2",
+    "DEMO3",
+    "DEMO_NEG"
+  ],
+  "cases": 4,
+  "accepted": 2,
+  "abstained": 2,
+  "modelCalls": 13,
+  "inputTokens": 15884,
+  "outputTokens": 1206,
+  "wallMs": 187841,
+  "engineCpuTicks": 0,
+  "peakServerSlots": 2,
+  "sharedStateResults": 15,
+  "peerEvents": 45,
+  "resultsSha256": "6b96a379ce870f1b53b2d0afe5236e987fa53565b7cf675bc3bda1f1ffd4b051",
+  "traceSha256": "910140e49f39d248d75968f5e55dbdf0dffa31685f5c30f5881157de1043e49b",
+  "paidProviderCalls": 0,
+  "hostedInferenceCalls": 0,
+  "publication": false,
+  "submission": false,
+  "fictionalDataset": true,
+  "resourceCeilings": {
+    "callsPerCase": 4,
+    "outputTokensPerCall": 180,
+    "inputCharsPerCall": 14000,
+    "cpuThreads": 4,
+    "localServerSlots": 2
+  }
+}

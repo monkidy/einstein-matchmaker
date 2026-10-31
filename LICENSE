@@ -1,0 +1,43 @@
+Copyright (c) 2026 Hichem Benali. All rights reserved.
+
+This repository is published as a hackathon submission. The author retains all
+intellectual property in it, as provided by section 10 of the official NTP Novi Sad
+Hackathon rules.
+
+EVALUATION LICENCE
+
+Permission is granted, free of charge and without further request, to Jig Joy D.O.O.
+Novi Sad, to Science and Technology Park Novi Sad, to the judging panel appointed by
+the organizers, and to anyone reviewing this entry for the purposes of that event, to:
+
+  (a) read, copy, build, install, execute and test this software;
+  (b) reproduce the measurements described in README.md; and
+  (c) present the project by name, description, screenshots and demo, as described in
+      section 10 of the event rules.
+
+PERMISSION ALSO GRANTED TO ANY READER
+
+Permission is granted to any person obtaining a copy of this repository to read it and
+to run it locally for the purpose of evaluating, verifying or reproducing the claims
+made in README.md, including academic study and private experimentation.
+
+RESERVED
+
+Redistribution in modified form, sublicensing, and commercial use are not granted by
+this file. For any use beyond the above, contact the author.
+
+THIRD-PARTY COMPONENTS
+
+This licence covers only the source files authored in this repository. The pinned
+model, inference engine, agent runtime and dataset are owned by their respective
+owners, are fetched from them at run time, and are not redistributed here. Their terms
+govern their own use. See THIRD_PARTY_NOTICES.md.
+
+NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.

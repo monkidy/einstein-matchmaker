@@ -1,0 +1,17 @@
+{
+  "run": "development-initial",
+  "samples_total": 1530,
+  "samples_by_slots_processing": {
+    "1": 819,
+    "2": 711
+  },
+  "samples_with_two_or_more": 711,
+  "overlap_share_formula": "samples_with_two_or_more / samples_total",
+  "overlap_share": 0.464706,
+  "max_slots_processing": 2,
+  "overlap_windows": 3,
+  "overlap_seconds_total": 86.739,
+  "wall_seconds_observed": 187.585,
+  "source": "runs/development-initial/trace.jsonl, event=server.slots, field slots[].processing",
+  "caveat": "Counts llama.cpp server slots in the PROCESSING state. Two HTTP requests in flight are not counted as concurrency."
+}

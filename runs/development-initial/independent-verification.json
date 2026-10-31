@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "mode": "parallel",
+  "cases": 4,
+  "accepted": 2,
+  "source_claims_independently_verified": 10,
+  "negative_controls": 0,
+  "negative_controls_abstained": 0,
+  "concurrency": {
+    "parallel_proven": true,
+    "case_ids": [
+      "DEMO1",
+      "DEMO2",
+      "DEMO3"
+    ],
+    "distinct_agents": 4,
+    "mozaik_answers": 15
+  },
+  "client_only_false_concurrency_rejected": true,
+  "verified_actual_model_responses": 13,
+  "hidden_jury_gold_available": false,
+  "usefulness_uplift_proven": false,
+  "verifier": "raw-file Python implementation independent of Node app/SQLite scorer"
+}

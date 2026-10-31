@@ -1,0 +1,454 @@
+[
+  {
+    "caseId": "DEMO1",
+    "challengeId": "C001-CH1",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C001-CH1",
+      "companyId": "C001",
+      "companyName": "ArmaturaSec d.o.o.",
+      "researcherId": "R1008",
+      "researcherName": "Krisztina Kiss",
+      "claims": [
+        {
+          "sourceId": "C001-CH1",
+          "subjectId": "C001",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We need to detect unusual behaviour on Modbus and BACnet networks without labelled attack data — our clients have never been breached (or don't know it), so we have zero examples of malicious traffic and supervised classifiers are useless to us.",
+          "recordSha256": "d4f06a5ff4f2e5b924523eee4a4770d5c563390088fdd8b96dfc36872dabb978",
+          "file": "data/companies.json",
+          "locator": "/companies/0/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C001",
+          "subjectId": "C001",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Cybersecurity",
+          "recordSha256": "d4f15953c5c1b3f9eb19323c7a56bbb28f80aa3431e23d182759de11b6c35c62",
+          "file": "data/companies.json",
+          "locator": "/companies/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R1008",
+          "subjectId": "R1008",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Industrial cybersecurity; Network traffic analysis; Machine learning and statistical modelling; Industrial control systems",
+          "recordSha256": "678666e23b6a3b1f2480202d58493eee9b728e6aa065534a906e698570e08977",
+          "file": "data/researchers.json",
+          "locator": "/researchers/1007",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-10477",
+          "subjectId": "R1008",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Anomaly Detection in Industrial Control Systems",
+          "recordSha256": "a15ba7bb6da9590b985bb72339541c5de1ea5a11823c6fbe97851ab919496dee",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10477,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10477"
+        },
+        {
+          "sourceId": "SYN-PUB-10482",
+          "subjectId": "R1008",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Comparing Score Aggregation Strategies for Multi-Protocol ICS Anomaly Detection",
+          "recordSha256": "5b1d60e5601d36f4beee44446a25ac21c94f79c1fa42f08ea42998104dd0abb3",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10482,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10482"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "How can we detect unusual behavior in Modbus and BACnet networks without labelled attack data?",
+        "experiment": "Use a machine learning model trained on traffic archives and hardware to detect anomalies, with a baseline for normal behavior.",
+        "successCriterion": "The model flags anomalies with a false positive rate below 10% and a response time of less than 100ms.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 5,
+        "exactQuotes": 5,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "The proposed experiment is a plausible task-specific research link, as it involves detecting unusual behavior in Modbus and BACnet networks using machine learning models trained on traffic archives and hardware. The success criterion is well-defined and aligns with the research question. No mismatch, invented capability, unavailable evidence, or unrelated experiment is present."
+      }
+    },
+    "shortlist": [
+      "R1008",
+      "R1015",
+      "R0856"
+    ],
+    "selection": {
+      "researcherId": "R1008",
+      "reason": "The researcher R1008's work directly addresses the challenge of detecting unusual behavior on Modbus and BACnet networks without labelled attack data, as evidenced by their abstract and documents. They mention their focus on industrial cybersecurity and network traffic analysis, which aligns with the need for anomaly detection in real-world settings. Additionally, their notes indicate a preference for real infrastructure-based deployments, which is crucial for the challenge's requirements."
+    },
+    "industryReview": "SOURCE_FOUND",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"detect\" OR \"unusual\" OR \"behaviour\" OR \"modbus\" OR \"bacnet\" OR \"networks\" OR \"labelled\" OR \"attack\" OR \"clients\" OR \"never\" OR \"breached\" OR \"don\" OR \"know\" OR \"zero\" OR \"examples\" OR \"malicious\" OR \"traffic\" OR \"supervised\" OR \"classifiers\" OR \"useless\" OR \"protosense\" OR \"module\" OR \"watches\" OR \"supposed\" OR \"flag\" OR \"anything\" OR \"looks\" OR \"wrong\" OR \"problem\" OR \"none\" OR \"ever\" OR \"given\" OR \"packet\" OR \"capture\" OR \"contains\" OR \"confirmed\" OR \"few\" OR \"running\" OR \"twenty\" OR \"years\" OR \"security\" OR \"monitoring\" OR \"were\" OR \"compromised\" OR \"plenty\" OR \"anomaly\" OR \"detection\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 57148,
+      "modelCalls": 4,
+      "inputTokens": 4788,
+      "outputTokens": 339
+    }
+  },
+  {
+    "caseId": "DEMO2",
+    "challengeId": "C149-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C149-CH1",
+      "companyId": "C149",
+      "companyName": "Zlatni Klas Mlin a.d.",
+      "researcherId": "R0336",
+      "researcherName": "Ivana Lukić",
+      "claims": [
+        {
+          "sourceId": "C149-CH1",
+          "subjectId": "C149",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We sell 18,000 tonnes of bran a year as cheap animal feed; we'd like a higher-value use.",
+          "recordSha256": "4531aa0a7ac03da5e00afbce7fc7a8b0089691423d91cc4e49bfdfbba727535c",
+          "file": "data/companies.json",
+          "locator": "/companies/148/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C149",
+          "subjectId": "C149",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Food processing (milling)",
+          "recordSha256": "5194063ac421ea54fd43eaa7bea1e591b0adfe491692f65ee44cc350cfea5b64",
+          "file": "data/companies.json",
+          "locator": "/companies/148",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0336",
+          "subjectId": "R0336",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "food waste valorization; bioprocess engineering",
+          "recordSha256": "f1a21ce25f930d2429b98c09d8ba59f05892b4c6b43e3bddbdda93dcbc55af33",
+          "file": "data/researchers.json",
+          "locator": "/researchers/335",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-04147",
+          "subjectId": "R0336",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Pilot-scale biorefinery design for integrated recovery of protein, dietary fibre, and ferulic acid from wheat bran",
+          "recordSha256": "d8c9894ff2e9460ba63ae6846872af0f55cf81e5d9c49a5e12546c20e51c2d48",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4147,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4147"
+        },
+        {
+          "sourceId": "SYN-PUB-04143",
+          "subjectId": "R0336",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Valorisation of cereal milling by-products: a systematic review of fermentation-based approaches",
+          "recordSha256": "bad797fa31cfd893631f00742382755e8b412539a5454d4cd105722cc1bc9a70",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4143,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4143"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "What are the potential uses of wheat bran in food valorization, and what processing steps are required to achieve economic and environmental benefits?",
+        "experiment": "A pilot-scale biorefinery pilot study with 50 kg of wheat bran input, using enzymatic hydrolysis, solid-state fermentation, and sequential extraction.",
+        "successCriterion": "A clear picture of one or two realistic uses, processing steps, and an estimate of whether the numbers work.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 5,
+        "exactQuotes": 5,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": false,
+        "reason": "The proposed experiment is a hypothesis, not a factual outcome, and there is no evidence provided to support its feasibility or relevance to the company's constraints. The source data does not provide any information about the company's goals or the potential uses of wheat bran in food valorization."
+      }
+    },
+    "shortlist": [
+      "R0336",
+      "R0782",
+      "R1029"
+    ],
+    "selection": {
+      "researcherId": "R0336",
+      "reason": "The researcher R0336's work on a pilot-scale biorefinery design for integrated recovery of multiple high-value fractions from wheat bran directly addresses the challenge of finding a higher-value use for the bran, as well as providing a clear picture of processing steps and economic feasibility. The abstract highlights the feasibility of a three-stage process and the results of the pilot-scale experiments, which align with the constraints of the challenge."
+    },
+    "industryReview": "A testable technical/scientific uncertainty exists in the ability to identify and implement a higher-value use for bran, considering processing steps, food-safety standards, and market demand.",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"sell\" OR \"tonnes\" OR \"bran\" OR \"year\" OR \"cheap\" OR \"animal\" OR \"feed\" OR \"like\" OR \"higher\" OR \"value\" OR \"every\" OR \"tonne\" OR \"wheat\" OR \"mill\" OR \"leaves\" OR \"behind\" OR \"roughly\" OR \"adds\" OR \"right\" OR \"now\" OR \"bag\" OR \"loose\" OR \"livestock\" OR \"farms\" OR \"compounders\" OR \"around\" OR \"euros\" OR \"barely\" OR \"above\" OR \"cost\" OR \"handling\" OR \"transport\" OR \"margins\" OR \"thin\" OR \"enough\" OR \"bad\" OR \"stream\" OR \"nearly\" OR \"breakeven\" OR \"know\" OR \"dietary\" OR \"fibre\" OR \"content\" OR \"food\" OR \"manufacturers\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 61073,
+      "modelCalls": 4,
+      "inputTokens": 4995,
+      "outputTokens": 455
+    }
+  },
+  {
+    "caseId": "DEMO3",
+    "challengeId": "C150-CH2",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C150-CH2",
+      "companyId": "C150",
+      "companyName": "SanaFarma Digitale d.o.o.",
+      "researcherId": "R0414",
+      "researcherName": "Radomir Simić",
+      "claims": [
+        {
+          "sourceId": "C150-CH2",
+          "subjectId": "C150",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We interviewed 60 elderly users and found that 40% stop using the app within three weeks because the font sizes and navigation flow do not match the cognitive and motor patterns of people over 70; we need a systematic redesign but our two-person team has no UX research background.",
+          "recordSha256": "387058c907d920a4ab60e25defab3f3dfadb4c6846055685a78d4cae1c65ce18",
+          "file": "data/companies.json",
+          "locator": "/companies/149/challenges/1",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C150",
+          "subjectId": "C150",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Medtech and digital health",
+          "recordSha256": "05bf24e1799e91a9664831513cd716edb79ea3de335816cd84e9bfe7bad3178d",
+          "file": "data/companies.json",
+          "locator": "/companies/149",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0414",
+          "subjectId": "R0414",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Cognitive psychology; Human-computer interaction; Ergonomics and human factors; Gerontechnology",
+          "recordSha256": "f8237520cc6124640951aeb7821fca733bc35d122ee6a72687569aa1d69b8ca8",
+          "file": "data/researchers.json",
+          "locator": "/researchers/413",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-04977",
+          "subjectId": "R0414",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Comparing error rates on icon-only versus icon-plus-label navigation bars across age and digital experience levels",
+          "recordSha256": "44c7858e2df9c5ed276dd1c8ca9b7dcc7fe475d38395838b0acbfb7270855679",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 4977,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L4977"
+        },
+        {
+          "sourceId": "SYN-PUB-03354",
+          "subjectId": "R0414",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Age-related change in working memory updating between 48 and 72 months: a longitudinal observational study",
+          "recordSha256": "e85ffe6d152a6420e1b807d54841b80ed66d4e58908bf4e768c9ac41ce319ccc",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 3354,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L3354"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "What changes can be made to the app to improve usability for elderly users?",
+        "experiment": "A structured usability session with 60 elderly users aged 70+ in the Sombor and Subotica pilots, using a mixed-methods approach.",
+        "successCriterion": "A prioritized list of specific changes to improve cognitive flow and reduce error rates.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 5,
+        "exactQuotes": 5,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "The proposed experiment is a hypothesis, not a factual outcome, and it aligns with the research question of improving usability for elderly users. The source evidence supports the need for a systematic redesign based on user feedback, and the researcher's evidence includes relevant fields and publications that support the hypothesis."
+      }
+    },
+    "shortlist": [
+      "R0414",
+      "R0491",
+      "R0207"
+    ],
+    "selection": {
+      "researcherId": "R0414",
+      "reason": "The researcher with the most direct evidence supporting the constraint is R0414, as their notes mention they have limited capacity for large coordinating roles but are available for focused consulting or smaller contract studies, and they have expressed interest in collaborating with companies developing health-related mobile applications."
+    },
+    "industryReview": "The problem exists and the interview data and recorded screen-capture sessions provide evidence of the issue. The challenge requires a systematic redesign with UX research expertise, which is not currently available.",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"interviewed\" OR \"elderly\" OR \"users\" OR \"found\" OR \"stop\" OR \"app\" OR \"within\" OR \"three\" OR \"weeks\" OR \"because\" OR \"font\" OR \"sizes\" OR \"navigation\" OR \"flow\" OR \"match\" OR \"cognitive\" OR \"motor\" OR \"patterns\" OR \"people\" OR \"systematic\" OR \"redesign\" OR \"person\" OR \"team\" OR \"background\" OR \"age\" OR \"during\" OR \"subotica\" OR \"sombor\" OR \"pilots\" OR \"forty\" OR \"percent\" OR \"stopped\" OR \"opening\" OR \"companion\" OR \"starting\" OR \"asked\" OR \"why\" OR \"answers\" OR \"were\" OR \"consistent\" OR \"text\" OR \"was\" OR \"hard\" OR \"read\" OR \"even\" OR \"gerontology\" OR \"accessibility\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 60193,
+      "modelCalls": 4,
+      "inputTokens": 5226,
+      "outputTokens": 349
+    }
+  },
+  {
+    "caseId": "DEMO_NEG",
+    "challengeId": "C001-CH1",
+    "view": "no_research_sources",
+    "status": "ABSTAIN",
+    "reason": "NO_RESEARCH_EVIDENCE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "NO_RESEARCH_EVIDENCE"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "SOURCE_FOUND",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "",
+      "documents": 0,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 9337,
+      "modelCalls": 1,
+      "inputTokens": 875,
+      "outputTokens": 63
+    }
+  }
+]

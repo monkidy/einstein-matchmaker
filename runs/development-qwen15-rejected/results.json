@@ -1,0 +1,276 @@
+[
+  {
+    "caseId": "DEMO1",
+    "challengeId": "C001-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "INDUSTRY_SERVICE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "INDUSTRY_SERVICE"
+        ]
+      }
+    },
+    "shortlist": [
+      "R1008",
+      "R1015",
+      "R0856"
+    ],
+    "selection": {
+      "researcherId": "R1015",
+      "reason": "R1015 has experience in unsupervised anomaly detection on Modbus traffic, which is directly relevant to the challenge of detecting unusual behavior in Modbus and BACnet networks without labeled attack data. The other candidates lack specific expertise in Modbus anomaly detection or industrial cybersecurity. Additionally, R1015's notes indicate a preference for collaborations with industrial partners, which aligns with the need for a method that works with no attack examples and can be explained to a plant manager in plain language."
+    },
+    "industryReview": "The challenge described is a routine procurement issue related to the routine procurement of a technical or scientific problem. It involves routine legal paperwork, marketing, and administration without a clear research question or problem that requires a solution. The company has the necessary resources (traffic archives, hardware, and an engineer) but lacks a specific research question or problem to address. This makes it unsuitable for an applied research pilot. The company's current approach of using a supervised classifier on labeled data is not applicable to the problem at hand, as the clients have never been breached and do not have any labeled attack data. Therefore, the challenge does not meet the criteria for an applied research pilot. ",
+    "industryClassification": "SERVICE",
+    "retrieval": {
+      "query": "\"detect\" OR \"unusual\" OR \"behaviour\" OR \"modbus\" OR \"bacnet\" OR \"networks\" OR \"labelled\" OR \"attack\" OR \"clients\" OR \"never\" OR \"breached\" OR \"don\" OR \"know\" OR \"zero\" OR \"examples\" OR \"malicious\" OR \"traffic\" OR \"supervised\" OR \"classifiers\" OR \"useless\" OR \"protosense\" OR \"module\" OR \"watches\" OR \"supposed\" OR \"flag\" OR \"anything\" OR \"looks\" OR \"wrong\" OR \"problem\" OR \"none\" OR \"ever\" OR \"given\" OR \"packet\" OR \"capture\" OR \"contains\" OR \"confirmed\" OR \"few\" OR \"running\" OR \"twenty\" OR \"years\" OR \"security\" OR \"monitoring\" OR \"were\" OR \"compromised\" OR \"plenty\" OR \"anomaly\" OR \"detection\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 28740,
+      "modelCalls": 2,
+      "inputTokens": 1711,
+      "outputTokens": 289
+    }
+  },
+  {
+    "caseId": "DEMO2",
+    "challengeId": "C149-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The research proposal does not establish a plausible technical link between the methods and the company problem. The proposed experiments focus on assessing the potential of different fractions and processing steps for processing bran into a high-value food ingredient, but the company problem is about selling bran at a premium price. There is no clear connection between the research methods and the company's goal of increasing the value of bran. The research question and success criterion are not directly related to the company's problem.",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C149-CH1",
+      "companyId": "C149",
+      "companyName": "Zlatni Klas Mlin a.d.",
+      "researcherId": "R0782",
+      "researcherName": "Bojan Bulatović",
+      "claims": [
+        {
+          "sourceId": "C149-CH1",
+          "subjectId": "C149",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We sell 18,000 tonnes of bran a year as cheap animal feed; we'd like a higher-value use.",
+          "recordSha256": "4531aa0a7ac03da5e00afbce7fc7a8b0089691423d91cc4e49bfdfbba727535c",
+          "file": "data/companies.json",
+          "locator": "/companies/148/challenges/0",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C149",
+          "subjectId": "C149",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Food processing (milling)",
+          "recordSha256": "5194063ac421ea54fd43eaa7bea1e591b0adfe491692f65ee44cc350cfea5b64",
+          "file": "data/companies.json",
+          "locator": "/companies/148",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0782",
+          "subjectId": "R0782",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Food Chemistry and Biochemistry; Carbohydrate Chemistry; Functional Food Ingredients; Biorefinery and Cereal By-products",
+          "recordSha256": "3a3d7438346e4b2e5f56c95b6fab453cba3e83813218af092465d1c87a3e0ea2",
+          "file": "data/researchers.json",
+          "locator": "/researchers/781",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PRJ-1308",
+          "subjectId": "R0782",
+          "kind": "project",
+          "field": "title",
+          "quote": "Valorisation of Cereal Bran Hemicellulose Streams for Functional Food and Feed Applications",
+          "recordSha256": "ee262678adcb942e09fd15852f9e5e0da0b06e8e45042166cf8e2c3cb8111fe5",
+          "file": "data/projects.json",
+          "locator": "/projects/1307",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/projects.json"
+        },
+        {
+          "sourceId": "SYN-PRJ-1308",
+          "subjectId": "R0782",
+          "kind": "project",
+          "field": "summary",
+          "quote": "A cross-border project investigating the conversion of wheat and rye bran hemicelluloses into prebiotic oligosaccharide ingredients and dietary fibre concentrates for food and animal feed use. Bulatović led the work package on enzymatic and chemical hydrolysis processes and product characterisation. Hungarian partners contributed microbial screening and feed trial design. The project established protocols for comparing GH10 and GH11 xylanases on substrates of differing botanical origin and produced data on energy use and process economics at 50 L pilot scale.",
+          "recordSha256": "ee262678adcb942e09fd15852f9e5e0da0b06e8e45042166cf8e2c3cb8111fe5",
+          "file": "data/projects.json",
+          "locator": "/projects/1307",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/projects.json"
+        },
+        {
+          "sourceId": "SYN-PUB-08566",
+          "subjectId": "R0782",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Alkali extraction of arabinoxylan from wheat bran: effect of NaOH concentration and extraction time on yield and molecular weight distribution",
+          "recordSha256": "c97c014053e40815e62c7fa1c2e21a41df57104fe477fcda594e0782a77e47ed",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8566,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8566"
+        },
+        {
+          "sourceId": "SYN-PUB-08566",
+          "subjectId": "R0782",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Wheat bran arabinoxylan (AX) was extracted using aqueous NaOH at concentrations ranging from 0.5 to 4 M and extraction times of 1–6 hours at 30 °C. Yield of water-extractable AX increased from 8.4 % to 21.7 % (w/w dry bran) as NaOH concentration rose to 2 M, but levelled off above this point. Size-exclusion chromatography coupled with refractive index detection showed a bimodal molecular weight distribution at lower alkali concentrations, collapsing to a single population (Mw 280–320 kDa) at 2 M NaOH. The arabinose-to-xylose (A/X) ratio, determined by gas chromatography after acid methanolysis, remained within 0.55–0.62 across all conditions, suggesting limited side-chain cleavage. Phenolic acid content (ferulic and p-coumaric acids, measured by reversed-phase HPLC) decreased markedly above 1.5 M NaOH, indicating saponification of ester linkages. Optimal conditions for retaining molecular integrity while achieving acceptable yield were identified as 1.5 M NaOH, 3 hours, yielding 18.2 % AX with Mw 410 kDa. The extracted fraction was characterised as a suitable substrate for subsequent hydrolysis studies.",
+          "recordSha256": "c97c014053e40815e62c7fa1c2e21a41df57104fe477fcda594e0782a77e47ed",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8566,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8566"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can bran be processed to create a high-value food ingredient at a premium price?",
+        "experiment": "A feasibility study will compare the current method of selling bran as animal feed to a new method of processing bran into a high-value food ingredient. This will involve using a basic quality lab and a NIR analyser to assess the potential of different fractions and processing steps.",
+        "successCriterion": "The experiment will determine if the processed bran can be sold at a premium price, indicating a successful outcome.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 7,
+        "exactQuotes": 7,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": false,
+        "reason": "The research proposal does not establish a plausible technical link between the methods and the company problem. The proposed experiments focus on assessing the potential of different fractions and processing steps for processing bran into a high-value food ingredient, but the company problem is about selling bran at a premium price. There is no clear connection between the research methods and the company's goal of increasing the value of bran. The research question and success criterion are not directly related to the company's problem."
+      }
+    },
+    "shortlist": [
+      "R0336",
+      "R0782",
+      "R1029"
+    ],
+    "selection": {
+      "researcherId": "R0782",
+      "reason": "R0782's research focuses on valorization of cereal milling by-products, which directly addresses the challenge of finding a higher-value use for bran. Their work includes studies on the extraction of dietary fiber from wheat bran and the development of a joint project to recover dietary fiber from oat, spelt, and barley milling by-products. This aligns closely with the challenge of finding a higher-value use for bran, as it involves the extraction and valorization of a by-product stream."
+    },
+    "industryReview": "The problem described is vague and lacks specific details about the desired use of bran, the processing steps required, or the market demand. The company does not have a clear research question or a specific technical or scientific problem to address. The problem is more of a service challenge rather than a research challenge.",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"sell\" OR \"tonnes\" OR \"bran\" OR \"year\" OR \"cheap\" OR \"animal\" OR \"feed\" OR \"like\" OR \"higher\" OR \"value\" OR \"every\" OR \"tonne\" OR \"wheat\" OR \"mill\" OR \"leaves\" OR \"behind\" OR \"roughly\" OR \"adds\" OR \"right\" OR \"now\" OR \"bag\" OR \"loose\" OR \"livestock\" OR \"farms\" OR \"compounders\" OR \"around\" OR \"euros\" OR \"barely\" OR \"above\" OR \"cost\" OR \"handling\" OR \"transport\" OR \"margins\" OR \"thin\" OR \"enough\" OR \"bad\" OR \"stream\" OR \"nearly\" OR \"breakeven\" OR \"know\" OR \"dietary\" OR \"fibre\" OR \"content\" OR \"food\" OR \"manufacturers\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 54507,
+      "modelCalls": 4,
+      "inputTokens": 3652,
+      "outputTokens": 425
+    }
+  },
+  {
+    "caseId": "DEMO3",
+    "challengeId": "C150-CH2",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "INDUSTRY_SERVICE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "INDUSTRY_SERVICE"
+        ]
+      }
+    },
+    "shortlist": [
+      "R0414",
+      "R0491",
+      "R0207"
+    ],
+    "selection": {
+      "researcherId": "R0491",
+      "reason": "Lalić's expertise in health psychology and health communication aligns with the challenge of designing for older adults, particularly those with cognitive and motor patterns. Her laboratory's Tobii eye-tracking equipment is available for collaborative studies, which is crucial for understanding user interactions and cognitive flow issues. Her preference for projects with clear applied outputs and cautious about partnerships that restrict open publication of results makes her a suitable candidate for this industrial challenge."
+    },
+    "industryReview": "The challenge described involves routine procurement, ordinary legal paperwork, and generic marketing, which do not inherently involve a research question or a need for systematic redesign. The problem is related to user interface and navigation design for elderly users, but the specific details provided do not indicate a need for systematic research or a need to redesign the app. The focus is on understanding user needs and providing a solution, rather than on conducting research to identify a problem or to develop a solution. Therefore, this challenge does not meet the criteria for an applied research pilot.",
+    "industryClassification": "SERVICE",
+    "retrieval": {
+      "query": "\"interviewed\" OR \"elderly\" OR \"users\" OR \"found\" OR \"stop\" OR \"app\" OR \"within\" OR \"three\" OR \"weeks\" OR \"because\" OR \"font\" OR \"sizes\" OR \"navigation\" OR \"flow\" OR \"match\" OR \"cognitive\" OR \"motor\" OR \"patterns\" OR \"people\" OR \"systematic\" OR \"redesign\" OR \"person\" OR \"team\" OR \"background\" OR \"age\" OR \"during\" OR \"subotica\" OR \"sombor\" OR \"pilots\" OR \"forty\" OR \"percent\" OR \"stopped\" OR \"opening\" OR \"companion\" OR \"starting\" OR \"asked\" OR \"why\" OR \"answers\" OR \"were\" OR \"consistent\" OR \"text\" OR \"was\" OR \"hard\" OR \"read\" OR \"even\" OR \"gerontology\" OR \"accessibility\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 28273,
+      "modelCalls": 2,
+      "inputTokens": 1945,
+      "outputTokens": 244
+    }
+  },
+  {
+    "caseId": "DEMO_NEG",
+    "challengeId": "C001-CH1",
+    "view": "no_research_sources",
+    "status": "ABSTAIN",
+    "reason": "NO_RESEARCH_EVIDENCE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "NO_RESEARCH_EVIDENCE"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "The challenge described is a routine procurement issue related to the routine procurement of a technical or scientific problem. It involves routine legal paperwork, generic marketing, and administrative tasks without a clear research question or problem to address. The company has the necessary resources (traffic archives, hardware, and an engineer) but lacks a specific research question or problem to address. This makes it unlikely to support an applied research pilot. The company's current focus is on routine procurement and marketing, not on conducting applied research. Therefore, the challenge does not meet the criteria for an applied research pilot. ",
+    "industryClassification": "SERVICE",
+    "retrieval": {
+      "query": "",
+      "documents": 0,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 13777,
+      "modelCalls": 1,
+      "inputTokens": 498,
+      "outputTokens": 152
+    }
+  }
+]

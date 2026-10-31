@@ -1,0 +1,33 @@
+{
+  "scope": "Executable source frozen for the final local Qwen3-4B comparison",
+  "frozenUtc": "2026-10-30T17:31:12.235377+00:00",
+  "files": {
+    "corpus.lock.json": "96a95f889c6485580ff07045a6b15aee2f990e53909c3ec15ec30d742d1fc005",
+    "evaluation\\cases.json": "5ee63c6f5ef3619e0cd7e190e5106a062cc2726b9dcd462f466639f607b80298",
+    "evaluation\\protocol.json": "30d13244dd677b5b18355ab363fafd884b80c254e5767e52262560ae7d8620cb",
+    "package-lock.json": "b9561e24312642aa14fa82ef106a3530e05d20e7f748a93b09bb244ecd9d7dbd",
+    "package.json": "928329e12448aaca16de734752db23ebe5bfda4aabf23a0fed31c08d28c12824",
+    "scripts\\benchmark.mjs": "b7d437e46c223d423dcbad60362d72070855f16dc4e4d0d2883f6009e449883f",
+    "scripts\\benchmark_plan.mjs": "d06ee5b7801da2cb049f2625b01f16f6b4dbef325c26ec2ab1ab3708143b2bfa",
+    "scripts\\benchmark_resumable.mjs": "3d12350c508a3bd926745d24c7f435c06bdc506544e746c976cb6b26b3694d41",
+    "scripts\\fetch_runtime.py": "dc466fe9e3a17344a82c46fc60a41647a9da5149586da7abf7c0a7f90cd203dc",
+    "scripts\\freeze_source.py": "023dbd6deeedabecbd7ac478008edcc152c294727f1bfefc84ea21f442eae39c",
+    "scripts\\independent_verify.py": "f91ec967c5750c6b14f2947de80a71290d9ad31f030aa5f04b07bebbd6337f10",
+    "scripts\\local_server.py": "8fd9699aadb0fa7573a35ad46a694eb8daa0b6f7b800f8f684fed2270612c8af",
+    "scripts\\prepare_data.py": "fd6682efac80e15d75277e46399c044d96cf8b42da791f98053ac44837d319cc",
+    "scripts\\run_local.py": "0bee3474983cffb1aff61ea2a7f6ed19516f60830063d49fd6ae3901cd1ad4f5",
+    "scripts\\verify_benchmark.py": "368b9db419d596541c2351bd22fb4bb6cba7bfdf2222aa2e15228f9837c37358",
+    "scripts\\verify_benchmark_v2.py": "f85584f8e19d353efdb45656f7ebbdb8f80903960c89acd3f498e86e172175fd",
+    "src\\cli.mjs": "640391496fcbda8d411a443ff6792548c937d544e70126717925b000262f60fe",
+    "src\\critic.mjs": "516a3a619bc8702824ede83c4dd0b04e7cd0212f5e94f59a69dbfde35d3b802c",
+    "src\\evidence.mjs": "20c061d36f7b075129df53e0fdb23c76561800b966ae08982de9c1b1bac2f698",
+    "src\\local-llm.mjs": "38ebf8e2a48a1c9d9fccb7fcea0f11e157f4288e7f240e58c3affc6f418116ee",
+    "src\\runtime.mjs": "7b9ae048d35aaf37c6f12f6ef239d98c253a400d3e7ca749e56870f695255714",
+    "src\\tasks.mjs": "61b4ebfa5860b30431b490130280b4fbb386bb9960f367692eb8e6cd68450690",
+    "src\\worker.mjs": "9254901d21267fad8d1a8d70b8fa05f33a64f462c68c2664f0900b82449c7a37",
+    "test\\benchmark_plan.test.mjs": "59eb3256fdbde55f4b08931de778af55dcddf26412a2239ef166463f34b92ffb",
+    "test\\evidence.test.mjs": "8d428dd4ae283d03482b36bd1cb705662c55918d35f6946e65997681522dd050",
+    "test\\runtime-identity.test.mjs": "1d7f824761fc8e016d77c39ae800234240ad191f4d01cf0067afa62392585810",
+    "test\\serialization.test.mjs": "27bf204ef4c283992ee75ae7acbbdd252089d221cc574d7d14aa63d2c7e40d2f"
+  }
+}

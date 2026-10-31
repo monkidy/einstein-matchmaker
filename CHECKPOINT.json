@@ -1,0 +1,19 @@
+{
+  "checkpointUtc": "2026-10-30T12:01:00.523575+00:00",
+  "owner": "#3199 / CU-0070",
+  "testsPassed": 14,
+  "testsFailed": 0,
+  "currentModel": "Qwen3-4B-Q4_K_M",
+  "currentDemoCasesCompleted": 1,
+  "currentDemoAccepted": 1,
+  "comparisonCompleted": false,
+  "publication": false,
+  "submission": false,
+  "next": [
+    "Complete three source-controlled proposals",
+    "Run same-resource solo/serial/parallel comparison",
+    "Independent raw-file verification",
+    "Reproduction",
+    "Separate founder gate for exterior release and submission"
+  ]
+}
