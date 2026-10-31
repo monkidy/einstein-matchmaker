@@ -1,0 +1,179 @@
+[
+  {
+    "caseId": "N07",
+    "challengeId": "C141-CH4",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "Uncertain link between technical documentation analysis and EU COSME grant criteria. No direct evidence supports how analyzing regulatory frameworks would reframe innovation for grant success.",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C141-CH4",
+      "companyId": "C141",
+      "companyName": "AluStar Profili d.o.o.",
+      "researcherId": "R0951",
+      "researcherName": "Aleksa Mamužić",
+      "claims": [
+        {
+          "sourceId": "C141-CH4",
+          "subjectId": "C141",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We applied last year for an EU COSME grant to expand into solar-mounting profiles for the German market, but the application was rejected and we do not understand why — the feedback was three lines saying 'insufficient innovation content'. We want to reapply but do not know how to reframe what we do.",
+          "recordSha256": "7c9f8d96e993b85e174bca0f9240e94b20cca4f24a6102d265e5af7791883b96",
+          "file": "data/companies.json",
+          "locator": "/companies/140/challenges/3",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C141-CH4",
+          "subjectId": "C141",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "Prošle godine smo aplicirali na COSME program za proširenje na tržište Nemačke sa profilima za solarne konstrukcije. Odbijeni smo, a povratna informacija su bila tri rečenice — u suštini: 'nedovoljno inovativnog sadržaja'. Mi smo u prijavi opisali šta radimo: novi preseci profila, optimizovani za brzu montažu, s manjom težinom od standardnih rešenja. Mislili smo da je to inovacija. Izgleda da nismo dobro prikazali šta zapravo razvijamo. Nemamo iskustva s pisanjem EU projekata i niko u firmi se time nije bavio ozbiljno pre ovoga. Naš direktor razvoja, Branimir Stojaković, prikupio je tehničku dokumentaciju, ali ne zna kako da je uklopi u formular na način koji evaluatori prihvataju. Hteli bismo da apliciramo ponovo u sledećem roku — što znači da nam treba pomoć u roku od tri do četiri meseca. Ne tražimo nekoga ko će napisati projekat umesto nas, nego nekoga ko može da pogleda šta imamo, objasni nam šta ocenjivači traže i pomogne nam da to što radimo formulišemo na pravi način.",
+          "recordSha256": "7c9f8d96e993b85e174bca0f9240e94b20cca4f24a6102d265e5af7791883b96",
+          "file": "data/companies.json",
+          "locator": "/companies/140/challenges/3",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C141",
+          "subjectId": "C141",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Manufacturing – aluminium extrusion, cutting and surface finishing (anodising, powder coating)",
+          "recordSha256": "a49b7c7ad828acfd827ddfe34a376b52eba18d88eee937071ef13522289bdf0f",
+          "file": "data/companies.json",
+          "locator": "/companies/140",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0951",
+          "subjectId": "R0951",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Constitutional Law; Administrative and Regulatory Law; Comparative Public Law; European Integration Law",
+          "recordSha256": "aa4a018de3f751eb1bfa7b4f24354a6dfae3dfe9e0311049b50dad0309899006",
+          "file": "data/researchers.json",
+          "locator": "/researchers/950",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-10007",
+          "subjectId": "R0951",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Ustavna dimenzija harmonizacije tehničkih standarda sa pravom EU: analiza odabranih sektora srpskog zakonodavstva",
+          "recordSha256": "0d108957f806dce0e162e4af5347f076e67d98f906f4ca7a378daf314575ef01",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10007,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10007"
+        },
+        {
+          "sourceId": "SYN-PUB-10007",
+          "subjectId": "R0951",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Rad analizira ustavne aspekte procesa harmonizacije srpskog tehničkog zakonodavstva sa pravom Evropske unije u periodu 2016–2024. godine, s fokusom na tri sektora: bezbednost mašina, električna oprema niskog napona i materijali za kontakt sa hranom. Na osnovu analize 67 tehničkih propisa i standarda donetih u navedenom periodu, uz pregled Sporazuma o stabilizaciji i pridruživanju kao relevantnog međunarodnog pravnog okvira, ispituje se da li je srpski zakonodavac, prenoseći tehničko zakonodavstvo EU, adekvatno definisao granice podzakonskog normiranja ili je diskrecionarni prostor regulatornih tela prouzrokovao ustavnopravne praznine. Utvrđeno je da se u 22 od analiziranih 67 propisa zakonsko ovlašćenje može oceniti kao nedovoljno određeno. Rad predlaže model klauzula o ovlašćenjima koji bi bio primenjiv u srpskoj tehničkoj legislativi.",
+          "recordSha256": "0d108957f806dce0e162e4af5347f076e67d98f906f4ca7a378daf314575ef01",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 10007,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L10007"
+        },
+        {
+          "sourceId": "SYN-PUB-06071",
+          "subjectId": "R0951",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Načelo određenosti pravne norme u podzakonskom normiranju: nemačka doktrina i mogućnosti recepcije u srpskom pravu",
+          "recordSha256": "8371e4088c9ca7b22555de019c9f8385b845a59a138aee8023d9413efe456026",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6071,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6071"
+        },
+        {
+          "sourceId": "SYN-PUB-06071",
+          "subjectId": "R0951",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Rad ispituje mogućnost recepcije nemačke doktrine Bestimmtheitsgrundsatz u srpski ustavni i upravni poredak kao instrumenta ograničavanja diskrecionarnih normativnih ovlašćenja regulatornih tela. Nakon prikaza razvoja ove doktrine u nemačkoj ustavnosudskoj i upravnosudskoj praksi od 1949. do 2019. godine, autor analizira srpski Ustav i Zakon o državnoj upravi u svetlosti iste doktrine, identifikujući terminološke i sistemske razlike koje otežavaju direktnu recepciju. Posebno se razmatraju presude Saveznog ustavnog suda Nemačke u predmetima koji se tiču emisione dozvole za nuklearne elektrane i prehrambenih standarda, kao paradigmatski primeri primene načela. Zaključuje se da srpska pravna tradicija poseduje dovoljno receptivnih mehanizama za usvajanje suštine ove doktrine kroz izmenu sudske prakse, bez potrebe za formalnom ustavnom revizijom.",
+          "recordSha256": "8371e4088c9ca7b22555de019c9f8385b845a59a138aee8023d9413efe456026",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6071,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6071"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "How can AluStar Profili d.o.o. reframe their innovation in solar mounting profiles to align with EU COSME grant criteria?",
+        "experiment": "Analyze technical documentation and regulatory frameworks to identify gaps in current innovation presentation",
+        "metric": "Alignment of project description with EU innovation criteria as assessed by external evaluators",
+        "successCriterion": "Proposed gate: measure Alignment of project description with EU innovation criteria as assessed by external evaluators on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": false,
+        "reason": "Uncertain link between technical documentation analysis and EU COSME grant criteria. No direct evidence supports how analyzing regulatory frameworks would reframe innovation for grant success."
+      }
+    },
+    "shortlist": [
+      "R0502",
+      "R0951",
+      "R0310"
+    ],
+    "selection": {
+      "researcherId": "R0951",
+      "reason": "Relevant legal expertise in EU regulations and technical standards aligns with the need to reframe the application's innovation content within EU regulatory framework."
+    },
+    "industryReview": "The company has a technical director and two engineers who work on profile optimization and material selection, but they lack the expertise to effectively communicate their innovations to evaluators. The previous rejection highlights a gap在",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"applied\" OR \"last\" OR \"year\" OR \"cosme\" OR \"grant\" OR \"expand\" OR \"solar\" OR \"mounting\" OR \"profiles\" OR \"german\" OR \"market\" OR \"application\" OR \"was\" OR \"rejected\" OR \"understand\" OR \"why\" OR \"feedback\" OR \"three\" OR \"lines\" OR \"saying\" OR \"insufficient\" OR \"innovation\" OR \"content\" OR \"reapply\" OR \"know\" OR \"reframe\" OR \"prosle\" OR \"godine\" OR \"smo\" OR \"aplicirali\" OR \"program\" OR \"prosirenje\" OR \"trziste\" OR \"nemacke\" OR \"profilima\" OR \"solarne\" OR \"konstrukcije\" OR \"odbijeni\" OR \"povratna\" OR \"informacija\" OR \"bila\" OR \"tri\" OR \"recenice\" OR \"sustini\" OR \"nedovoljno\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 302290,
+      "modelCalls": 4,
+      "inputTokens": 5994,
+      "outputTokens": 259
+    }
+  }
+]

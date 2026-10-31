@@ -41,7 +41,9 @@ Nothing below is rounded up. Each line carries what it actually is.
 | The served model is the pinned one, not a substitute | **PROVEN** | `server.model_identity` event compares expected against observed GGUF before any case runs |
 | Fabricated or misattributed citations are rejected | **PROVEN** | 28/28 adversarial tests via `npm test`; see `test/evidence.test.mjs` |
 | Missing-evidence cases are refused, not answered | **PROVEN** | `runs/demo` case `DEMO_NEG` gives `ABSTAIN / NO_RESEARCH_EVIDENCE` |
-| Solo / serial / parallel comparison at equal resource ceilings | **IN PROGRESS, 1 of 12 blocks verified `PASS`** | per-block verdicts under `runs/benchmark-v2/`; the comparison is complete only at 12/12 blocks and 72/72 case-arms |
+| Solo / serial / parallel comparison at equal resource ceilings | **COMPLETE, `PASS`, 12/12 blocks, 72/72 case-arms** | `runs/benchmark-v2/independent-verification.json` |
+| Concurrency buys wall time | **MEASURED: 18.5 % faster** | 54.6 min against 67.0 min for a single agent, same 24 cases |
+| Concurrency costs completed cases | **MEASURED: 3 fewer accepted out of 24** | 9 accepted against 12, see Results |
 | Some abstentions are deadline timeouts, not evidence-based refusals | **PROVEN, and counted separately** | 3 of 6 cases in the verified block ended on the clock, `evidence/04-honest-outcomes.png` |
 | Parallel execution produces *better* matches than a single agent | **NOT CLAIMED** | no organizer answer key exists, see "What is not claimed" |
 | Proposals are useful in the real world | **NOT CLAIMED** | they are labelled proposals; data access, consent, budget and IP remain for the partners to agree |
@@ -215,6 +217,41 @@ deleted, and a resumed run must use the same frozen source digest. The final ver
 a partial directory, a deliberately incomplete tree returns `BENCHMARK_INCOMPLETE` and exit
 code 1. Read the verdict in `runs/benchmark-v2/independent-verification.json`; it is complete
 only at `result = PASS` with `case_arm_evaluations = 72`.
+
+### Results
+
+The comparison finished. Independent verdict `PASS`: 12 of 12 blocks, 72 of 72 case-arms,
+the same 24 cases in every arm, one frozen source digest throughout, 264 source claims
+re-checked against the raw files, 185 real model responses.
+
+| Arm | Agents | Accepted | Negative controls refused | Model calls | Wall time | Peak slots |
+|---|---:|---:|---:|---:|---:|---:|
+| Solo | 1 | 12 / 24 | 6 / 6 | 73 | 67.0 min | 1 |
+| Serial roles | 4 | 12 / 24 | 6 / 6 | 71 | 67.1 min | 1 |
+| **Parallel roles** | 4 | **9 / 24** | 6 / 6 | 61 | **54.6 min** | 2 |
+
+Read it plainly, in both directions:
+
+- **Concurrency bought 18.5 % of wall time.** 54.6 minutes against 67.0 for a single agent
+  on the same cases, same ceilings, same machine.
+- **Concurrency cost three accepted proposals out of twenty-four.** Nine against twelve.
+  There is no quality advantage here. There is a measured quality *loss*.
+- **The two sequential arms agree on all 24 cases.** Solo and serial reach exactly the same
+  verdict everywhere, while the parallel arm differs on 3 of 24. That agreement is what
+  makes the comparison worth anything: the gap is attributable to concurrency, not to
+  noise, because the control pair shows no gap at all.
+- **All three arms refuse all six missing-evidence controls.** Refusal does not depend on
+  the architecture.
+
+A plausible mechanism, offered as a hypothesis and not as a finding: with two inferences
+sharing four CPU threads, each call is individually slower, so more calls hit the per-call
+deadline. The parallel arm also issues fewer model calls, 61 against 73, which is what one
+would expect if cases end early. Testing that would need a run with the deadline relaxed,
+which would no longer be an equal-budget comparison.
+
+So the honest one-line summary of this experiment is not "four agents are better". It is:
+**on a CPU-bound budget, running the agents concurrently buys throughput and pays for it in
+completed cases.**
 
 ---
 

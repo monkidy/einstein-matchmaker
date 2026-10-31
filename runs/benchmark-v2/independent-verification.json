@@ -1,0 +1,58 @@
+{
+  "result": "PASS",
+  "verified_blocks": 12,
+  "case_arm_evaluations": 72,
+  "sourceFreezeSha256": "da20260901a18b6fd424d16dd483b345d6cddaf70d9ef013b15e21df64a83a14",
+  "same_corpus_protocol_model_engine_source_and_budget": true,
+  "same_24_cases_per_arm": true,
+  "negative_abstentions_per_arm": 6,
+  "source_claims_independently_verified": 264,
+  "actual_model_responses": 185,
+  "real_mozaik_and_server_concurrency": true,
+  "arms": {
+    "solo": {
+      "cases": 24,
+      "accepted": 12,
+      "natural_accepted": 12,
+      "controlled_negative_abstained": 6,
+      "model_calls": 73,
+      "input_tokens": 74893,
+      "output_tokens": 4549,
+      "cpu_ticks": 1525804,
+      "wall_ms": 4017901,
+      "peak_server_slots": 1
+    },
+    "serial": {
+      "cases": 24,
+      "accepted": 12,
+      "natural_accepted": 12,
+      "controlled_negative_abstained": 6,
+      "model_calls": 71,
+      "input_tokens": 70584,
+      "output_tokens": 4361,
+      "cpu_ticks": 1500165,
+      "wall_ms": 4028853,
+      "peak_server_slots": 1
+    },
+    "parallel": {
+      "cases": 24,
+      "accepted": 9,
+      "natural_accepted": 9,
+      "controlled_negative_abstained": 6,
+      "model_calls": 61,
+      "input_tokens": 46749,
+      "output_tokens": 2905,
+      "cpu_ticks": 1256542,
+      "wall_ms": 3277329,
+      "peak_server_slots": 2
+    }
+  },
+  "exact_status_pair_agreement": {
+    "parallelVssolo": 21,
+    "parallelVsserial": 21,
+    "soloVsserial": 24
+  },
+  "quality_uplift_proven": false,
+  "hidden_jury_gold_available": false,
+  "caveat": "Equal resource ceilings and source provenance validated. No independent gold usefulness improvement is proven."
+}

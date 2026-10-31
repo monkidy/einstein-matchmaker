@@ -1,0 +1,208 @@
+[
+  {
+    "caseId": "X01",
+    "challengeId": "C001-CH1",
+    "view": "no_research_sources",
+    "status": "ABSTAIN",
+    "reason": "NO_RESEARCH_EVIDENCE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "NO_RESEARCH_EVIDENCE"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "The challenge involves developing an unsupervised anomaly detection system for industrial networks with no labeled malicious data, requiring a novel approach that can be explained to non-technical stakeholders.",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "",
+      "documents": 0,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 29739,
+      "modelCalls": 1,
+      "inputTokens": 502,
+      "outputTokens": 87
+    }
+  },
+  {
+    "caseId": "X02",
+    "challengeId": "C149-CH1",
+    "view": "no_company_sources",
+    "status": "ABSTAIN",
+    "reason": "INDUSTRY_INSUFFICIENT",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "INDUSTRY_INSUFFICIENT"
+        ]
+      }
+    },
+    "shortlist": [
+      "R0336",
+      "R0782",
+      "R1029"
+    ],
+    "selection": {
+      "researcherId": "R0782",
+      "reason": "R0782's work on cereal bran hemicellulose and functional food applications aligns directly with the challenge of valorizing wheat bran for higher-value uses."
+    },
+    "industryReview": "NO_COMPANY_EVIDENCE",
+    "industryClassification": "INSUFFICIENT",
+    "retrieval": {
+      "query": "\"sell\" OR \"tonnes\" OR \"bran\" OR \"year\" OR \"cheap\" OR \"animal\" OR \"feed\" OR \"like\" OR \"higher\" OR \"value\" OR \"every\" OR \"tonne\" OR \"wheat\" OR \"mill\" OR \"leaves\" OR \"behind\" OR \"roughly\" OR \"adds\" OR \"right\" OR \"now\" OR \"bag\" OR \"loose\" OR \"livestock\" OR \"farms\" OR \"compounders\" OR \"around\" OR \"euros\" OR \"barely\" OR \"above\" OR \"cost\" OR \"handling\" OR \"transport\" OR \"margins\" OR \"thin\" OR \"enough\" OR \"bad\" OR \"stream\" OR \"nearly\" OR \"breakeven\" OR \"know\" OR \"dietary\" OR \"fibre\" OR \"content\" OR \"food\" OR \"manufacturers\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 68193,
+      "modelCalls": 1,
+      "inputTokens": 1424,
+      "outputTokens": 50
+    }
+  },
+  {
+    "caseId": "X03",
+    "challengeId": "C999-CH999",
+    "view": "missing_challenge",
+    "status": "ABSTAIN",
+    "reason": "CHALLENGE_NOT_FOUND",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "CHALLENGE_NOT_FOUND"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "CHALLENGE_NOT_FOUND",
+    "industryClassification": "INSUFFICIENT",
+    "retrieval": {
+      "query": "",
+      "documents": 0,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 71,
+      "modelCalls": 0,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  {
+    "caseId": "X04",
+    "challengeId": "C001-CH2",
+    "view": "no_research_sources",
+    "status": "ABSTAIN",
+    "reason": "NO_RESEARCH_EVIDENCE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "NO_RESEARCH_EVIDENCE"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "The challenge involves a technical problem with a testable unknown: designing a firmware update mechanism that is secure, resilient to interrupted transfers, and compatible with existing hardware. The company has prototyped approaches that均",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "",
+      "documents": 0,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 30551,
+      "modelCalls": 1,
+      "inputTokens": 519,
+      "outputTokens": 87
+    }
+  },
+  {
+    "caseId": "X05",
+    "challengeId": "C150-CH2",
+    "view": "no_company_sources",
+    "status": "ABSTAIN",
+    "reason": "INDUSTRY_INSUFFICIENT",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "INDUSTRY_INSUFFICIENT"
+        ]
+      }
+    },
+    "shortlist": [
+      "R0414",
+      "R0491",
+      "R0207"
+    ],
+    "selection": {
+      "researcherId": "R0414",
+      "reason": "R0414 has expertise in human-computer interaction and gerontechnology, with relevant publications on navigation and age-related cognitive issues."
+    },
+    "industryReview": "NO_COMPANY_EVIDENCE",
+    "industryClassification": "INSUFFICIENT",
+    "retrieval": {
+      "query": "\"interviewed\" OR \"elderly\" OR \"users\" OR \"found\" OR \"stop\" OR \"app\" OR \"within\" OR \"three\" OR \"weeks\" OR \"because\" OR \"font\" OR \"sizes\" OR \"navigation\" OR \"flow\" OR \"match\" OR \"cognitive\" OR \"motor\" OR \"patterns\" OR \"people\" OR \"systematic\" OR \"redesign\" OR \"person\" OR \"team\" OR \"background\" OR \"age\" OR \"during\" OR \"subotica\" OR \"sombor\" OR \"pilots\" OR \"forty\" OR \"percent\" OR \"stopped\" OR \"opening\" OR \"companion\" OR \"starting\" OR \"asked\" OR \"why\" OR \"answers\" OR \"were\" OR \"consistent\" OR \"text\" OR \"was\" OR \"hard\" OR \"read\" OR \"even\" OR \"gerontology\" OR \"accessibility\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 65924,
+      "modelCalls": 1,
+      "inputTokens": 1400,
+      "outputTokens": 44
+    }
+  },
+  {
+    "caseId": "X06",
+    "challengeId": "C151-CH1",
+    "view": "no_research_sources",
+    "status": "ABSTAIN",
+    "reason": "NO_RESEARCH_EVIDENCE",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "NO_RESEARCH_EVIDENCE"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "The company has access to historical data and manual review labels, and they need assistance improving their fraud detection model to reduce false positives while maintaining true-positive detection. This is a technical problem with a test可",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "",
+      "documents": 0,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 31743,
+      "modelCalls": 1,
+      "inputTokens": 563,
+      "outputTokens": 78
+    }
+  }
+]

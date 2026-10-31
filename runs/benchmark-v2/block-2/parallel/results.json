@@ -1,0 +1,617 @@
+[
+  {
+    "caseId": "N07",
+    "challengeId": "C141-CH4",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:The operation was aborted due to timeout",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 120269,
+      "modelCalls": 2,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  {
+    "caseId": "N08",
+    "challengeId": "C076-CH2",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:The operation was aborted due to timeout",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 120347,
+      "modelCalls": 2,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  {
+    "caseId": "N09",
+    "challengeId": "C077-CH1",
+    "view": null,
+    "status": "ABSTAIN",
+    "reason": "The operation was aborted due to timeout",
+    "proposal": null,
+    "critic": {
+      "accepted": false,
+      "audit": {
+        "valid": false,
+        "reasons": [
+          "UPSTREAM_EXECUTION_REFUSED"
+        ]
+      }
+    },
+    "shortlist": [],
+    "selection": null,
+    "industryReview": "EXECUTION_REFUSED:The operation was aborted due to timeout",
+    "industryClassification": null,
+    "retrieval": null,
+    "metrics": {
+      "wallMs": 120248,
+      "modelCalls": 2,
+      "inputTokens": 0,
+      "outputTokens": 0
+    }
+  },
+  {
+    "caseId": "N10",
+    "challengeId": "C021-CH3",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C021-CH3",
+      "companyId": "C021",
+      "companyName": "FinPuls Tehnologije d.o.o.",
+      "researcherId": "R0547",
+      "researcherName": "Gordana Đurić",
+      "claims": [
+        {
+          "sourceId": "C021-CH3",
+          "subjectId": "C021",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "We are trying to close our seed round — we've spoken to seven regional VCs and two said our data-processing terms in the standard merchant contract create GDPR liability that could block a German institutional lead investor.",
+          "recordSha256": "c0ad126199dadf4fa7238ce35393092f6f2c4ddc743e4ad50dfce5dd0aa92b3d",
+          "file": "data/companies.json",
+          "locator": "/companies/20/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C021-CH3",
+          "subjectId": "C021",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "Nalazimo se u procesu zatvaranja seed runde. Razgovarali smo sa sedam regionalnih investitora, od kojih su dva nezavisno ukazala da naš standardni ugovor sa merchantima — konkretno odredbe o obradi i zadržavanju transakccionih podataka — može da stvori GDPR problem za nemačkog institucionalnog ko-investitora sa kojim jedan od VC fondova već razgovara. Problem je što naš ugovor nije pisao ekspert za GDPR u fintech kontekstu, već generalni pravnik, i verovatno nismo dovoljno precizno definisali pravnu osnovu za obradu, rokove brisanja i odnos controller-processor između nas i klijenata. Razgovarali smo sa jednim pravnim konsultantom koji radi opštu GDPR usklađenost, ali on nije imao specifično iskustvo sa payment podacima i PSD2 okruženjem. Rok nam je de facto kraj sledećeg kvartala — ako ne rešimo ovo pre nego što potencijalni lead investor pošalje zahtev za due diligence, izgubićemo momentum. Tražimo nekoga ko razume presek GDPR-a, payment regulative i ugovornih struktura u B2B SaaS kontekstu.",
+          "recordSha256": "c0ad126199dadf4fa7238ce35393092f6f2c4ddc743e4ad50dfce5dd0aa92b3d",
+          "file": "data/companies.json",
+          "locator": "/companies/20/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C021",
+          "subjectId": "C021",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Fintech — B2B payment infrastructure and reconciliation",
+          "recordSha256": "52233c01a63e83dcab1177857fff49c0f1b56b44f5e30f8dd0e3fd001bac7c2a",
+          "file": "data/companies.json",
+          "locator": "/companies/20",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0547",
+          "subjectId": "R0547",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Commercial and Consumer Law; Digital Platform Regulation; Comparative Private Law; EU Internal Market Law",
+          "recordSha256": "6fa09e2a06ffca6130f0bcd5c089f51be92d3a5ab175cbfbf0552710c5a00a60",
+          "file": "data/researchers.json",
+          "locator": "/researchers/546",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-06378",
+          "subjectId": "R0547",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Liability of Online Marketplaces for Third-Party Seller Misconduct: Lessons from German and French Jurisprudence for Balkan Legislators",
+          "recordSha256": "c00bd62da0702f7c9d5780f80badac7275834b5443e6ab51c3e48f1777456bfe",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6378,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6378"
+        },
+        {
+          "sourceId": "SYN-PUB-06378",
+          "subjectId": "R0547",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This book chapter surveys approximately 40 German and French court decisions issued between 2010 and 2016 concerning marketplace platform liability for defective goods and misleading product descriptions posted by third-party sellers. It traces the doctrinal evolution from strict hosting-provider immunity toward an emerging due-diligence obligation triggered by notice-and-action procedures. The chapter then asks whether this jurisprudential shift offers normative guidance for legislators in Bosnia-Herzegovina, Serbia, and North Macedonia, who had not yet enacted platform-specific rules. The author argues that the German model of proactive monitoring obligations, cautiously applied by courts, is better suited to the institutional capacity of Western Balkan enforcement bodies than the French administrative notice system. The chapter closes with a model provision suitable for incorporation into existing consumer protection statutes, drafted in terms compatible with prospective EU accession obligations.",
+          "recordSha256": "c00bd62da0702f7c9d5780f80badac7275834b5443e6ab51c3e48f1777456bfe",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6378,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6378"
+        },
+        {
+          "sourceId": "SYN-PUB-06379",
+          "subjectId": "R0547",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Standard Terms in Cross-Border Consumer Contracts on Serbian-Operated Platforms: Fairness Assessment under the OCA and EU Acquis",
+          "recordSha256": "803b8b67fb35bfc8d99645f5e9c76a27e4ef39cbe4086ed40f771871623d0555",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6379,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6379"
+        },
+        {
+          "sourceId": "SYN-PUB-06379",
+          "subjectId": "R0547",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "The article applies the unfair terms test from the Serbian Law on Obligations and the EU Directive 93/13/EEC to a corpus of 18 standard contracts published by Serbian-registered e-commerce platforms during 2016–2017. Each contract was coded for 47 clauses across nine categories, including limitation-of-liability clauses, dispute-resolution clauses requiring arbitration abroad, and unilateral modification rights. The fairness analysis finds that 14 of the 18 contracts contained at least one clause likely to be regarded as unfair under the EU grey list, and 9 contained provisions that closely matched the black-list categories. The article discusses how Serbian courts have approached analogous clauses in a set of 11 first-instance judgments between 2014 and 2017, noting that courts rarely invoke the fairness doctrine sua sponte. Policy implications for disclosure obligations and judicial training are outlined.",
+          "recordSha256": "803b8b67fb35bfc8d99645f5e9c76a27e4ef39cbe4086ed40f771871623d0555",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 6379,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L6379"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Does specifying GDPR compliance in payment data handling terms reduce liability concerns for German institutional investors?",
+        "experiment": "Modify merchant contracts to explicitly state GDPR compliance, data processing basis, and controller-processor relationships.",
+        "metric": "Number of German institutional investors expressing no liability concerns within 90 days.",
+        "successCriterion": "Proposed gate: measure Number of German institutional investors expressing no liability concerns within 90 days. on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Research addresses GDPR compliance in merchant contracts, aligning with company's need to resolve liability concerns for German investors."
+      }
+    },
+    "shortlist": [
+      "R0547",
+      "R0372",
+      "R0231"
+    ],
+    "selection": {
+      "researcherId": "R0547",
+      "reason": "Focus on GDPR, digital platforms, and legal analysis of B2B SaaS contracts aligns with the need to resolve GDPR liability in merchant contracts for a German investor."
+    },
+    "industryReview": "The problem involves a specific legal uncertainty related to data processing terms in a merchant contract, which could impact a potential investment. The issue requires specialized knowledge in GDPR, payment regulations, and contract law to",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"trying\" OR \"close\" OR \"seed\" OR \"round\" OR \"spoken\" OR \"seven\" OR \"regional\" OR \"vcs\" OR \"said\" OR \"processing\" OR \"terms\" OR \"standard\" OR \"merchant\" OR \"contract\" OR \"create\" OR \"gdpr\" OR \"liability\" OR \"block\" OR \"german\" OR \"institutional\" OR \"lead\" OR \"investor\" OR \"nalazimo\" OR \"procesu\" OR \"zatvaranja\" OR \"runde\" OR \"razgovarali\" OR \"smo\" OR \"sedam\" OR \"regionalnih\" OR \"investitora\" OR \"kojih\" OR \"dva\" OR \"nezavisno\" OR \"ukazala\" OR \"nas\" OR \"standardni\" OR \"ugovor\" OR \"merchantima\" OR \"konkretno\" OR \"odredbe\" OR \"obradi\" OR \"zadrzavanju\" OR \"transakccionih\" OR \"podataka\" OR \"agricultural\" OR \"vision\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 236013,
+      "modelCalls": 4,
+      "inputTokens": 4472,
+      "outputTokens": 251
+    }
+  },
+  {
+    "caseId": "N11",
+    "challengeId": "C093-CH3",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C093-CH3",
+      "companyId": "C093",
+      "companyName": "EkoTok Solutions d.o.o.",
+      "researcherId": "R0684",
+      "researcherName": "Stefan Ivanović",
+      "claims": [
+        {
+          "sourceId": "C093-CH3",
+          "subjectId": "C093",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "Disassembly output per worker has stayed flat at around 18 kg/hour for two years; we've watched the workflow but don't know how to redesign the station layout or the sequence of operations to get closer to the 28 kg/hour our Dutch partner achieves.",
+          "recordSha256": "e22830ca95fc7a066e61bfa2118fd6f667325bd1a4a935fb21cb53896b28fb2f",
+          "file": "data/companies.json",
+          "locator": "/companies/92/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C093-CH3",
+          "subjectId": "C093",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "Our disassembly floor has ten workstations. Each station handles a mix of device types: phones, tablets, small household electronics. For the past two years our average output has stayed at about 18 kilograms of separated material per worker per hour regardless of which devices are coming in. Our Dutch downstream partner, Halvard Material Group, reports roughly 28 kg per worker per hour at their Dordrecht facility on a comparable device mix. We have visited their site once and came back with notes but no clear picture of exactly what we should change. The differences we noticed were in station layout, the sequence in which parts are removed, and the way tools are arranged, but we did not have a structured way to measure which of those factors actually drives throughput. We have tried rearranging one station as a test but did not measure before and after consistently enough to draw conclusions. We have timestamped video of about 40 hours of floor work that we collected internally. A concrete target for us is reaching 24 kg per worker per hour within 12 months without adding headcount or significant capital equipment. We are open to a structured process study if someone can tell us what data to collect and how to act on it.",
+          "recordSha256": "e22830ca95fc7a066e61bfa2118fd6f667325bd1a4a935fb21cb53896b28fb2f",
+          "file": "data/companies.json",
+          "locator": "/companies/92/challenges/2",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C093",
+          "subjectId": "C093",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Cleantech — electric waste logistics and e-waste processing",
+          "recordSha256": "76b9acac6142c2e1ffe3b5ba883b2d3b511cc8507f4191a9c03a4d11755f9691",
+          "file": "data/companies.json",
+          "locator": "/companies/92",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0684",
+          "subjectId": "R0684",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Industrial Engineering; Ergonomics and Human Factors; Reverse Logistics and Circular Economy; Lean Manufacturing",
+          "recordSha256": "baeb4ab0ca54e111c592921e782019ac15e7d3bde69d5a0422ce20142ef1280b",
+          "file": "data/researchers.json",
+          "locator": "/researchers/683",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-07688",
+          "subjectId": "R0684",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Workstation Layout Benchmarking for Printed Circuit Board Disassembly: A Time Study at Three Serbian Collection Centres",
+          "recordSha256": "9e14abede799964c89e2ea93811c22cc66a10ff1c7fb0bba9447b064c5cdc905",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7688,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7688"
+        },
+        {
+          "sourceId": "SYN-PUB-07688",
+          "subjectId": "R0684",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "This study conducted structured time-and-motion observations at three end-of-life electronics collection centres in Vojvodina to benchmark current workstation layouts for manual printed circuit board disassembly. Using a combination of direct stopwatch study and predetermined motion time system (MTM-UAS) coding, 1 240 individual task cycles were recorded across 18 operators. Results showed that average cycle time varied by 34% between the best- and worst-performing stations, with non-value-adding reach and reposition motions accounting for 41% of total cycle time at poorly arranged benches. A revised workstation layout incorporating a fixed tool shadow board and a gravity-fed component tray was proposed and piloted at one site, reducing average cycle time by 18% and peak wrist deviation angle from 28° to 14°. The findings indicate that systematic layout analysis can simultaneously improve throughput and reduce musculoskeletal loading without capital investment in automation.",
+          "recordSha256": "9e14abede799964c89e2ea93811c22cc66a10ff1c7fb0bba9447b064c5cdc905",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7688,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7688"
+        },
+        {
+          "sourceId": "SYN-PUB-07692",
+          "subjectId": "R0684",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Measuring Operator Learning Curves on a Smartphone Disassembly Line: A Longitudinal Study Over 16 Weeks",
+          "recordSha256": "a2c84759bd47271be00a211314440f6ce02ac1776ec6bdaa22e551064b48cd50",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7692,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7692"
+        },
+        {
+          "sourceId": "SYN-PUB-07692",
+          "subjectId": "R0684",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Learning curve effects in manual disassembly are less well characterised than in assembly, partly because worker tenure at end-of-life facilities tends to be short. This study tracked eight operators on a three-station smartphone disassembly line at a Serbian take-back facility over 16 consecutive working weeks, recording individual task times weekly using video-coded MTM-UAS analysis. A power-law model was fitted to mean task times for each operator and each station separately. Learning curve slopes (expressed as percentage reduction per doubling of cumulative output) ranged from 7% to 21% across operators and stations, with the highest learning rates observed at the display-removal station where tactile judgment is important. Plateau times ranged from 6 to 11 weeks. Inter-operator variability declined significantly after week 8 (F-test, p = 0.03), suggesting convergence toward a common method. Results support scheduling new operators at lower-complexity stations in the first four weeks and adjusting line-balance target times accordingly during the ramp-up period.",
+          "recordSha256": "a2c84759bd47271be00a211314440f6ce02ac1776ec6bdaa22e551064b48cd50",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 7692,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L7692"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "How does workstation layout and operator sequence affect disassembly throughput?",
+        "experiment": "Compare disassembly output before and after rearranging station layout and operator sequence using timestamped video data",
+        "metric": "kg of separated material per worker per hour",
+        "successCriterion": "Proposed gate: measure kg of separated material per worker per hour on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Research evidence shows layout and sequence affect throughput; company problem aligns with measured variables."
+      }
+    },
+    "shortlist": [
+      "R0684",
+      "R0646",
+      "R0918"
+    ],
+    "selection": {
+      "researcherId": "R0684",
+      "reason": "R0684's work on time studies and motion analysis aligns directly with the need to measure and improve disassembly workflow efficiency."
+    },
+    "industryReview": "The company has observed a stagnation in disassembly output and is seeking to understand the root causes through a structured process study. They have limited R&D resources and require guidance on what data to collect and how to analyze it.",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"disassembly\" OR \"output\" OR \"worker\" OR \"stayed\" OR \"flat\" OR \"around\" OR \"hour\" OR \"years\" OR \"watched\" OR \"workflow\" OR \"don\" OR \"know\" OR \"redesign\" OR \"station\" OR \"layout\" OR \"sequence\" OR \"operations\" OR \"closer\" OR \"dutch\" OR \"partner\" OR \"achieves\" OR \"floor\" OR \"ten\" OR \"workstations\" OR \"handles\" OR \"mix\" OR \"device\" OR \"types\" OR \"phones\" OR \"tablets\" OR \"small\" OR \"household\" OR \"electronics\" OR \"past\" OR \"average\" OR \"kilograms\" OR \"separated\" OR \"material\" OR \"regardless\" OR \"devices\" OR \"coming\" OR \"downstream\" OR \"halvard\" OR \"group\" OR \"reports\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 194741,
+      "modelCalls": 4,
+      "inputTokens": 4012,
+      "outputTokens": 218
+    }
+  },
+  {
+    "caseId": "N12",
+    "challengeId": "C059-CH2",
+    "view": null,
+    "status": "ACCEPTED",
+    "reason": "INDEPENDENT_SOURCE_AND_PLAUSIBILITY_GATE_PASS",
+    "proposal": {
+      "status": "PROPOSED",
+      "challengeId": "C059-CH2",
+      "companyId": "C059",
+      "companyName": "Dunav Kargo a.d.",
+      "researcherId": "R0803",
+      "researcherName": "Péter Fehér",
+      "claims": [
+        {
+          "sourceId": "C059-CH2",
+          "subjectId": "C059",
+          "kind": "challenge",
+          "field": "text",
+          "quote": "Canal water levels are dropping more often in late summer; two years ago we had to reduce barge loads by 30% for six weeks because we couldn't predict low-water events early enough to reroute cargo to trucks in time. We need a reliable 10-to-14-day low-water forecast for the DTD canal so we can plan load factors and pre-book truck capacity.",
+          "recordSha256": "da165632acba5260a18f93be0b5d5c62e1e36dffdebbeff136097785471cab34",
+          "file": "data/companies.json",
+          "locator": "/companies/58/challenges/1",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C059-CH2",
+          "subjectId": "C059",
+          "kind": "challenge",
+          "field": "detail",
+          "quote": "The DTD canal system is getting shallower in late summer more often than it used to. Two summers ago we had a six-week stretch where loaded barges could not safely draw more than 1.8 metres, which forced us to cut loads by about 30%. Because we did not see it coming early enough, we scrambled to book extra trucks at spot-market rates, which cost significantly more than pre-booked capacity would have.\n\nThe public hydrology services publish water-level readings and some short-range outlooks, but nothing reliable beyond three or four days, and nothing specific to the narrower canal sections where shallow water hits us first. We tried using regional rainfall forecasts ourselves but the connection between upstream rain and canal depth at our critical points is not something our dispatchers can judge reliably.\n\nWhat we need is a forecast with a 10-to-14-day horizon that tells us, at the canal sections we care about, whether we are likely to face draft restrictions. That would give us enough time to call our truck subcontractors, pre-book capacity at normal rates and redistribute cargo across the combined fleet. Even a probabilistic forecast — 'there is a 70% chance of restrictions at Bečej by August 14' — would be far more useful than what we have today.",
+          "recordSha256": "da165632acba5260a18f93be0b5d5c62e1e36dffdebbeff136097785471cab34",
+          "file": "data/companies.json",
+          "locator": "/companies/58/challenges/1",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "C059",
+          "subjectId": "C059",
+          "kind": "company",
+          "field": "sector",
+          "quote": "Logistics, transport and e-commerce",
+          "recordSha256": "27469b8cc70bda4ec8aa0c81c25c8567bb87fd6a9412e2c37ac3476586d15d02",
+          "file": "data/companies.json",
+          "locator": "/companies/58",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/companies.json"
+        },
+        {
+          "sourceId": "R0803",
+          "subjectId": "R0803",
+          "kind": "researcher",
+          "field": "fields",
+          "quote": "Hydraulic and hydrological engineering; Water resources management; Stochastic and statistical hydrology; Environmental fluid mechanics",
+          "recordSha256": "cc17f504d3482ccaf6f06b2b5487a8c9e9f46f39666de1f6831512aa68978348",
+          "file": "data/researchers.json",
+          "locator": "/researchers/802",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/researchers.json"
+        },
+        {
+          "sourceId": "SYN-PUB-08766",
+          "subjectId": "R0803",
+          "kind": "publication",
+          "field": "title",
+          "quote": "Probabilistic low-flow forecasting at 14-day lead time using a Bayesian model averaging ensemble for the DTD canal system",
+          "recordSha256": "0a0ac3676809376044d182d3cf3287aeeb993133a66b9b09a7b2ac7fc6c2632c",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8766,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8766"
+        },
+        {
+          "sourceId": "SYN-PUB-08766",
+          "subjectId": "R0803",
+          "kind": "publication",
+          "field": "abstract",
+          "quote": "Four hydrological models (HBV-light, GR4J, SAC-SMA, and a simple regression benchmark) were forced with ensemble numerical weather prediction outputs from ECMWF and ALADIN-Serbia to produce 14-day probabilistic discharge forecasts at three canal nodes. Forecasts from individual models were combined using Bayesian model averaging with weights estimated from a 10-year hindcast period (2006–2015). The BMA ensemble achieved a continuous ranked probability skill score of 0.31 relative to climatology at Bečej node for lead days 8–14, compared with 0.18 for the best single model. Reliability diagrams confirmed adequate probabilistic calibration across all three nodes. The framework was tested operationally during the 2019 summer low-flow period and issued four correctly verified low-flow alerts. Computational runtime allowed daily forecast updates on a standard workstation in under 12 minutes.",
+          "recordSha256": "0a0ac3676809376044d182d3cf3287aeeb993133a66b9b09a7b2ac7fc6c2632c",
+          "file": "data/publications.jsonl",
+          "locator": "/",
+          "line": 8766,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/publications.jsonl#L8766"
+        },
+        {
+          "sourceId": "SYN-PRJ-0442",
+          "subjectId": "R0803",
+          "kind": "project",
+          "field": "title",
+          "quote": "Probabilistic Low-Flow Forecasting and Water-Balance Monitoring for the DTD Canal System",
+          "recordSha256": "2f04ce5b99ba3bc6f6bbe333864de9cf563f06b4739844b79d12fa192d62571c",
+          "file": "data/projects.json",
+          "locator": "/projects/441",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/projects.json"
+        },
+        {
+          "sourceId": "SYN-PRJ-0442",
+          "subjectId": "R0803",
+          "kind": "project",
+          "field": "summary",
+          "quote": "The project aimed to build an operational probabilistic forecasting system for low-flow events in the DTD canal network, targeting 7- to 30-day lead times. Work packages covered installation of an automated gauging station near Bečej, ensemble model development using four hydrological models combined with ECMWF NWP outputs, and a Bayesian model averaging combination layer. Forecast performance was evaluated against a three-year hindcast. A simplified decision-support tool was delivered to Vode Vojvodine for integration into their summer operational planning workflow. The project also funded graduate student involvement and three peer-reviewed publications.",
+          "recordSha256": "2f04ce5b99ba3bc6f6bbe333864de9cf563f06b4739844b79d12fa192d62571c",
+          "file": "data/projects.json",
+          "locator": "/projects/441",
+          "line": null,
+          "url": "https://github.com/jigjoy-ai/einstein-matchmaker-data/blob/4fb99b3749adf0d10b5977089ff4c73f4f522240/data/projects.json"
+        }
+      ],
+      "hypothesis": {
+        "researchQuestion": "Can a 14-day probabilistic forecast of low water levels at Bečej canal section accurately predict draft restrictions?",
+        "experiment": "Train Bayesian model averaging with ECMWF NWP data on 10-year hindcast, test against 3-year forecast period",
+        "metric": "Continuous ranked probability skill score at Bečej node for lead days 8–14",
+        "successCriterion": "Proposed gate: measure Continuous ranked probability skill score at Bečej node for lead days 8–14 on a frozen held-out test set against a transparent control agreed at scoping. Pre-register the minimum useful improvement and uncertainty bounds with both partners. No present baseline value is assumed.",
+        "label": "PROPOSED_EXPERIMENT_NOT_ESTABLISHED_FACT"
+      },
+      "plan": [
+        {
+          "phase": "Scoping",
+          "deliverable": "Confirm exact technical problem, data access, candidate availability, ethics, IP and baseline with both partners."
+        },
+        {
+          "phase": "Pilot",
+          "deliverable": "Run the proposed baseline and candidate method on a held-out test set; record failure cases, latency, uncertainty and resources."
+        },
+        {
+          "phase": "Decision",
+          "deliverable": "Independent review with the company: continue only if pre-agreed measures improve; publish only with both partners consent."
+        }
+      ],
+      "limitations": [
+        "Official dataset is synthetic; no real collaboration or consent established.",
+        "Researchers are proposed for task fit; no score of personal worth.",
+        "Company resources and researcher availability require confirmation.",
+        "No funding, budget, supervisor, data permission or production gain is asserted."
+      ]
+    },
+    "critic": {
+      "accepted": true,
+      "audit": {
+        "valid": true,
+        "reasons": [],
+        "claimsChecked": 8,
+        "exactQuotes": 8,
+        "independentResearchDocuments": 2,
+        "scope": "Exact attribution and quotes plus conservative lexical fit; not a proof of real-world feasibility."
+      },
+      "semantic": {
+        "compatible": true,
+        "reason": "Research links to company's need for 14-day probabilistic forecast, using Bayesian model averaging with NWP data."
+      }
+    },
+    "shortlist": [
+      "R0803",
+      "R0240",
+      "R0323"
+    ],
+    "selection": {
+      "researcherId": "R0803",
+      "reason": "R0803's work directly addresses probabilistic low-flow forecasting with 14-day lead times for the DTD canal, matching the challenge's need."
+    },
+    "industryReview": "The challenge involves a technical problem with a testable unknown — predicting low-water events in the DTD canal with a 10-to-14-day forecast. While the company lacks in-house research capabilities, they are willing to collaborate and have",
+    "industryClassification": "RESEARCH",
+    "retrieval": {
+      "query": "\"canal\" OR \"water\" OR \"levels\" OR \"dropping\" OR \"often\" OR \"late\" OR \"summer\" OR \"years\" OR \"ago\" OR \"reduce\" OR \"barge\" OR \"loads\" OR \"six\" OR \"weeks\" OR \"because\" OR \"couldn\" OR \"predict\" OR \"low\" OR \"events\" OR \"early\" OR \"enough\" OR \"reroute\" OR \"cargo\" OR \"trucks\" OR \"time\" OR \"reliable\" OR \"day\" OR \"forecast\" OR \"dtd\" OR \"plan\" OR \"load\" OR \"factors\" OR \"pre\" OR \"book\" OR \"truck\" OR \"capacity\" OR \"shallower\" OR \"summers\" OR \"week\" OR \"stretch\" OR \"loaded\" OR \"barges\" OR \"safely\" OR \"draw\" OR \"metres\" OR \"prediction\"",
+      "documents": 60,
+      "limit": 60
+    },
+    "metrics": {
+      "wallMs": 212500,
+      "modelCalls": 4,
+      "inputTokens": 4296,
+      "outputTokens": 257
+    }
+  }
+]
