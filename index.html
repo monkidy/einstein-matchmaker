@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EINSTEIN Matchmaker</title>
+<meta name="description" content="Four Mozaik agents, one local model, and a system that refuses to propose when the evidence is thin. NTP Novi Sad Hackathon 2026.">
+<style>
+  :root{
+    --paper:#f6f1e7; --ink:#1f2328; --mute:#6b6253; --rule:#d8cfbe;
+    --good:#1a7f37; --warn:#9a6700; --blue:#0b5fa5; --box:#efe7d8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:17px/1.65 "Segoe UI",ui-sans-serif,system-ui,-apple-system,sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:56px 16px 96px}
+  .kick{font-size:14px;letter-spacing:.18em;color:var(--mute);text-transform:uppercase}
+  h1{font-size:clamp(30px,5vw,46px);line-height:1.15;margin:.3em 0 .2em;font-weight:650}
+  h2{font-size:clamp(21px,3vw,27px);margin:2.4em 0 .6em;font-weight:650}
+  .lede{font-size:clamp(18px,2.4vw,21px);color:var(--mute);margin:0 0 2em}
+  video{width:100%;border-radius:10px;background:#000;display:block}
+  figcaption{font-size:14px;color:var(--mute);margin-top:.7em}
+  table{border-collapse:collapse;width:100%;margin:1.2em 0;font-size:16px}
+  th,td{text-align:left;padding:.6em .5em;border-bottom:1px solid var(--rule)}
+  th{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);font-weight:600}
+  td.n{text-align:right;font-variant-numeric:tabular-nums;font-weight:650}
+  tr.hot td{color:var(--blue)}
+  .good{color:var(--good)} .warn{color:var(--warn)}
+  .pill{display:inline-block;background:var(--box);border-radius:999px;
+    padding:.3em .9em;font-size:13px;color:var(--mute);margin:.2em .3em .2em 0}
+  .note{background:var(--box);border-left:4px solid var(--blue);
+    padding:1em 1.2em;border-radius:0 8px 8px 0;margin:1.4em 0}
+  code{font-family:ui-monospace,Consolas,monospace;font-size:.92em;
+    background:var(--box);padding:.12em .4em;border-radius:4px}
+  pre{background:var(--box);padding:1em 1.2em;border-radius:8px;overflow-x:auto;font-size:14px}
+  pre code{background:none;padding:0}
+  a{color:var(--blue)}
+  footer{margin-top:3.5em;padding-top:1.4em;border-top:1px solid var(--rule);
+    font-size:14px;color:var(--mute)}
+  img.fig{width:100%;border:1px solid var(--rule);border-radius:8px;background:#fff}
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#17150f; --ink:#f0ebe0; --mute:#a99f8c; --rule:#3a352b;
+      --box:#221f17; --blue:#6cb6ff; --good:#5fd27e; --warn:#e0b341;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#17150f; --ink:#f0ebe0; --mute:#a99f8c; --rule:#3a352b;
+    --box:#221f17; --blue:#6cb6ff; --good:#5fd27e; --warn:#e0b341;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="kick">NTP Novi Sad Hackathon 2026 &middot; EINSTEIN track &middot; solo entry</p>
+  <h1>EINSTEIN Matchmaker</h1>
+  <p class="lede">Four Mozaik agents work a company's technical challenge at the same time,
+  on one local model. The system proposes a researcher only when it can quote its sources,
+  and it abstains out loud when it cannot.</p>
+
+  <figure style="margin:0">
+    <video controls preload="metadata" poster="evidence/05-final-result.png">
+      <source src="film/einstein_matchmaker_demo.mp4" type="video/mp4">
+      Your browser cannot play this file.
+      <a href="film/einstein_matchmaker_demo.mp4">Download the video</a> instead.
+    </video>
+    <figcaption>1 min 33. Narration by a synthetic voice (Asso, SYSTASYS), disclosed on the
+    end card. Entry by Hichem Benali, solo.</figcaption>
+  </figure>
+
+  <h2>The one idea</h2>
+  <p>A match and a coincidence look identical from the outside. Two documents sharing the
+  word "anomaly" is not a link between a researcher and a factory floor, and two HTTP
+  requests in flight is not two agents thinking at the same time. The same discipline is
+  applied twice: to what the system says about the world, and to what it says about itself.</p>
+  <p><strong>A system that cannot refuse cannot be trusted when it accepts.</strong></p>
+
+  <h2>The result, as measured</h2>
+  <p>Equal-resource comparison, the same 24 cases in every arm, one frozen source digest
+  throughout. Independent verdict <strong class="good">PASS</strong> on 12 of 12 blocks and
+  72 of 72 case-arms, with 264 source claims re-checked against the raw files.</p>
+
+  <table>
+    <thead><tr><th>Arm</th><th>Agents</th><th>Accepted</th><th>Controls refused</th>
+      <th>Wall time</th><th>Peak slots</th></tr></thead>
+    <tbody>
+      <tr><td>Solo</td><td class="n">1</td><td class="n">12 / 24</td><td class="n">6 / 6</td>
+        <td class="n">67.0 min</td><td class="n">1</td></tr>
+      <tr><td>Serial roles</td><td class="n">4</td><td class="n">12 / 24</td><td class="n">6 / 6</td>
+        <td class="n">67.1 min</td><td class="n">1</td></tr>
+      <tr class="hot"><td><strong>Parallel roles</strong></td><td class="n">4</td>
+        <td class="n warn">9 / 24</td><td class="n">6 / 6</td>
+        <td class="n good">54.6 min</td><td class="n">2</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <p style="margin:0"><strong>Concurrency bought 18.5 % of wall time and cost three
+    accepted cases out of twenty-four.</strong> There is no quality advantage here. There is
+    a measured loss, and we publish it as it came out.</p>
+  </div>
+
+  <p>What makes that gap readable is the control pair: solo and serial agree on
+  <strong>all 24 cases</strong>, while the parallel arm differs on 3. If the protocol were
+  noisy, the two sequential arms would disagree too. They do not, so the difference is
+  attributable to concurrency. All three arms refuse all six missing-evidence controls, so
+  refusal does not depend on the architecture.</p>
+
+  <p>A plausible mechanism, offered as a hypothesis and not as a finding: two inferences
+  sharing four CPU threads make each call slower, so more calls hit the per-call deadline.
+  The parallel arm also issues 61 model calls against 73. Testing it would need the deadline
+  relaxed, which would no longer be an equal-budget comparison.</p>
+
+  <h2>The concurrency, proven from the server</h2>
+  <p>The verifier does not accept client-side appearances. A run passes only with two
+  distinct Mozaik producer IDs, overlapping task intervals, and a timestamp inside that
+  overlap at which two distinct llama.cpp slots are both in <code>PROCESSING</code>. A
+  negative control that deletes all slot evidence must be rejected, and is.</p>
+
+  <p><span class="pill">5009 of 7933 slot samples show two slots busy</span>
+  <span class="pill">63.1 % of observed compute</span>
+  <span class="pill">614.5 s across 4 windows</span>
+  <span class="pill">client-only false concurrency rejected</span>
+  <span class="pill">same-agent false concurrency rejected</span></p>
+
+  <figure style="margin:1.5em 0 0">
+    <img class="fig" src="evidence/concurrency-block1-verified.svg"
+         alt="Timeline of measured inference concurrency, drawn from the run trace">
+    <figcaption>Drawn from the trace alone, no interpolated value. Regenerate it with
+    <code>python3 scripts/concurrency_figure.py runs/benchmark-v2/block-1/parallel
+    evidence/concurrency-block1-verified</code>.</figcaption>
+  </figure>
+
+  <h2>What is not claimed</h2>
+  <ul>
+    <li>No quality uplift from parallelism. The natural challenges have no organizer answer
+      key, so the question stays open and the repository says so.</li>
+    <li>Generic concurrency instrumentation is prior art. What is offered as original is the
+      combination of source-locked proposals, conservative abstention, independent raw-file
+      verification, server-side concurrency evidence and an equal-resource comparison.</li>
+    <li>The system compares fit to a technical task. It does not rank people's worth, and no
+      message is sent to any researcher or company. The dataset is fictional.</li>
+  </ul>
+
+  <h2>Run it yourself</h2>
+<pre><code>git clone https://github.com/monkidy/einstein-matchmaker
+cd einstein-matchmaker
+npm ci --ignore-scripts
+python3 scripts/prepare_data.py
+python3 scripts/fetch_runtime.py
+npm test                      # expect 28/28
+python3 scripts/run_local.py node src/cli.mjs demo</code></pre>
+
+  <footer>
+    <p><a href="https://github.com/monkidy/einstein-matchmaker">Repository</a> &middot;
+    <a href="https://github.com/monkidy/einstein-matchmaker#readme">README, with the
+    claim-status table</a> &middot;
+    <a href="runs/benchmark-v2/independent-verification.json">Independent verdict</a> &middot;
+    <a href="evaluation/DEVELOPMENT_DISCLOSURE.md">What was tried and rejected</a></p>
+    <p>No hosted model API, no API key: <code>hostedInferenceCalls</code> and
+    <code>paidProviderCalls</code> are both <code>0</code> in every run receipt. Model,
+    inference engine and the organizer corpus are each pinned by content hash.</p>
+  </footer>
+
+</div>
+</body>
+</html>
