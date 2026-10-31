@@ -1,8 +1,6 @@
 # EINSTEIN Matchmaker, film de soumission V1 privé : preuves, storyboard, contrôle qualité
 
-**Rien n'est publié.** Ce dossier accompagne `EINSTEIN_MATCHMAKER_DEMO_V1_prive.mp4`. Il ne
-vaut ni accord de publication ni accord de soumission : ces deux gestes restent à Hichem,
-sur le fichier exact.
+**Mis à jour le 31/10 à 18h30.** Ce dossier accompagne le film de soumission. À sa création il n'était ni publié ni soumis ; depuis, Hichem a donné son accord explicite, le film est publié dans le dépôt public et la candidature est enregistrée chez l'organisateur avec son lien. Le nom de fichier garde le suffixe `_prive` de sa première version : c'est le même contenu, même empreinte.
 
 - **Commande :** Hichem, 31/10/2026, « on va faire la démo », avec l'idée que ce soit Asso
   qui présente. Texte parlé validé par lui avant tout calcul de voix, selon la règle du
@@ -31,7 +29,7 @@ l'écran est lu dans les fichiers d'un run réellement vérifié.
 | S4 | Then an independent critic reads the proposal... the system says no. | la proposition acceptée, son empreinte d'enregistrement, son URL source | `results.json`, 16 claims vérifiés |
 | S5 | Two proposals were accepted. One was refused on the evidence. Three ran out of time. | les trois sortes d'issues, comptées à part | `results.json` du bras parallèle |
 | S6 | We do not claim that four agents answer better than one. | `hidden_jury_gold_available: false`, `usefulness_uplift_proven: false` | `independent-verification.json` |
-| S7 | A system that cannot refuse cannot be trusted when it accepts. | carton final, adresse du dépôt | — |
+| S7 | A system that cannot refuse cannot be trusted when it accepts. | carton final, adresse du dépôt |, |
 
 **Pastilles d'honnêteté**, reprises de la discipline du film ANIMA et présentes sur chaque
 plan : `REAL RUN . 31 Oct 2026 . Qwen3-4B Q4_K_M, CPU only . organizer corpus v2 .

@@ -16,13 +16,21 @@ EINSTEIN Matchmaker (solo entry)
 
 ## Repository
 
-`<repository URL>`
+`https://github.com/monkidy/einstein-matchmaker`
 
 Everything the judges need is in `README.md`: a five-command setup from a clean folder, the
 claim-status table saying exactly what is proven and what is not, and the commands that
 redraw every measurement from the raw traces.
 
 ---
+
+## Live deployment
+
+`https://monkidy.github.io/einstein-matchmaker/`, which carries the demo video, the measured result and the commands to reproduce.
+
+## Demo video
+
+`https://monkidy.github.io/einstein-matchmaker/film/einstein_matchmaker_demo.mp4`, 1:33, narration by a synthetic voice, disclosed on the end card.
 
 ## Description
 
