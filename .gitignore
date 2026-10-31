@@ -6,3 +6,7 @@ runtime/
 .env
 *.incomplete
 __pycache__/
+
+# montage: fichiers intermediaires et images de controle
+film/tmp/
+film/audit/

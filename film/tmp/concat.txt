@@ -1,8 +1,0 @@
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_head.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S1.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S2.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S3.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S4.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S5.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S6.mp4'
-file 'C:/Users/hiche/AppData/Local/Temp/claude/C--Users-hiche--claude-spares-spare-ZQo1qe/0ff4e41a-c521-4a1e-bee5-b1b1fe1d6f89/scratchpad/einstein-matchmaker/film/tmp/v_S7.mp4'
