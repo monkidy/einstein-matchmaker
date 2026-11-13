@@ -2,6 +2,8 @@
 
 **Track:** EINSTEIN Matchmaker · **Event:** NTP Novi Sad Hackathon (3alet), 30 to 31 October 2026 · **Entry:** solo
 
+**Result:** not among the winners announced by the organizers on 7 November 2026 ([the winners](https://build.jigjoy.ai/editions/stp-novi-sad-2026/winners)).
+
 An evidence-constrained matcher between a company's technical challenge and a researcher who
 can actually address it. Four Mozaik agents run concurrently on one local Qwen3-4B model. The
 system proposes a pilot **only** when it can quote its sources, and it **abstains out loud**
@@ -348,3 +350,5 @@ Apache-2.0. Their assets are fetched from their owners at run time and are not r
 here. The organizer supplies its fictional dataset for this track; this repository references
 and downloads it, and asserts no redistribution licence over it. The licence for this
 repository's own code is in `LICENSE`.
+
+<p align="center"><sub><b>EINSTEIN Matchmaker</b> by <b>SYSTASYS</b> · made by Hichem Benali</sub></p>

@@ -2,19 +2,7 @@
  "schema": "SYSTASYS_ASSO_NARRATION_EINSTEIN_V1",
  "version": "narration_einstein_v1",
  "date": "2026-10-31",
- "motif": "Film de soumission EINSTEIN Matchmaker, hackathon 3alet CU-0070, 7 segments ; texte validé par Hichem le 31/10 avant tout calcul",
- "recette": {
-  "modele": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
-  "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
-  "reference_sha256": "047aaa0546eece2109401775112bafdeb52fc9a0b254accf5c7829f60b093069",
-  "graine": 1234,
-  "graine_reprise": 1235,
-  "x_vector_only_mode": true,
-  "langue": "English",
-  "presence": "22/10",
-  "source": "fonctions de narration_anima_v1.py importées telles quelles",
-  "priorite": "nice 19, torch 2 fils, derriere la production"
- },
+ "motif": "Film de démonstration EINSTEIN Matchmaker, 7 segments.",
  "candidats": {
   "S1": {
    "texte": "A company has a problem. Somewhere among a thousand researchers, one person can solve it. Finding a name is easy. Being right is not.",
