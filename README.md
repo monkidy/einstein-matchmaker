@@ -1,3 +1,5 @@
+<p align="center"><picture><source media="(max-width: 600px)" srcset="docs/visual/einstein-hero-v4-mobile.webp"><img src="docs/visual/einstein-hero-v4-desktop.webp" width="100%" alt="EINSTEIN Matchmaker. Illustrative cover with benchmark facts: 18.5 percent faster but only 9 rather than 12 accepted proposals, across the same 24 cases. Not evidence of improved match quality."></picture></p>
+
 # EINSTEIN Matchmaker
 
 **18.5% faster. Three fewer accepted proposals.**
