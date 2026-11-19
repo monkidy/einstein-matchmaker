@@ -1,22 +1,20 @@
 # EINSTEIN Matchmaker
 
-**Track:** EINSTEIN Matchmaker · **Event:** NTP Novi Sad Hackathon (3alet), 30 to 31 October 2026 · **Entry:** solo
+**18.5% faster. Three fewer accepted proposals.**
 
-**Result:** not among the winners announced by the organizers on 7 November 2026 ([the winners](https://build.jigjoy.ai/editions/stp-novi-sad-2026/winners)).
+That is the measured trade-off. Four agents sharing one local Qwen3-4B model finished the same 24-case experiment in **54.6 minutes** rather than **67.0 minutes** for a single agent. But they accepted **9 proposals instead of 12**. All three approaches refused the six missing-evidence controls. This measures a speed/completion trade-off, **not** better matching quality.
 
-An evidence-constrained matcher between a company's technical challenge and a researcher who
-can actually address it. Four Mozaik agents run concurrently on one local Qwen3-4B model. The
-system proposes a pilot **only** when it can quote its sources, and it **abstains out loud**
-when it cannot.
+<p align="center">
+  <img src="evidence/05-final-result.png" alt="Measured comparison: solo 12 of 24 accepted in 67.0 minutes; four parallel agents 9 of 24 accepted in 54.6 minutes. All three arms refused the six missing-evidence controls. A reproduction verifier passed 72 of 72 case-arms; this is not proof of real-world match quality." width="100%">
+</p>
 
-All people, companies and publications in the dataset are fictional: it is the organizer's
-official track corpus.
+[**Watch the 1:33 demonstration**](https://monkidy.github.io/einstein-matchmaker/) · [Reproduce the checks](#run-it-from-a-clean-folder) · [Read the independent verification receipt](runs/benchmark-v2/independent-verification.json) · [Explore the limitations](#what-is-not-claimed)
 
-**[Watch the 1:33 demo](https://monkidy.github.io/einstein-matchmaker/)** &middot;
-[the video file](film/einstein_matchmaker_demo.mp4) &middot;
-[independent verdict, PASS on 72/72](runs/benchmark-v2/independent-verification.json) &middot;
-[the nine accepted proposals](#the-nine-accepted-proposals) &middot;
-[what is not claimed](#what-is-not-claimed)
+An evidence-constrained matcher between a fictional company's technical challenge and a fictional researcher who might address it. Each proposed pilot requires traceable quotations from the official hackathon corpus. When evidence is missing, the system refuses to invent a match.
+
+**Submitted:** NTP Novi Sad Hackathon (3alet), 30–31 October 2026, solo entry. **Outcome:** not among the winners announced 7 November 2026 ([organizer results](https://build.jigjoy.ai/editions/stp-novi-sad-2026/winners)). **Data:** all people, organizations and publications are fictional, as supplied by the organizers. This is a local experiment, not a validated hiring or research matching service.
+
+[Demo video file](film/einstein_matchmaker_demo.mp4) · [Nine accepted proposals](#the-nine-accepted-proposals) · [Complete evidence](#claim-status)
 
 ---
 
